@@ -1,8 +1,7 @@
-using System.Collections;
-using System.Collections.Generic;
+using Isekai.Interface;
+using Isekai.Utility;
 using TMPro;
 using UnityEngine;
-using Isekai.Interface;
 using UnityEngine.EventSystems;
 
 public class PanelController : MonoBehaviour

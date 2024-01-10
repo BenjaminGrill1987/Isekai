@@ -1,6 +1,7 @@
 using Isekai.Interface;
 using System.Collections.Generic;
 using UnityEngine;
+using Isekai.Utility;
 
 public class AssigmentDatabase : Singleton<AssigmentDatabase>
 {

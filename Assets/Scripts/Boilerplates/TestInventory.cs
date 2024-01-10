@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Isekai.Itemsystem;
+
 
 public class TestInventory : MonoBehaviour
 {

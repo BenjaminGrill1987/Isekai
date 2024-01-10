@@ -3,6 +3,7 @@ using Isekai.Interface;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
+using Isekai.Utility;
 
 public class AssigmentLetter : MonoBehaviour, IInteraction
 {

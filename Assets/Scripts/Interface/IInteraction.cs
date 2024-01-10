@@ -1,12 +1,16 @@
 using UnityEngine.InputSystem;
 
-interface IInteraction
+namespace Isekai.Interface
 {
-    bool CanBeInteract { get; }
 
-    void ChangeCanBeInteract(bool newState);
+    interface IInteraction
+    {
+        bool CanBeInteract { get; }
 
-    void Submit();
+        void ChangeCanBeInteract(bool newState);
 
-    void Cancel(InputAction.CallbackContext context);
+        void Submit();
+
+        void Cancel(InputAction.CallbackContext context);
+    }
 }

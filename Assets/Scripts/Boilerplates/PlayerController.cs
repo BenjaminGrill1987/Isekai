@@ -5,6 +5,8 @@ using Isekai.Interface;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using System.Collections;
+using Isekai.Itemsystem;
+using Isekai.Utility;
 
 public class PlayerController : MonoBehaviour
 {
