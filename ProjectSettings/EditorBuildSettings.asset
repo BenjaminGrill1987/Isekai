@@ -6,10 +6,10 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Gildenhaus_1st_Floor.unity
+    path: Assets/Scenes/Gildenhaus/Gildenhaus_1st_Floor.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/Gildenhaus_2nd_Floor.unity
+    path: Assets/Scenes/Gildenhaus/Gildenhaus_2nd_Floor.unity
     guid: 10e07c21988e0ad4393d42e4308b0062
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 0eccc0c7562546747ac1647e8c19249c, type: 2}
