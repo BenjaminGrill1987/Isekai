@@ -6,7 +6,7 @@ namespace Isekai.Interface
         Options,
         Play,
         Pause,
-        Inventory,
+        PlayerMenu,
         Assigment,
         Quit
     }

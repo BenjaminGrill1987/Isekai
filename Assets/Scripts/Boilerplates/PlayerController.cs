@@ -13,13 +13,13 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float _movementSpeed;
     [SerializeField] private Sprite _lookDown, _lookUp, _lookLeft, _lookRight;
     [SerializeField] private LayerMask _layerMask;
+    [SerializeField] private GameObject _menu;
 
     private Controlls _input;
     private InputAction _move;
     private Rigidbody2D _rb2D;
     private SpriteRenderer _spriteRenderer;
     private Vector2 _lookDir;
-
 
     void Awake()
     {
@@ -33,11 +33,13 @@ public class PlayerController : MonoBehaviour
     {
         _input.Enable();
         _input.Player.Interact.performed += Interaction;
+        _input.Player.PlayerMenu.performed += Menu;
     }
 
     private void OnDisable()
     {
         _input.Player.Interact.performed -= Interaction;
+        _input.Player.PlayerMenu.performed -= Menu;
         _input.Disable();
     }
 
@@ -48,7 +50,11 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (Gamestate.CurrentState != Gamestates.Play) return;
+        if (Gamestate.CurrentState != Gamestates.Play)
+        {
+            Move(Vector2.zero);
+            return;
+        }
 
         Move(_move.ReadValue<Vector2>());
         ChangeSprite();
@@ -113,6 +119,12 @@ public class PlayerController : MonoBehaviour
             StartCoroutine(WaitFrame(hit));
             Debug.Log("Finish");
         }
+    }
+
+    private void Menu(InputAction.CallbackContext context)
+    {
+        if (Gamestate.CurrentState != Gamestates.Play && Gamestate.CurrentState != Gamestates.PlayerMenu) return;
+        _menu.SetActive(!_menu.activeSelf);
     }
 
     private IEnumerator WaitFrame(RaycastHit2D newhit)

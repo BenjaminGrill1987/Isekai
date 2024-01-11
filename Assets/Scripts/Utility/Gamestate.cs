@@ -1,4 +1,5 @@
 using Isekai.Interface;
+using UnityEngine;
 
 namespace Isekai.Utility
 {
@@ -40,7 +41,7 @@ namespace Isekai.Utility
                     {
                         break;
                     }
-                case Gamestates.Inventory:
+                case Gamestates.PlayerMenu:
                     {
                         break;
                     }
@@ -57,6 +58,7 @@ namespace Isekai.Utility
 
             _Instance._currentState = newState;
 
+            Debug.LogWarning($"New State: {_Instance._currentState}");
         }
     }
 }

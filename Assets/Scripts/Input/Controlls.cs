@@ -46,6 +46,15 @@ namespace Isekai.Input
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""PlayerMenu"",
+                    ""type"": ""Button"",
+                    ""id"": ""2f018c27-5b06-48f4-9487-10602690af4d"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -233,6 +242,28 @@ namespace Isekai.Input
                     ""processors"": """",
                     ""groups"": """",
                     ""action"": ""Interact"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""5d422079-f297-4af4-812e-af068f811df1"",
+                    ""path"": ""<Keyboard>/tab"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""PlayerMenu"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""2fbcc7db-35f5-47cc-a8e1-04ff48c101f2"",
+                    ""path"": ""<Gamepad>/start"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""PlayerMenu"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -511,6 +542,7 @@ namespace Isekai.Input
             m_Player = asset.FindActionMap("Player", throwIfNotFound: true);
             m_Player_Movement = m_Player.FindAction("Movement", throwIfNotFound: true);
             m_Player_Interact = m_Player.FindAction("Interact", throwIfNotFound: true);
+            m_Player_PlayerMenu = m_Player.FindAction("PlayerMenu", throwIfNotFound: true);
             // UI
             m_UI = asset.FindActionMap("UI", throwIfNotFound: true);
             m_UI_Navigate = m_UI.FindAction("Navigate", throwIfNotFound: true);
@@ -579,12 +611,14 @@ namespace Isekai.Input
         private List<IPlayerActions> m_PlayerActionsCallbackInterfaces = new List<IPlayerActions>();
         private readonly InputAction m_Player_Movement;
         private readonly InputAction m_Player_Interact;
+        private readonly InputAction m_Player_PlayerMenu;
         public struct PlayerActions
         {
             private @Controlls m_Wrapper;
             public PlayerActions(@Controlls wrapper) { m_Wrapper = wrapper; }
             public InputAction @Movement => m_Wrapper.m_Player_Movement;
             public InputAction @Interact => m_Wrapper.m_Player_Interact;
+            public InputAction @PlayerMenu => m_Wrapper.m_Player_PlayerMenu;
             public InputActionMap Get() { return m_Wrapper.m_Player; }
             public void Enable() { Get().Enable(); }
             public void Disable() { Get().Disable(); }
@@ -600,6 +634,9 @@ namespace Isekai.Input
                 @Interact.started += instance.OnInteract;
                 @Interact.performed += instance.OnInteract;
                 @Interact.canceled += instance.OnInteract;
+                @PlayerMenu.started += instance.OnPlayerMenu;
+                @PlayerMenu.performed += instance.OnPlayerMenu;
+                @PlayerMenu.canceled += instance.OnPlayerMenu;
             }
 
             private void UnregisterCallbacks(IPlayerActions instance)
@@ -610,6 +647,9 @@ namespace Isekai.Input
                 @Interact.started -= instance.OnInteract;
                 @Interact.performed -= instance.OnInteract;
                 @Interact.canceled -= instance.OnInteract;
+                @PlayerMenu.started -= instance.OnPlayerMenu;
+                @PlayerMenu.performed -= instance.OnPlayerMenu;
+                @PlayerMenu.canceled -= instance.OnPlayerMenu;
             }
 
             public void RemoveCallbacks(IPlayerActions instance)
@@ -693,6 +733,7 @@ namespace Isekai.Input
         {
             void OnMovement(InputAction.CallbackContext context);
             void OnInteract(InputAction.CallbackContext context);
+            void OnPlayerMenu(InputAction.CallbackContext context);
         }
         public interface IUIActions
         {

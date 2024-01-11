@@ -47,16 +47,14 @@ public class AssigmentLetter : MonoBehaviour, IInteraction
         {
             var panel = Instantiate(_assigmentPanel, _content.transform);
             panel.GetComponent<PanelController>().InitPanel(AssigmentDatabase.GetRandomAssigment());
-            if (EventSystem.current.currentSelectedGameObject == null)
-            {
-                EventSystem.current.SetSelectedGameObject(panel);
-            }
             Gamestate.TryToChangeState(Gamestates.Assigment);
         }
+        EventSystem.current.SetSelectedGameObject(_content.transform.GetChild(0).gameObject);
     }
 
     public void Cancel(InputAction.CallbackContext context)
     {
+        if (Gamestate.CurrentState != Gamestates.Assigment) return;
         foreach (Transform child in _content.transform)
         {
             Destroy(child.gameObject);

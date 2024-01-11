@@ -11,5 +11,7 @@ public class AssigmentSystem : Singleton<AssigmentSystem>
 
     public static int AssigmentListCount() => _assigmentData.Count;
 
+    public static List<AssigmentData> GetAssigmentList() => _assigmentData;
+
     public static void RemoveAssigment(AssigmentData data) => _assigmentData.Remove(data);
 }

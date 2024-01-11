@@ -16,4 +16,6 @@ MonoBehaviour:
   _descriptionText: "Sammle Holz f\xFCr mich bitte"
   _assigmentValue: 3
   _assigmentReward: 300
+  _id: 0
   _type: 0
+  _itemData: {fileID: 11400000, guid: 7a8ba6d675c0a8e41a4be6140bfbfd10, type: 2}
