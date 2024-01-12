@@ -2907,6 +2907,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Outside_A3_132
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e29b6a143a94876408b56f8d7c47ea3e
+      internalID: -1296187654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -2956,6 +2977,7 @@ TextureImporter:
       Outside_A3_13: -1267091857
       Outside_A3_130: 790426415
       Outside_A3_131: -1599682799
+      Outside_A3_132: -1296187654
       Outside_A3_14: 147051134
       Outside_A3_15: 1339892427
       Outside_A3_16: -2132975334
