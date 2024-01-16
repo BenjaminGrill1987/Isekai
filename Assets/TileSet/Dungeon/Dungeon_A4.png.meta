@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3840d7af977efc247b4f1078569b2425
+guid: a4123aa769247304b95b21899da3feb3
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -136,7 +136,1015 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Outside_A2_0
+      name: Dungeon_A4_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eb637e440d1f6746a4453b6aecb79fc
+      internalID: -295873824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_A4_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc54b085d151bc343a168cfa1c95687e
+      internalID: 325781664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_A4_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd76f45a0ee7d874b8fe360a0258e347
+      internalID: -1909482440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_A4_3
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18c43997e61462c439ef0a340946241f
+      internalID: 1007810452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_A4_4
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63f3f0e23de11b44cb3591c87b98d617
+      internalID: 1390979846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_A4_5
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99645d9788cfee04eb06c962dd12d7f1
+      internalID: -157663434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_A4_6
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dfee0ce1c006bf4292aea5aa7e11287
+      internalID: -1262003507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_A4_7
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da5d5d5044f9b5341bd8fd95fda54402
+      internalID: 848701543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_A4_8
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ddc5975327a87e45beac52e5ae8d7d1
+      internalID: -104922023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_A4_9
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeb3b810e9aacd148b46a13f8d3e8b03
+      internalID: 240230344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_A4_10
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b08a7ac505253b4f97c6f61123b5800
+      internalID: 1382591159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_A4_11
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f25998988a559c943b38908f54259f28
+      internalID: -967364727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_A4_12
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c19a4fd6f94f85c4bae382961d79e607
+      internalID: -1718391395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_A4_13
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65218958364e8904aaa65b6f4d6e9c09
+      internalID: -1361687357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_A4_14
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68db23ff761fc7a45b9e1772886f7395
+      internalID: 1596933288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_A4_15
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0be0041d518d0c4bbd289402d6d8800
+      internalID: 1956617750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_A4_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b3f00ba03fcdcc48a80d154eea4e64f
+      internalID: 804917096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_A4_17
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 233cfc615b3e2764199863ba6fc85540
+      internalID: -419677876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_A4_18
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe4ad890955a86041baefa8c6f5f8f0b
+      internalID: 893882705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_A4_19
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18b534efe1ea80e4bafb6f2ef8eb423d
+      internalID: -56926045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_A4_20
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97438eb49d013ff498742cfbfcc18043
+      internalID: -1231914674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_A4_21
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acce63a8674406b42831d6b51f9e3424
+      internalID: -1423595233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_A4_22
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1578c6f87e665b419df8afcce997e86
+      internalID: 1097206651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_A4_23
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5a536ea0e919b64bbcb16aa0c03cb60
+      internalID: 486115302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_A4_24
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbffd46fb5e92c245a774bbf366a94f5
+      internalID: -1446620144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_A4_25
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acf2bb30e8286294e9a7dde10eaff127
+      internalID: 894697018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_A4_26
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c0628a9e3f36c4dbd7a4802c4a938a
+      internalID: 629792741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_A4_27
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cc930031ca71494781a8ad3518ca078
+      internalID: -2042718574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_A4_28
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f082a6622d85864eaa90117daab57ad
+      internalID: 1411442898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_A4_29
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf36d1cb30fcbb2418ceb1ca7da190af
+      internalID: -1966475138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_A4_30
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d03fb684ee7066448275c7886fce4d5
+      internalID: 994763635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_A4_31
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 300affb60a3b19745887c2e5fd2c5522
+      internalID: -1523435495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_A4_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d49c8accc1befca45bf3ff7879306ef0
+      internalID: 502157667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_A4_33
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 238c67fb324d6584598907c9bfb9f4d7
+      internalID: 1320742523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_A4_34
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72dc38f329ce80347bfa173a9eedd058
+      internalID: 1680278931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_A4_35
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ee9023a648a1c4baff0fdc54c1385f
+      internalID: -904156787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_A4_36
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 113c62fc397e9c544b409f1848cc712a
+      internalID: -980497058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_A4_37
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41a50065a9ffaf94eb08213a0ea3bf26
+      internalID: 1090533048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_A4_38
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0153c8847e2e6414a9697fcba9a93210
+      internalID: 1256764551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_A4_39
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a28b71296748fa4eb30919f3411d2da
+      internalID: -1952125964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_A4_40
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e94d60f591afa6a408f8433d1307cee7
+      internalID: -1573786682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_A4_41
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32da3e8bb03e8a64fa5aed51ae09ec94
+      internalID: -2082654531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_A4_42
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2514dd472d3615f408dcee9b86038662
+      internalID: 1413270352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_A4_43
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9605f901b69ad1d47abd4a59bedf13d0
+      internalID: -1343964570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_A4_44
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 200fd3b2904f1d8468cf0facdffe500d
+      internalID: 247400000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_A4_45
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87ae80d09d1c1f249b585077fba8ff60
+      internalID: 380366299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_A4_46
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46d0adcb6aa72cc46b98fbf88d216dd7
+      internalID: -1873663916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_A4_47
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adbec084238f6114fb2cbebe9b2a0fbf
+      internalID: 988993194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_A4_48
       rect:
         serializedVersion: 2
         x: 0
@@ -144,20 +1152,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 93de8e0ab01355b47b62a240e654229f
-      internalID: 1475664451
+      spriteID: f34c7d1e02739b842a29b5d9e74ca465
+      internalID: 1027261103
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_1
+      name: Dungeon_A4_49
       rect:
         serializedVersion: 2
         x: 48
@@ -165,20 +1173,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3808a297ba49aec48917fe48aaf6e0e8
-      internalID: 543418910
+      spriteID: d7b99ae44ee209648b828b364d002699
+      internalID: 1604009977
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_2
+      name: Dungeon_A4_50
       rect:
         serializedVersion: 2
         x: 96
@@ -186,20 +1194,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 58f6695136ff03a498682bbe875654aa
-      internalID: 551399023
+      spriteID: fe5e65cbfd9dab540a1eb71789ffc38f
+      internalID: -1057617052
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_3
+      name: Dungeon_A4_51
       rect:
         serializedVersion: 2
         x: 144
@@ -207,20 +1215,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 654620e884c14864ebf4fb958d69db58
-      internalID: 1737794296
+      spriteID: a7e5e2f0e3d00474e8a16b403c498e1b
+      internalID: -1715351255
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_4
+      name: Dungeon_A4_52
       rect:
         serializedVersion: 2
         x: 192
@@ -228,20 +1236,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e4a5c74ef95b57a4496b4ac374686c0a
-      internalID: 221015434
+      spriteID: d543c1b049def2244becc16524107a32
+      internalID: 1864948251
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_5
+      name: Dungeon_A4_53
       rect:
         serializedVersion: 2
         x: 240
@@ -249,20 +1257,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 83e7c0ec14c5fdd4aba7f3e4d2f8ef14
-      internalID: 279140702
+      spriteID: 039652dc98289424fb840e175cac9dfa
+      internalID: 100028183
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_6
+      name: Dungeon_A4_54
       rect:
         serializedVersion: 2
         x: 288
@@ -270,20 +1278,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 468385faa989d3c4d8ca70a3db19357f
-      internalID: -1341862590
+      spriteID: c12fd0f55c440b44997a92f46a7f7b81
+      internalID: -1156261190
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_7
+      name: Dungeon_A4_55
       rect:
         serializedVersion: 2
         x: 336
@@ -291,20 +1299,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f3b655c70e6a49b4fb6ab637dcddbe96
-      internalID: 1673550245
+      spriteID: 56ed2e76821ff3a40a916164b17a3746
+      internalID: 328127306
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_8
+      name: Dungeon_A4_56
       rect:
         serializedVersion: 2
         x: 384
@@ -312,20 +1320,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8c5b015a6560054cb2a4b3a18ca5eab
-      internalID: -2129173167
+      spriteID: 69f876ac6764f6e4b9097be83cf64d56
+      internalID: -884076684
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_9
+      name: Dungeon_A4_57
       rect:
         serializedVersion: 2
         x: 432
@@ -333,20 +1341,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d60c82842bf8ee4689fb4092b6d6ff9
-      internalID: 605862024
+      spriteID: b00aad9c1b3a8384685179b7359f8a84
+      internalID: 1026067443
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_10
+      name: Dungeon_A4_58
       rect:
         serializedVersion: 2
         x: 480
@@ -354,20 +1362,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8ebfcc39a69b1ff46a8384cb3660135a
-      internalID: -1635407473
+      spriteID: cb14d2db8ce17264ea3fa5a62c8cfca6
+      internalID: 1764337360
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_11
+      name: Dungeon_A4_59
       rect:
         serializedVersion: 2
         x: 528
@@ -375,20 +1383,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 87c2752bf76c5a749a3760511caa4a18
-      internalID: -1549021909
+      spriteID: f37eecb6afd25a7499c5f70ed9ac2469
+      internalID: 1568661025
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_12
+      name: Dungeon_A4_60
       rect:
         serializedVersion: 2
         x: 576
@@ -396,20 +1404,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b19b97a8ce6fe14f9e5f10a6b3e1569
-      internalID: 118471607
+      spriteID: 1977eec9faddb75439c60af2b4dad38c
+      internalID: 552438094
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_13
+      name: Dungeon_A4_61
       rect:
         serializedVersion: 2
         x: 624
@@ -417,20 +1425,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 12e8b53860c67d843ac24862c2856041
-      internalID: -66146896
+      spriteID: 1fdf5c891fc72ab4ca63e0a92187864a
+      internalID: -1313629534
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_14
+      name: Dungeon_A4_62
       rect:
         serializedVersion: 2
         x: 672
@@ -438,20 +1446,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 68892969373aad84a8cd0b2515e22ad5
-      internalID: -798201178
+      spriteID: c07e8c3cbdf62134aa2107b967517c30
+      internalID: -297856757
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_15
+      name: Dungeon_A4_63
       rect:
         serializedVersion: 2
         x: 720
@@ -459,20 +1467,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89b5129a909b91040b1fcfd85ec0d51b
-      internalID: -786908916
+      spriteID: 8eebd23e55da5154c96c6a040fac2c59
+      internalID: -801603887
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_16
+      name: Dungeon_A4_64
       rect:
         serializedVersion: 2
         x: 0
@@ -480,20 +1488,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0bf04748ab9914542b71dd8f87fd0497
-      internalID: 1870703560
+      spriteID: 340487b92c362a047b5e18926bc2eba5
+      internalID: 509960040
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_17
+      name: Dungeon_A4_65
       rect:
         serializedVersion: 2
         x: 48
@@ -501,20 +1509,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a7da8be987dd37546bfb63851b5cd0ed
-      internalID: 1284459605
+      spriteID: 4df9d4e57b19cb44b8323fa09321ff37
+      internalID: 586895893
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_18
+      name: Dungeon_A4_66
       rect:
         serializedVersion: 2
         x: 96
@@ -522,20 +1530,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c1dcbf9ac00e0f54b8efa32be7826476
-      internalID: 294181777
+      spriteID: bcdbd97c24147d64089ea14519246427
+      internalID: 2060077572
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_19
+      name: Dungeon_A4_67
       rect:
         serializedVersion: 2
         x: 144
@@ -543,20 +1551,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c29d315eac5e1be498739f6a162175fd
-      internalID: -1810323606
+      spriteID: 2174309a68bf7cb4e889742823b40571
+      internalID: 1797297272
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_20
+      name: Dungeon_A4_68
       rect:
         serializedVersion: 2
         x: 192
@@ -564,20 +1572,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 207faae04c90d324aa20ba4a2d06b267
-      internalID: -1850799570
+      spriteID: fe837783e74b4c641943bb92bd4fc65e
+      internalID: -1287040301
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_21
+      name: Dungeon_A4_69
       rect:
         serializedVersion: 2
         x: 240
@@ -585,20 +1593,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8ca820388c351214b80b030b50449705
-      internalID: -166110614
+      spriteID: c6f98b4a70283894cab3d2a80dbfb0d0
+      internalID: 1211833767
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_22
+      name: Dungeon_A4_70
       rect:
         serializedVersion: 2
         x: 288
@@ -606,20 +1614,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7f1a517047263a34eae9f8efe1f6ec00
-      internalID: -509539545
+      spriteID: 45efd7f4c1a2a794c90dc2029f391b7a
+      internalID: 1788377197
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_23
+      name: Dungeon_A4_71
       rect:
         serializedVersion: 2
         x: 336
@@ -627,20 +1635,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a4421dc366c9664e85bbcf9bca87fc0
-      internalID: -1720591066
+      spriteID: 0efc0f1ff8381b74fa23ffa4110d92b1
+      internalID: 1582237581
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_24
+      name: Dungeon_A4_72
       rect:
         serializedVersion: 2
         x: 384
@@ -648,20 +1656,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bfd8d83297555134eb789b2c47101b20
-      internalID: -587725052
+      spriteID: 09233f125866e434093f56c2214018b4
+      internalID: 1279235423
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_25
+      name: Dungeon_A4_73
       rect:
         serializedVersion: 2
         x: 432
@@ -669,20 +1677,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e5fc7da34547ad74f882823eae0358b8
-      internalID: -353700405
+      spriteID: ea93e0c92fa770f4998fc98b03278ab2
+      internalID: 2059419737
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_26
+      name: Dungeon_A4_74
       rect:
         serializedVersion: 2
         x: 480
@@ -690,20 +1698,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a0b0456e120743499a18f90aaba6a7e
-      internalID: -150697144
+      spriteID: dd203a837d2504449b854857d110673d
+      internalID: 1592481278
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_27
+      name: Dungeon_A4_75
       rect:
         serializedVersion: 2
         x: 528
@@ -711,20 +1719,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: efb685f9077327d4486dc4d1a3a7e9d4
-      internalID: 466828136
+      spriteID: 396ed654b8114a049a248101facd5810
+      internalID: -18570866
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_28
+      name: Dungeon_A4_76
       rect:
         serializedVersion: 2
         x: 576
@@ -732,20 +1740,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 23481015a3e0bce408fe6f8e98251824
-      internalID: -733320391
+      spriteID: 43dc6599df2da304bb4c91554ccacad9
+      internalID: -1083567262
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_29
+      name: Dungeon_A4_77
       rect:
         serializedVersion: 2
         x: 624
@@ -753,20 +1761,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d0dda8f92d6f8740aa9a1db6d3533d8
-      internalID: 1347658191
+      spriteID: 8c034e3bf70c0c5449bce8b6751873a8
+      internalID: -1773193564
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_30
+      name: Dungeon_A4_78
       rect:
         serializedVersion: 2
         x: 672
@@ -774,20 +1782,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 93057bde3ac80c24b9eefa0ef9edff7b
-      internalID: 315990670
+      spriteID: 312ea443640457c4192d95ac863b3008
+      internalID: -1783298028
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_31
+      name: Dungeon_A4_79
       rect:
         serializedVersion: 2
         x: 720
@@ -795,20 +1803,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 13f09e2d3f9369c4da0eaf8740628517
-      internalID: -921497637
+      spriteID: fb6f0fc8fef41d548a1d3c7487e4b818
+      internalID: 1598997964
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_32
+      name: Dungeon_A4_80
       rect:
         serializedVersion: 2
         x: 0
@@ -816,20 +1824,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 98521a0352dacad49846d9bde6b6ced6
-      internalID: 101094955
+      spriteID: c7d544a2bbad49345968526b9b0ac880
+      internalID: 923964863
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_33
+      name: Dungeon_A4_81
       rect:
         serializedVersion: 2
         x: 48
@@ -837,20 +1845,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 43ea87cf693056f40a4a80eb387220cb
-      internalID: 672523425
+      spriteID: 5f109b0fef4e5424eb938f7b8b5444f7
+      internalID: 2139221985
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_34
+      name: Dungeon_A4_82
       rect:
         serializedVersion: 2
         x: 96
@@ -858,20 +1866,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea62537fdd135b64ba3195422e8ffbc6
-      internalID: 102811318
+      spriteID: e337ce1c413e4394c9933055591e146c
+      internalID: -978433141
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_35
+      name: Dungeon_A4_83
       rect:
         serializedVersion: 2
         x: 144
@@ -879,20 +1887,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f6c3bfe42444ae458e8434293b67e30
-      internalID: 1811368082
+      spriteID: 0c77e01a9bb7b074d9782216043a4010
+      internalID: -1259923304
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_36
+      name: Dungeon_A4_84
       rect:
         serializedVersion: 2
         x: 192
@@ -900,20 +1908,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 90fdea8a4219ce347b46464df6d2a464
-      internalID: 1760626125
+      spriteID: 68a2f07a3d229d642b818d70d092e598
+      internalID: -1167517118
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_37
+      name: Dungeon_A4_85
       rect:
         serializedVersion: 2
         x: 240
@@ -921,20 +1929,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c724957179ab909409fffc7ea446417b
-      internalID: -1916905719
+      spriteID: ffe7d6e28b17ab64681350adbb935250
+      internalID: -18466418
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_38
+      name: Dungeon_A4_86
       rect:
         serializedVersion: 2
         x: 288
@@ -942,20 +1950,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78ad16fcad70a264aa53493618e182d6
-      internalID: -1661548166
+      spriteID: 1585df46d83e0864dba613ee2c1e7f31
+      internalID: -1497189173
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_39
+      name: Dungeon_A4_87
       rect:
         serializedVersion: 2
         x: 336
@@ -963,20 +1971,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 47c40bc5ba22ec440b9e66855b90d556
-      internalID: 618035362
+      spriteID: d013211900f0904489e6177c3a0820ec
+      internalID: 928760714
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_40
+      name: Dungeon_A4_88
       rect:
         serializedVersion: 2
         x: 384
@@ -984,20 +1992,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f4d806c77d167f144ad8812c2608183c
-      internalID: 328300546
+      spriteID: ba43a630734e2f944bf44fb72b50f7e3
+      internalID: 1394372526
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_41
+      name: Dungeon_A4_89
       rect:
         serializedVersion: 2
         x: 432
@@ -1005,20 +2013,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8081131b7a156a14caa1a53af3a80b01
-      internalID: -1723155108
+      spriteID: 73fee51d330d7f841a4bf5737c16ea70
+      internalID: 1116765474
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_42
+      name: Dungeon_A4_90
       rect:
         serializedVersion: 2
         x: 480
@@ -1026,20 +2034,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bcefd23ddd1bfd14a8026d9acd6e9c6f
-      internalID: 754805308
+      spriteID: b3ef7cbd4a725a342b2974f205c5c189
+      internalID: -762716007
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_43
+      name: Dungeon_A4_91
       rect:
         serializedVersion: 2
         x: 528
@@ -1047,20 +2055,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 723246a9d580ac84f9de5bc12158db7d
-      internalID: -720435665
+      spriteID: 87e7097ebb07a8b4ead613176752f0ae
+      internalID: 313404067
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_44
+      name: Dungeon_A4_92
       rect:
         serializedVersion: 2
         x: 576
@@ -1068,20 +2076,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b631fea95b07943498e7adbf76489df2
-      internalID: 1805929144
+      spriteID: 6930468a7be41194cafa68ec56be8c3e
+      internalID: 772764672
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_45
+      name: Dungeon_A4_93
       rect:
         serializedVersion: 2
         x: 624
@@ -1089,20 +2097,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d71b83b5242e61848a930cf934d2abf0
-      internalID: 333958472
+      spriteID: dbdcc4435879b4b4ebdc327a54f894d9
+      internalID: -1703464593
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_46
+      name: Dungeon_A4_94
       rect:
         serializedVersion: 2
         x: 672
@@ -1110,20 +2118,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ecfe1b0e94ea1a34f8e29edf78f5dbd6
-      internalID: -1754100853
+      spriteID: c642e9e4d9873074b831ffb2d829140a
+      internalID: 834206883
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_47
+      name: Dungeon_A4_95
       rect:
         serializedVersion: 2
         x: 720
@@ -1131,20 +2139,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ed22917acc6a454888b09c9151dbf4f
-      internalID: 435462823
+      spriteID: 29aa24cbe150cf248a87aa1391cf8540
+      internalID: -2023149115
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_48
+      name: Dungeon_A4_96
       rect:
         serializedVersion: 2
         x: 0
@@ -1152,20 +2160,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 325b85580fc77eb458f75dc493cbd5dd
-      internalID: -717191729
+      spriteID: 318508a2cc110bd45838b974da5771e5
+      internalID: 104558239
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_49
+      name: Dungeon_A4_97
       rect:
         serializedVersion: 2
         x: 48
@@ -1173,20 +2181,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9eb97af7271a10844b9112db6567882c
-      internalID: -2118197419
+      spriteID: f4bf068970a51a8459f7824a2da8ca10
+      internalID: 1643800063
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_50
+      name: Dungeon_A4_98
       rect:
         serializedVersion: 2
         x: 96
@@ -1194,20 +2202,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b1a0e778ad2c86f4ebe65fbd34556179
-      internalID: -1615029328
+      spriteID: e29ccf45c408c4a4d83cca6c346babde
+      internalID: -612724080
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_51
+      name: Dungeon_A4_99
       rect:
         serializedVersion: 2
         x: 144
@@ -1215,20 +2223,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02ab8714a3e9abd4a895625557b61942
-      internalID: 1253745933
+      spriteID: 3e5beb8daee5da24daf319c7909e880d
+      internalID: -146290211
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_52
+      name: Dungeon_A4_100
       rect:
         serializedVersion: 2
         x: 192
@@ -1236,20 +2244,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8bb952dadc3315e43bd34cf95316c550
-      internalID: -1486256369
+      spriteID: 014a8de78c5edf5468fbe4ad61094b56
+      internalID: 238491568
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_53
+      name: Dungeon_A4_101
       rect:
         serializedVersion: 2
         x: 240
@@ -1257,20 +2265,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02d1e1298bd81214398738e20f0f6098
-      internalID: 1989767647
+      spriteID: 717fe8f268169a54f8716aaefc39c084
+      internalID: 2056694849
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_54
+      name: Dungeon_A4_102
       rect:
         serializedVersion: 2
         x: 288
@@ -1278,20 +2286,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7fb72e9ee0f17ed479ef923e8c5098b2
-      internalID: -1053572458
+      spriteID: 596508e119828964d9a631095be607a9
+      internalID: 855401292
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_55
+      name: Dungeon_A4_103
       rect:
         serializedVersion: 2
         x: 336
@@ -1299,20 +2307,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 735ca46939f97c04587b2462faa89079
-      internalID: 1033695094
+      spriteID: 3a6ead034a3c1c14d9a3f86b20f274e9
+      internalID: 1532969808
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_56
+      name: Dungeon_A4_104
       rect:
         serializedVersion: 2
         x: 384
@@ -1320,20 +2328,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bbe0341a99e775a4093d03f5bbba93e1
-      internalID: -680022755
+      spriteID: d7d8b21a2eae63841aec821cb23ef562
+      internalID: -267646355
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_57
+      name: Dungeon_A4_105
       rect:
         serializedVersion: 2
         x: 432
@@ -1341,20 +2349,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 19f6945732c87bb4b8db120b74e4ffe3
-      internalID: 1236019278
+      spriteID: 69bacbab0ea1be54aaf297322b364b62
+      internalID: -1559772946
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_58
+      name: Dungeon_A4_106
       rect:
         serializedVersion: 2
         x: 480
@@ -1362,20 +2370,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b266ec69d3f84984486cbbd1f9a09c9d
-      internalID: 41509513
+      spriteID: 9415ef83413504241a2a2414015b19d8
+      internalID: 213907980
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_59
+      name: Dungeon_A4_107
       rect:
         serializedVersion: 2
         x: 528
@@ -1383,20 +2391,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 45827c366fbaee0488cb71f48ed7aa96
-      internalID: 679174002
+      spriteID: 8cf2f3e05e1e60249bc82a591964b3ce
+      internalID: -1631598719
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_60
+      name: Dungeon_A4_108
       rect:
         serializedVersion: 2
         x: 576
@@ -1404,20 +2412,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ecfd1de9f74ad574a84cd5d19b182d13
-      internalID: 991823434
+      spriteID: 29627366dbb2d534ebc6658f4d94675e
+      internalID: -641342587
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_61
+      name: Dungeon_A4_109
       rect:
         serializedVersion: 2
         x: 624
@@ -1425,20 +2433,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 00ae189f1040e474690674ce9c8bdbcc
-      internalID: -1144351722
+      spriteID: 8c375116956722a4a8c5aeed428eb88c
+      internalID: 1016188399
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_62
+      name: Dungeon_A4_110
       rect:
         serializedVersion: 2
         x: 672
@@ -1446,20 +2454,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ba213d119432fe41b761b5c2baebfdd
-      internalID: 766669039
+      spriteID: 5610fdc3d491c9343b99a3782b619ff2
+      internalID: 925038641
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_63
+      name: Dungeon_A4_111
       rect:
         serializedVersion: 2
         x: 720
@@ -1467,20 +2475,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba6f7f29c6396074ca354d590dcc7666
-      internalID: -1921875809
+      spriteID: 937a7810266da334bb931fbd12b6db73
+      internalID: 2106930625
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_64
+      name: Dungeon_A4_112
       rect:
         serializedVersion: 2
         x: 0
@@ -1488,20 +2496,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 88335cd6bf8e3b84ca777a2c9218bc0b
-      internalID: 1206947254
+      spriteID: def90d62359d2f544be79f27d209c92e
+      internalID: -1219668925
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_65
+      name: Dungeon_A4_113
       rect:
         serializedVersion: 2
         x: 48
@@ -1509,20 +2517,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce6d976813858fa4d946db639a320077
-      internalID: 607936589
+      spriteID: a1cbc7946ca8e0848b4c04b0adb92fc2
+      internalID: 75889622
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_66
+      name: Dungeon_A4_114
       rect:
         serializedVersion: 2
         x: 96
@@ -1530,20 +2538,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3be919d8e100fc4d833b1971a682cee
-      internalID: 705463759
+      spriteID: b7e6d8ea13c9c7f449eac9c8d83bc10f
+      internalID: -489476425
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_67
+      name: Dungeon_A4_115
       rect:
         serializedVersion: 2
         x: 144
@@ -1551,20 +2559,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e25ce1f2ae0933f40bf4f8ae4d309a40
-      internalID: 368714456
+      spriteID: a40429b9aaa3640428518896265c5828
+      internalID: -2058297312
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_68
+      name: Dungeon_A4_116
       rect:
         serializedVersion: 2
         x: 192
@@ -1572,20 +2580,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f1ea7c9de71a9ea428e6ccf767606c16
-      internalID: 742072313
+      spriteID: 19185a63807ad8a48bccd3252bc9cc31
+      internalID: 1062254055
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_69
+      name: Dungeon_A4_117
       rect:
         serializedVersion: 2
         x: 240
@@ -1593,20 +2601,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a823a85e7c532d7489f86bf9f91f9e65
-      internalID: 822492762
+      spriteID: 5737d24eb456c0e4ab635f32589dc2f5
+      internalID: 29326893
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_70
+      name: Dungeon_A4_118
       rect:
         serializedVersion: 2
         x: 288
@@ -1614,20 +2622,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b06bd25070366a4dbe91c457dc8a1ba
-      internalID: 254801945
+      spriteID: d295f71bd4716e14c93154a3ac7c4af3
+      internalID: 1584896962
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_71
+      name: Dungeon_A4_119
       rect:
         serializedVersion: 2
         x: 336
@@ -1635,20 +2643,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fdfb8eb115dbc8c479f63b9ae5f9dac2
-      internalID: 755611255
+      spriteID: 3bfaec4975832cb4b8cdfc904d478d71
+      internalID: -1843637861
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_72
+      name: Dungeon_A4_120
       rect:
         serializedVersion: 2
         x: 384
@@ -1656,20 +2664,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2a910c6f5b8514f49b7949b7604a56d8
-      internalID: 823948084
+      spriteID: 04e9cbe986d2003459a235e612f74a5b
+      internalID: -1528179624
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_73
+      name: Dungeon_A4_121
       rect:
         serializedVersion: 2
         x: 432
@@ -1677,20 +2685,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd147cdc85caa954d8d9f5f64fe9d228
-      internalID: 367454702
+      spriteID: 1a541cdbc2a9f804397320cca3ab71b3
+      internalID: 1533424188
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_74
+      name: Dungeon_A4_122
       rect:
         serializedVersion: 2
         x: 480
@@ -1698,20 +2706,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d01bc028f8fec3d489afe65295187532
-      internalID: -1318881497
+      spriteID: d7f58a637f6892d42a50ce9268b3dd74
+      internalID: -346642974
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_75
+      name: Dungeon_A4_123
       rect:
         serializedVersion: 2
         x: 528
@@ -1719,20 +2727,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d2981291ef778f468e77761158a219f
-      internalID: -413854935
+      spriteID: 764a5cca76e223a4ca9c1e6a22ea0fd6
+      internalID: -114962526
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_76
+      name: Dungeon_A4_124
       rect:
         serializedVersion: 2
         x: 576
@@ -1740,20 +2748,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 68defc805148bb54ba0029b4cf16c5d6
-      internalID: 647832152
+      spriteID: 664cddaa5f5612f4da1acd85d15ea276
+      internalID: 423962007
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_77
+      name: Dungeon_A4_125
       rect:
         serializedVersion: 2
         x: 624
@@ -1761,20 +2769,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0413277d1cbc67c48bd0c0410740234c
-      internalID: 630705857
+      spriteID: db2fe8ca6317e324a88ecb05d8bc4e99
+      internalID: 452025176
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_78
+      name: Dungeon_A4_126
       rect:
         serializedVersion: 2
         x: 672
@@ -1782,20 +2790,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bedbf6ef94f2df9449d6950cfeedea0b
-      internalID: 594797789
+      spriteID: 35f40d8ccb47fe14c8d122ca20ce91a7
+      internalID: -918080475
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_79
+      name: Dungeon_A4_127
       rect:
         serializedVersion: 2
         x: 720
@@ -1803,20 +2811,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 31325a1125ac4a14d97a7e47646936fb
-      internalID: 1510185098
+      spriteID: 5162669e46dff914aa5ee6cdfa79f944
+      internalID: 1764085680
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_80
+      name: Dungeon_A4_128
       rect:
         serializedVersion: 2
         x: 0
@@ -1824,20 +2832,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c963ff2338307a40b8bc3e0298e4138
-      internalID: -176804567
+      spriteID: 2da5f1572df775c46a16b14255abce78
+      internalID: 1612306419
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_81
+      name: Dungeon_A4_129
       rect:
         serializedVersion: 2
         x: 48
@@ -1845,20 +2853,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a9e629f98b3c9b4cafbf1047dee5b8f
-      internalID: -364458429
+      spriteID: 98f21ab025940a34586a143f583c4a82
+      internalID: -599261597
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_82
+      name: Dungeon_A4_130
       rect:
         serializedVersion: 2
         x: 96
@@ -1866,20 +2874,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4d2ca5e14d7639d44afbcc5fae233d8c
-      internalID: 1472926478
+      spriteID: 87d58893abd900a429d98e4ae36f803f
+      internalID: 298473142
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_83
+      name: Dungeon_A4_131
       rect:
         serializedVersion: 2
         x: 144
@@ -1887,20 +2895,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b58c76c5fa31e24bae2505caf232380
-      internalID: 914563822
+      spriteID: b94a101eb8fd0f441b2ee2455eba75fd
+      internalID: -1363862124
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_84
+      name: Dungeon_A4_132
       rect:
         serializedVersion: 2
         x: 192
@@ -1908,20 +2916,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ff2c8fc91287b54a819cc52acfc9a8f
-      internalID: 2147265164
+      spriteID: b1c3a7a1a210d5047ab17d6df728bd75
+      internalID: -1620165855
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_85
+      name: Dungeon_A4_133
       rect:
         serializedVersion: 2
         x: 240
@@ -1929,20 +2937,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1bd1358a95791c74b8d3b1561748ae7f
-      internalID: 1795333410
+      spriteID: b8b1dde659e2ff142a1eb470d87d7d9a
+      internalID: 1555617469
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_86
+      name: Dungeon_A4_134
       rect:
         serializedVersion: 2
         x: 288
@@ -1950,20 +2958,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7a9dfdfae9a1a264c82c8d05492752ef
-      internalID: 1714602589
+      spriteID: 5dcba1bdccf27954e8b531895b4060f2
+      internalID: 66478782
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_87
+      name: Dungeon_A4_135
       rect:
         serializedVersion: 2
         x: 336
@@ -1971,20 +2979,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba6905d05d2ca744ca3983b268b3aea9
-      internalID: 446611968
+      spriteID: 1edda8d803ccd3d49b059ef652f904d9
+      internalID: 431493157
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_88
+      name: Dungeon_A4_136
       rect:
         serializedVersion: 2
         x: 384
@@ -1992,20 +3000,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e558de5dc40e23843b489bb2f83253da
-      internalID: -705329678
+      spriteID: 4892de087eaf1a946b168b6cbe38fcbc
+      internalID: 1852384358
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_89
+      name: Dungeon_A4_137
       rect:
         serializedVersion: 2
         x: 432
@@ -2013,20 +3021,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 45dc5c4f3bd05fb48b264aa9824d5d70
-      internalID: 1997982911
+      spriteID: ab706a1249ca9c547b00ba273a5a92b5
+      internalID: 1251478630
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_90
+      name: Dungeon_A4_138
       rect:
         serializedVersion: 2
         x: 480
@@ -2034,20 +3042,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b1b7b160148a7149ab71ca0c8d5219d
-      internalID: 2028935730
+      spriteID: 90ca41dc8aeac284fb368d7e670faeef
+      internalID: 338831288
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_91
+      name: Dungeon_A4_139
       rect:
         serializedVersion: 2
         x: 528
@@ -2055,20 +3063,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 47cf0ca9682b56f45ae3b1f122844b43
-      internalID: 899314033
+      spriteID: da0090df887154e4e8d624bcd6b3c3c7
+      internalID: -652422646
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_92
+      name: Dungeon_A4_140
       rect:
         serializedVersion: 2
         x: 576
@@ -2076,20 +3084,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb143c8b8925e7640b2d4dbf0f09d2b8
-      internalID: 299382484
+      spriteID: 756e2d622fa4b67439fe1c58fed9e39f
+      internalID: 2072416689
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_93
+      name: Dungeon_A4_141
       rect:
         serializedVersion: 2
         x: 624
@@ -2097,20 +3105,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f6c44fc7313869a49984ac26a27d4e0e
-      internalID: -210628225
+      spriteID: d2697309ea970844d8c572977691c826
+      internalID: 746522073
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_94
+      name: Dungeon_A4_142
       rect:
         serializedVersion: 2
         x: 672
@@ -2118,20 +3126,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8017c52c0fe99b45bb82a2db84b74e4
-      internalID: -445281904
+      spriteID: 21b7172baa687f345b34f28193bd66ed
+      internalID: 1640860872
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_95
+      name: Dungeon_A4_143
       rect:
         serializedVersion: 2
         x: 720
@@ -2139,20 +3147,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b8860b469a4a5b4fa1b2759ae1b6d1b
-      internalID: 858094964
+      spriteID: c0d749ab5c4f205458e45cb359b61fbd
+      internalID: 1384945173
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_96
+      name: Dungeon_A4_144
       rect:
         serializedVersion: 2
         x: 0
@@ -2160,20 +3168,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2443172f62dc46b4aadaa5b6537e166d
-      internalID: -1484388965
+      spriteID: dd048aab1b7118a42a0ab10426ca64f6
+      internalID: 1143255584
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_97
+      name: Dungeon_A4_145
       rect:
         serializedVersion: 2
         x: 48
@@ -2181,20 +3189,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cefca087e80f7ae41b38f0cb7fd55c1d
-      internalID: -1742337976
+      spriteID: e6357db871d0fea42a8bb93ad03cbe9a
+      internalID: -476047250
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_98
+      name: Dungeon_A4_146
       rect:
         serializedVersion: 2
         x: 96
@@ -2202,20 +3210,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c4a839cb73e8674b8378d83dd77190e
-      internalID: 2019572945
+      spriteID: ef9e6bfeed4d8fc4ea4cbcc713ccdec5
+      internalID: -434245937
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_99
+      name: Dungeon_A4_147
       rect:
         serializedVersion: 2
         x: 144
@@ -2223,20 +3231,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b13acb32c1cb3444f8aac27fc6031bc1
-      internalID: -420825180
+      spriteID: 7b8755ba0fed2084dbb2bad0658d4f79
+      internalID: -468912244
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_100
+      name: Dungeon_A4_148
       rect:
         serializedVersion: 2
         x: 192
@@ -2244,20 +3252,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 395ca87ebef6c5a4ea60f796f0f3031d
-      internalID: 981206997
+      spriteID: 445903067a16a2545b960b225194532a
+      internalID: -341178993
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_101
+      name: Dungeon_A4_149
       rect:
         serializedVersion: 2
         x: 240
@@ -2265,20 +3273,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 847fe16aaae477848addfa4a7a7e35c7
-      internalID: -1271094867
+      spriteID: 46a6f7119bbccf145bf4a0540480e49b
+      internalID: 55234444
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_102
+      name: Dungeon_A4_150
       rect:
         serializedVersion: 2
         x: 288
@@ -2286,20 +3294,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a716ee6797433fc4d8f4e0ebd04a1446
-      internalID: -695567913
+      spriteID: d74141b066b98704fa4fbec312021c73
+      internalID: -1451596851
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_103
+      name: Dungeon_A4_151
       rect:
         serializedVersion: 2
         x: 336
@@ -2307,20 +3315,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec932f16baeb8d640bd5178fa29e6fe0
-      internalID: -533325857
+      spriteID: 901699fab4076b04bb76dda811297eea
+      internalID: -1496138264
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_104
+      name: Dungeon_A4_152
       rect:
         serializedVersion: 2
         x: 384
@@ -2328,20 +3336,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5c642075d0035f041be75594f1afe862
-      internalID: -650740650
+      spriteID: 7fd153e3e64110d45971f08fa034c900
+      internalID: 353947822
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_105
+      name: Dungeon_A4_153
       rect:
         serializedVersion: 2
         x: 432
@@ -2349,20 +3357,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 852475fc02f5d8d4182ed6cdf3a2c1a7
-      internalID: 1550402330
+      spriteID: 2dc5716670004d845b03e67d3408a932
+      internalID: -177788017
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_106
+      name: Dungeon_A4_154
       rect:
         serializedVersion: 2
         x: 480
@@ -2370,20 +3378,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 795c3a00f5ae9f542a528fdb02afbe42
-      internalID: 1211660206
+      spriteID: 2bcbb332ca48b8b4a8a7bb60421c0ea4
+      internalID: -860944976
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_107
+      name: Dungeon_A4_155
       rect:
         serializedVersion: 2
         x: 528
@@ -2391,20 +3399,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 65eb6f1a0ad8f5f42a2f7e8c2e7622bc
-      internalID: 1537035670
+      spriteID: 46779e4bc6b9a4e4a9eb2d4f61416ef7
+      internalID: -987838836
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_108
+      name: Dungeon_A4_156
       rect:
         serializedVersion: 2
         x: 576
@@ -2412,20 +3420,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a238f5a65bc2be8408b3391ea55182e9
-      internalID: 65912693
+      spriteID: 469a57fa76e9f3542acff0e5d0003c62
+      internalID: -1423056900
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_109
+      name: Dungeon_A4_157
       rect:
         serializedVersion: 2
         x: 624
@@ -2433,20 +3441,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4958f1b03acf22949b966e3151132dc3
-      internalID: 1349752527
+      spriteID: 9a130be9b7c0a984cb4d5879664d533c
+      internalID: -189369788
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_110
+      name: Dungeon_A4_158
       rect:
         serializedVersion: 2
         x: 672
@@ -2454,20 +3462,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ad63ef71c8fe2cf48affe5ef0d6d3ea7
-      internalID: -1200755194
+      spriteID: d057c0a44491cd04a983af056e55f629
+      internalID: -1323992815
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_111
+      name: Dungeon_A4_159
       rect:
         serializedVersion: 2
         x: 720
@@ -2475,20 +3483,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c8aed00e5a85fe41b1dcd7060e80ec9
-      internalID: 916878029
+      spriteID: b04d6e709944ad34bb07947bd734fbed
+      internalID: 2095294748
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_112
+      name: Dungeon_A4_160
       rect:
         serializedVersion: 2
         x: 0
@@ -2496,20 +3504,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e86b9f74f402f64aa305c1b0e90f9b3
-      internalID: 1894533046
+      spriteID: 9536bcff0a394ea439fec4e436144024
+      internalID: -848367703
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_113
+      name: Dungeon_A4_161
       rect:
         serializedVersion: 2
         x: 48
@@ -2517,20 +3525,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de6c369fbe6b3874d8571a7201573236
-      internalID: 470506139
+      spriteID: 1acf30c441072284c85d55f0d2c186d3
+      internalID: -253695752
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_114
+      name: Dungeon_A4_162
       rect:
         serializedVersion: 2
         x: 96
@@ -2538,20 +3546,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a28d31c901bcf242b6e374e23f0428b
-      internalID: 1361253193
+      spriteID: 21d610eb843e52f40993ba26b29301b5
+      internalID: -772058231
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_115
+      name: Dungeon_A4_163
       rect:
         serializedVersion: 2
         x: 144
@@ -2559,20 +3567,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ad3f423c9463c64e9f2c8e87e5e5ab4
-      internalID: 155267545
+      spriteID: ff4a85bcd4ab401479b9a09279e7f6a6
+      internalID: 985307882
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_116
+      name: Dungeon_A4_164
       rect:
         serializedVersion: 2
         x: 192
@@ -2580,20 +3588,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd2040ac1d1a1b14cb792e73892f5c26
-      internalID: -2069496324
+      spriteID: b91bfcd80b82a6d4e8950573dd67dfb7
+      internalID: 1458835732
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_117
+      name: Dungeon_A4_165
       rect:
         serializedVersion: 2
         x: 240
@@ -2601,20 +3609,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 48331d884978a484080914f22177ca14
-      internalID: 1457452466
+      spriteID: 241794a033f707b439eb8fa0b0ce3d16
+      internalID: -1240928123
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_118
+      name: Dungeon_A4_166
       rect:
         serializedVersion: 2
         x: 288
@@ -2622,20 +3630,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8736bdc2ac6e864eb37511b083849af
-      internalID: -366812405
+      spriteID: ffb6e5a92d509164ba073549bd40bf57
+      internalID: 1129902485
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_119
+      name: Dungeon_A4_167
       rect:
         serializedVersion: 2
         x: 336
@@ -2643,20 +3651,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 67133ec523bc7494fb580a5900419bdc
-      internalID: 803301639
+      spriteID: 8dfee26d455a9b443b144b16a09789a1
+      internalID: -1662377143
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_120
+      name: Dungeon_A4_168
       rect:
         serializedVersion: 2
         x: 384
@@ -2664,20 +3672,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a7d1c90233e1cca438c0809c6f2a648f
-      internalID: 1799484480
+      spriteID: 935f8f16f914dc840abb1f5488daba18
+      internalID: -777484702
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_121
+      name: Dungeon_A4_169
       rect:
         serializedVersion: 2
         x: 432
@@ -2685,20 +3693,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 686234cb2d289de408516a2d4afcd3fd
-      internalID: -1263013032
+      spriteID: d6e7b49f8b1049e4587aee1c4581a401
+      internalID: 722123724
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_122
+      name: Dungeon_A4_170
       rect:
         serializedVersion: 2
         x: 480
@@ -2706,20 +3714,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e5d46eeeaf0652a42aa7041a6eb9bb7c
-      internalID: 2086421808
+      spriteID: 0b13cadfcedc72e4693a4ed546672388
+      internalID: -1277010474
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_123
+      name: Dungeon_A4_171
       rect:
         serializedVersion: 2
         x: 528
@@ -2727,20 +3735,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d160a24839bb533478ee249c38b4df89
-      internalID: 1442135458
+      spriteID: 4f42ab07d5bc7094983afd8f1ce2f9da
+      internalID: -1582075587
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_124
+      name: Dungeon_A4_172
       rect:
         serializedVersion: 2
         x: 576
@@ -2748,20 +3756,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd122845183e5904ebc6d6a8fba03731
-      internalID: -1934484812
+      spriteID: ca0a124b8a18b56428ffa80aef578f2c
+      internalID: -1465698000
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_125
+      name: Dungeon_A4_173
       rect:
         serializedVersion: 2
         x: 624
@@ -2769,20 +3777,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 19c90f95f7c60714b892025035e2a8da
-      internalID: 461353518
+      spriteID: 70f564a4f39c63c4ba8a0e4d3b2fdd4a
+      internalID: 107558912
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_126
+      name: Dungeon_A4_174
       rect:
         serializedVersion: 2
         x: 672
@@ -2790,20 +3798,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c4de41e698b936048a32962b65266b26
-      internalID: 92927219
+      spriteID: 5823790abf4347c4d809492511fc3a5c
+      internalID: 1589045346
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_127
+      name: Dungeon_A4_175
       rect:
         serializedVersion: 2
         x: 720
@@ -2811,20 +3819,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d5aecbc4b01d9054dbaa440b9cb6d24d
-      internalID: 1460441218
+      spriteID: 302e1429182505448aab74565623fd3d
+      internalID: -1955595541
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_128
+      name: Dungeon_A4_176
       rect:
         serializedVersion: 2
         x: 0
@@ -2832,20 +3840,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 299e3e2d60d0f784e9f6f8fce5b24eb7
-      internalID: -101320924
+      spriteID: e0d38cfa9784ee1468686cf996f1763e
+      internalID: -2064270296
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_129
+      name: Dungeon_A4_177
       rect:
         serializedVersion: 2
         x: 48
@@ -2853,20 +3861,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 95a940886f37c6942a2654ec3f2c624c
-      internalID: 90691714
+      spriteID: 7d38c9bf0f682c043bcab93bb69bf7d0
+      internalID: -107433321
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_130
+      name: Dungeon_A4_178
       rect:
         serializedVersion: 2
         x: 96
@@ -2874,20 +3882,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 98da76be4fe771e4f8924db948bd355c
-      internalID: 1859136542
+      spriteID: b4f815e986ab20042be5dc33b039042a
+      internalID: -1636981314
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_131
+      name: Dungeon_A4_179
       rect:
         serializedVersion: 2
         x: 144
@@ -2895,20 +3903,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66d5d6dfb85d6ae488889ad894aa308b
-      internalID: -1486563940
+      spriteID: 01c165b8d3f6b9a4a897051597441828
+      internalID: -1755530274
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_132
+      name: Dungeon_A4_180
       rect:
         serializedVersion: 2
         x: 192
@@ -2916,20 +3924,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5cde021e859dc1646995ca3b751a56c4
-      internalID: 1976300064
+      spriteID: 8ea5a8ce3cf34c14a9cc7cbd3fcccad1
+      internalID: -696331550
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_133
+      name: Dungeon_A4_181
       rect:
         serializedVersion: 2
         x: 240
@@ -2937,20 +3945,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cac7296aa71e145429bc50adc783bd73
-      internalID: 566827664
+      spriteID: b2e739bc75021274c97fd1dc0f2d5e35
+      internalID: 1403603908
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_134
+      name: Dungeon_A4_182
       rect:
         serializedVersion: 2
         x: 288
@@ -2958,20 +3966,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 24f6ccf3efd13ef4daf16d1488075692
-      internalID: -1870754899
+      spriteID: c207d792b2a76b24c980e56732f69f60
+      internalID: -1197564568
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_135
+      name: Dungeon_A4_183
       rect:
         serializedVersion: 2
         x: 336
@@ -2979,20 +3987,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 63801f64eaf8ef045800e109f8c21114
-      internalID: -898358434
+      spriteID: 5cd1d5357a3dc6f47a0f0da54d640e12
+      internalID: 607949537
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_136
+      name: Dungeon_A4_184
       rect:
         serializedVersion: 2
         x: 384
@@ -3000,20 +4008,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 80316aaf026087440b8ead477f0bda34
-      internalID: -1227477553
+      spriteID: f79f36e910bb0b544a490c0c59f8a2ba
+      internalID: -65131133
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_137
+      name: Dungeon_A4_185
       rect:
         serializedVersion: 2
         x: 432
@@ -3021,20 +4029,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 844e9c9bedcc2d14489342f1182945fa
-      internalID: -1742622797
+      spriteID: d6220c815e571d140950035074f09236
+      internalID: -1134636485
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_138
+      name: Dungeon_A4_186
       rect:
         serializedVersion: 2
         x: 480
@@ -3042,20 +4050,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 74a321de372d38143a02cc6f7a7bd9e9
-      internalID: -742241080
+      spriteID: 12f3246fb4d61d445bc41de74ade6eba
+      internalID: -941575941
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_139
+      name: Dungeon_A4_187
       rect:
         serializedVersion: 2
         x: 528
@@ -3063,20 +4071,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4c214550c683d04fa73e73fa8b532d2
-      internalID: 1480079606
+      spriteID: 31b34b2ee16f3c244b651da6e6c0ecaa
+      internalID: -233714685
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_140
+      name: Dungeon_A4_188
       rect:
         serializedVersion: 2
         x: 576
@@ -3084,20 +4092,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 266363cf610703b4cbcd7eec883e84f0
-      internalID: -1445220664
+      spriteID: 037ee5ad9cb20af4d94f563d4447a9d4
+      internalID: -803615140
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_141
+      name: Dungeon_A4_189
       rect:
         serializedVersion: 2
         x: 624
@@ -3105,20 +4113,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f60b0dd3312ae84999719e9004d1f5e
-      internalID: -504431066
+      spriteID: a84b34d86201c3840b65a7b478ab2ac7
+      internalID: 109880467
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_142
+      name: Dungeon_A4_190
       rect:
         serializedVersion: 2
         x: 672
@@ -3126,20 +4134,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff98e9e16944bae4f919712bd67d5403
-      internalID: 1302488011
+      spriteID: 4815f2b83be47954fafdde0acfcf3a03
+      internalID: -707479272
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_143
+      name: Dungeon_A4_191
       rect:
         serializedVersion: 2
         x: 720
@@ -3147,20 +4155,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 93811d7009e97a1469b5637b69878dc0
-      internalID: 277051693
+      spriteID: 91b35d1cb77beb74cadb51abc2c248f5
+      internalID: 1701999790
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_144
+      name: Dungeon_A4_192
       rect:
         serializedVersion: 2
         x: 0
@@ -3168,20 +4176,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9bfcd8a6f55100d41bf2e98864e48f11
-      internalID: 114021153
+      spriteID: e8dd8d4e44ab7814b9057205ff783409
+      internalID: 835674978
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_145
+      name: Dungeon_A4_193
       rect:
         serializedVersion: 2
         x: 48
@@ -3189,20 +4197,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0107a389aabc7a14695d5fbfe009ff0c
-      internalID: 2112154458
+      spriteID: e1c66fd4f455dc941a34e827da74a4f0
+      internalID: -1288621143
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_146
+      name: Dungeon_A4_194
       rect:
         serializedVersion: 2
         x: 96
@@ -3210,20 +4218,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8317ff74e30ad5d4fabe990cbb611595
-      internalID: 1419790134
+      spriteID: 60d7f494510782c47a28d09af9ee417b
+      internalID: -1921425209
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_147
+      name: Dungeon_A4_195
       rect:
         serializedVersion: 2
         x: 144
@@ -3231,20 +4239,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0664ff5e457bc5344b6bac6b377cedbb
-      internalID: -549117405
+      spriteID: 9bfabcd21b43755459a14ba0354cfa08
+      internalID: -950133426
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_148
+      name: Dungeon_A4_196
       rect:
         serializedVersion: 2
         x: 192
@@ -3252,20 +4260,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 281e69dce93bd1741bf0e7603fc7afc6
-      internalID: -30030
+      spriteID: ae0005589499c234cae19cebffd64695
+      internalID: -1269965608
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_149
+      name: Dungeon_A4_197
       rect:
         serializedVersion: 2
         x: 240
@@ -3273,20 +4281,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 040a405b2edbea444af5ce1dfa168725
-      internalID: -904447319
+      spriteID: 48d309ed5c914c44a8886c7a0230e6f0
+      internalID: -924421653
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_150
+      name: Dungeon_A4_198
       rect:
         serializedVersion: 2
         x: 288
@@ -3294,20 +4302,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ad0baf79f8018ab4f8b9bfcee2bba949
-      internalID: -499716016
+      spriteID: 500c3cebd5034f44a9c89d5723833326
+      internalID: 1833131724
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_151
+      name: Dungeon_A4_199
       rect:
         serializedVersion: 2
         x: 336
@@ -3315,20 +4323,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c368ca8df13dea4aa6a5edf5dea349b
-      internalID: 1050696392
+      spriteID: 83aa7c5fb9e07354dbbe2fe4f24c380f
+      internalID: 501319101
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_152
+      name: Dungeon_A4_200
       rect:
         serializedVersion: 2
         x: 384
@@ -3336,20 +4344,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5836d2a8ce183c04188afe1e0dcde297
-      internalID: 698847992
+      spriteID: 6fc4964b9bf33cf4ab4afec79af28534
+      internalID: 243560068
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_153
+      name: Dungeon_A4_201
       rect:
         serializedVersion: 2
         x: 432
@@ -3357,20 +4365,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 06fe6bab0c66c1640a0ba854210e9881
-      internalID: 1679197714
+      spriteID: 913db6a584bb8604994f1ae30408e3e7
+      internalID: 1526470192
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_154
+      name: Dungeon_A4_202
       rect:
         serializedVersion: 2
         x: 480
@@ -3378,20 +4386,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a95d8fa0ea16b442a2732e64d1f6912
-      internalID: -878039525
+      spriteID: 0c8222876df6e1748ba265884427f3ea
+      internalID: -423581398
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_155
+      name: Dungeon_A4_203
       rect:
         serializedVersion: 2
         x: 528
@@ -3399,20 +4407,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 12b408ca138bbca4c88a0e998162eeaa
-      internalID: 1296902776
+      spriteID: d21aa45afd2666844bb7391a6c73290b
+      internalID: -1148204188
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_156
+      name: Dungeon_A4_204
       rect:
         serializedVersion: 2
         x: 576
@@ -3420,20 +4428,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62cdf1fc03c3eeb40ac66adc36bb28f7
-      internalID: 1109363149
+      spriteID: d96296459ace3ac40846c5cda6e436be
+      internalID: -953936454
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_157
+      name: Dungeon_A4_205
       rect:
         serializedVersion: 2
         x: 624
@@ -3441,20 +4449,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29482e3a3b214544a941430c93f5938c
-      internalID: 1869569834
+      spriteID: 64899c6633be22145937d02f4b898ca8
+      internalID: -966172504
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_158
+      name: Dungeon_A4_206
       rect:
         serializedVersion: 2
         x: 672
@@ -3462,20 +4470,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 48e0ff0041d653946bd1993ce1e6b4d3
-      internalID: 179689600
+      spriteID: 132765483145b5d43b4d83d74a8c760e
+      internalID: 1941055813
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_159
+      name: Dungeon_A4_207
       rect:
         serializedVersion: 2
         x: 720
@@ -3483,20 +4491,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 09cb3f09a2dcb6c4185a4b5c796a08a0
-      internalID: -217322240
+      spriteID: ee0ddff5c8c199247b6a4353e76e48a3
+      internalID: -743272481
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_160
+      name: Dungeon_A4_208
       rect:
         serializedVersion: 2
         x: 0
@@ -3504,20 +4512,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e19fab930aa6a0428cdd7647098c34d
-      internalID: -181331346
+      spriteID: 2a601a9fc0bde224785c2f0d66ebdc5e
+      internalID: -389624317
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_161
+      name: Dungeon_A4_209
       rect:
         serializedVersion: 2
         x: 48
@@ -3525,20 +4533,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 509d802404cbc3b4c90a1dec576be5fa
-      internalID: -115593560
+      spriteID: 342d9b01bcedd114c8a8f56617c9c43d
+      internalID: 387081601
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_162
+      name: Dungeon_A4_210
       rect:
         serializedVersion: 2
         x: 96
@@ -3546,20 +4554,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d79f15ef1d4f9c4da9916989129fb1b
-      internalID: -22622202
+      spriteID: 28cba5f3fb998514397b216c419da30e
+      internalID: 156035166
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_163
+      name: Dungeon_A4_211
       rect:
         serializedVersion: 2
         x: 144
@@ -3567,20 +4575,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4adb63987e2e2b04893d2fb178910756
-      internalID: -978357820
+      spriteID: de107e6fbbb9433419f70536b994e48a
+      internalID: 1014496580
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_164
+      name: Dungeon_A4_212
       rect:
         serializedVersion: 2
         x: 192
@@ -3588,20 +4596,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 427d1507760d43f4d93187a13bad773e
-      internalID: 1384689969
+      spriteID: e5bd9fcfa9bf78c49b7a52a292e44a50
+      internalID: 974363832
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_165
+      name: Dungeon_A4_213
       rect:
         serializedVersion: 2
         x: 240
@@ -3609,20 +4617,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a13899dd5f768384d9121ee91576431a
-      internalID: 1434790527
+      spriteID: 8079eee6c818ac34cb7cb952d2d81859
+      internalID: 2048342821
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_166
+      name: Dungeon_A4_214
       rect:
         serializedVersion: 2
         x: 288
@@ -3630,20 +4638,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b5a88a0111f8b2a41813f3f28edfc848
-      internalID: -1331506013
+      spriteID: 23f4c1bb629216244bfc90e18251a344
+      internalID: -956532416
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_167
+      name: Dungeon_A4_215
       rect:
         serializedVersion: 2
         x: 336
@@ -3651,20 +4659,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 76c26b0bc530b894d9b49d76f64ee7b8
-      internalID: 1148417537
+      spriteID: 847b94d9f19e36b4fa6367b86481842a
+      internalID: -1113082030
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_168
+      name: Dungeon_A4_216
       rect:
         serializedVersion: 2
         x: 384
@@ -3672,20 +4680,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2d2e012a590c3f74dbcd7b8d4bcc8413
-      internalID: 1076375810
+      spriteID: f31d41fb193c1d34ab236665dc6526eb
+      internalID: 1694672333
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_169
+      name: Dungeon_A4_217
       rect:
         serializedVersion: 2
         x: 432
@@ -3693,20 +4701,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ac2a031c435269e458d003641419ae55
-      internalID: -1251667202
+      spriteID: 590e3a15b38ae80409c45e52f7acca2b
+      internalID: -1251518859
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_170
+      name: Dungeon_A4_218
       rect:
         serializedVersion: 2
         x: 480
@@ -3714,20 +4722,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a8d50e7aa2e08f44903569ae9d843cf
-      internalID: -254658690
+      spriteID: 325df7cdbca075544840aacc2fbae596
+      internalID: 530911818
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_171
+      name: Dungeon_A4_219
       rect:
         serializedVersion: 2
         x: 528
@@ -3735,20 +4743,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8e33b3471a25394daf11d9153b785dc
-      internalID: 921625013
+      spriteID: d4caa4d8d04930f40a135b67f1d66c35
+      internalID: 430341947
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_172
+      name: Dungeon_A4_220
       rect:
         serializedVersion: 2
         x: 576
@@ -3756,20 +4764,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 85f6a49ddabbe4543ba4d6dddf320874
-      internalID: 1063800199
+      spriteID: 125170eb5c700934cadfc188fb9f7b1d
+      internalID: 1356745643
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_173
+      name: Dungeon_A4_221
       rect:
         serializedVersion: 2
         x: 624
@@ -3777,20 +4785,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb40896a13709d2478caf77f826c1114
-      internalID: 1838091156
+      spriteID: f00e23e1595eb6b4499ebbadf3943b80
+      internalID: -1787144195
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_174
+      name: Dungeon_A4_222
       rect:
         serializedVersion: 2
         x: 672
@@ -3798,20 +4806,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b80db9668e3d2f0459111a9ceeb2350e
-      internalID: 1983961784
+      spriteID: 19db06690f9113d46a279c6e8ec5950e
+      internalID: -984265781
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_175
+      name: Dungeon_A4_223
       rect:
         serializedVersion: 2
         x: 720
@@ -3819,20 +4827,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7089fbd6fd87c7e4f81a6a7bf22a2ab6
-      internalID: 629081296
+      spriteID: fb89adf3485d8394e8594fccd31fa32f
+      internalID: -1118109380
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_176
+      name: Dungeon_A4_224
       rect:
         serializedVersion: 2
         x: 0
@@ -3840,20 +4848,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 663d2857547df3f4a8b782f8088693a3
-      internalID: 346355745
+      spriteID: 260f6b2f435bea8428e867da86781fe1
+      internalID: 82530828
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_177
+      name: Dungeon_A4_225
       rect:
         serializedVersion: 2
         x: 48
@@ -3861,20 +4869,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c1693cb6d898c3479afafe74aca573f
-      internalID: 1785275089
+      spriteID: 00fe5153d1166bc4d87f3c5496fc754a
+      internalID: -1489453171
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_178
+      name: Dungeon_A4_226
       rect:
         serializedVersion: 2
         x: 96
@@ -3882,20 +4890,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 57de9274e8d9a5b428527c0476b207da
-      internalID: 1898458074
+      spriteID: 62e1e48098409604484bf74a26c7736a
+      internalID: -673341231
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_179
+      name: Dungeon_A4_227
       rect:
         serializedVersion: 2
         x: 144
@@ -3903,20 +4911,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c9dcd3352a96e874580dfff441999ffa
-      internalID: -1307108285
+      spriteID: 571be3be4d1cfd545addde40ac019396
+      internalID: -110466882
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_180
+      name: Dungeon_A4_228
       rect:
         serializedVersion: 2
         x: 192
@@ -3924,20 +4932,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7ec2679f91f5839458e22d1b5931e0e9
-      internalID: 1442855718
+      spriteID: 1c1383344abc19347be3d7a744308caf
+      internalID: -354789570
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_181
+      name: Dungeon_A4_229
       rect:
         serializedVersion: 2
         x: 240
@@ -3945,20 +4953,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c3cac13fde2535e4592dea5b82e5251b
-      internalID: -609943248
+      spriteID: 56dbf2fa40059a34c84983f289e120f4
+      internalID: 699323281
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_182
+      name: Dungeon_A4_230
       rect:
         serializedVersion: 2
         x: 288
@@ -3966,20 +4974,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e456f496234271349baf01abef39e8a1
-      internalID: 72258199
+      spriteID: 25ec0eb3adb5fc04d81c0658dd52b381
+      internalID: -755985980
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_183
+      name: Dungeon_A4_231
       rect:
         serializedVersion: 2
         x: 336
@@ -3987,20 +4995,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1da35c073d6920849b00043dda466abf
-      internalID: 622981294
+      spriteID: 278718767b0b043409f7adc466b75ea6
+      internalID: -488528813
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_184
+      name: Dungeon_A4_232
       rect:
         serializedVersion: 2
         x: 384
@@ -4008,20 +5016,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b62d629214fa0a540aabc459f1150149
-      internalID: -350588703
+      spriteID: b541adf8378b7664682618a490f7a2e6
+      internalID: 1082930875
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_185
+      name: Dungeon_A4_233
       rect:
         serializedVersion: 2
         x: 432
@@ -4029,20 +5037,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: efc2b8c51a01cb64793c72bc2240b6d8
-      internalID: 1813586238
+      spriteID: 38b39a44405e992489407d438b262eb7
+      internalID: -1625902997
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_186
+      name: Dungeon_A4_234
       rect:
         serializedVersion: 2
         x: 480
@@ -4050,20 +5058,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7f60b356e074bf24ba542099deb7454d
-      internalID: -1511720049
+      spriteID: d5197fe18320e2048b2d49eaf4e7fa2a
+      internalID: 1070116478
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_187
+      name: Dungeon_A4_235
       rect:
         serializedVersion: 2
         x: 528
@@ -4071,20 +5079,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 453db73b55a19f24db5a19b5794a1dc0
-      internalID: 344026103
+      spriteID: 3fe052d1e19a32e4980fe4490635a685
+      internalID: -912194452
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_188
+      name: Dungeon_A4_236
       rect:
         serializedVersion: 2
         x: 576
@@ -4092,20 +5100,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 07b39bff2a9b17245980cff88e6051d1
-      internalID: 1349688859
+      spriteID: 01e594fda8f316642bc6785703fefaf5
+      internalID: 392026768
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_189
+      name: Dungeon_A4_237
       rect:
         serializedVersion: 2
         x: 624
@@ -4113,20 +5121,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 25b2554dee6dd3445b0bfed67433f220
-      internalID: 1894964362
+      spriteID: d97b6ac57db0a85489f74d6fc61f104c
+      internalID: -921357158
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_190
+      name: Dungeon_A4_238
       rect:
         serializedVersion: 2
         x: 672
@@ -4134,20 +5142,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c66eb24c686424640a27a931323bd203
-      internalID: -844320567
+      spriteID: 5ea94ea62b498944bb0d54f8d6eed970
+      internalID: 2050448305
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_191
+      name: Dungeon_A4_239
       rect:
         serializedVersion: 2
         x: 720
@@ -4155,224 +5163,203 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae30d7527135c49419e0da8bd0822943
-      internalID: 1572412397
+      spriteID: b4c93136c2ec80144ae6896cbe975d07
+      internalID: -1713522004
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_192
+      name: Dungeon_A4_240
       rect:
         serializedVersion: 2
-        x: 120
+        x: 216
+        y: 528
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f955b4256380d3d4088a10876e592564
+      internalID: -295719541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon_A4_241
+      rect:
+        serializedVersion: 2
+        x: 216
         y: 480
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b75b1ad143b7dd84186cde7b04ad798b
-      internalID: 137614582
+      spriteID: a3844f8d5fae37142b81de4fd7e64f3f
+      internalID: -1972543064
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_193
+      name: Dungeon_A4_242
       rect:
         serializedVersion: 2
-        x: 120
-        y: 432
+        x: 192
+        y: 504
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7963d006669ef48469cfd7a994bcf882
-      internalID: -502847430
+      spriteID: fae976a222ffde84b86d0e882b0a2de0
+      internalID: -549970884
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_194
+      name: Dungeon_A4_243
       rect:
         serializedVersion: 2
-        x: 144
-        y: 456
+        x: 240
+        y: 504
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6932311681e68904da0231bdec51a53d
-      internalID: 1741566025
+      spriteID: c3a408ceda9e73041967dbc8fdb64952
+      internalID: 2039513555
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_195
+      name: Dungeon_A4_244
       rect:
         serializedVersion: 2
-        x: 96
-        y: 456
+        x: 216
+        y: 504
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e4c6ebb2f538d0a43b83864e79fdcfc5
-      internalID: 1276692985
+      spriteID: de06bc77e1f06d04684450ab88f58c0a
+      internalID: 794426817
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_196
+      name: Dungeon_A4_245
       rect:
         serializedVersion: 2
-        x: 120
-        y: 456
+        x: 216
+        y: 624
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 722cd0a31aeef784890f87e8a097fa70
-      internalID: 1796231432
+      spriteID: 33144e94ad44ac34eb1690e3b0b7403a
+      internalID: -1369820704
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_197
+      name: Dungeon_A4_246
       rect:
         serializedVersion: 2
-        x: 120
-        y: 336
+        x: 216
+        y: 576
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 91e48a0bee4bf38499c79af04636fb73
-      internalID: 184480474
+      spriteID: 0bdec0cb0955a854bad486edba0d69e0
+      internalID: -611754524
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_198
+      name: Dungeon_A4_247
       rect:
         serializedVersion: 2
-        x: 144
-        y: 312
+        x: 192
+        y: 600
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e9358456bb867214aa733adf4d04d361
-      internalID: 511781699
+      spriteID: 49ecfeed374ab4741a185758b12d79cc
+      internalID: -1598583623
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_A2_199
+      name: Dungeon_A4_248
       rect:
         serializedVersion: 2
-        x: 120
-        y: 288
+        x: 240
+        y: 600
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c6a9a1b08ffdba4f967ccdb1b0bf57e
-      internalID: 596625255
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Outside_A2_200
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 312
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3ae80f6fbe2aa2f4195c2b9d839188a5
-      internalID: 1657712753
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Outside_A2_201
-      rect:
-        serializedVersion: 2
-        x: 120
-        y: 312
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2b700bb048133b1469c2372ae3d20024
-      internalID: -2082438370
+      spriteID: 6a0c13309b0e8074c933a0facdc5905a
+      internalID: 358803671
       vertices: []
       indices: 
       edges: []
@@ -4388,208 +5375,255 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Outside_A2_0: 1475664451
-      Outside_A2_1: 543418910
-      Outside_A2_10: -1635407473
-      Outside_A2_100: 981206997
-      Outside_A2_101: -1271094867
-      Outside_A2_102: -695567913
-      Outside_A2_103: -533325857
-      Outside_A2_104: -650740650
-      Outside_A2_105: 1550402330
-      Outside_A2_106: 1211660206
-      Outside_A2_107: 1537035670
-      Outside_A2_108: 65912693
-      Outside_A2_109: 1349752527
-      Outside_A2_11: -1549021909
-      Outside_A2_110: -1200755194
-      Outside_A2_111: 916878029
-      Outside_A2_112: 1894533046
-      Outside_A2_113: 470506139
-      Outside_A2_114: 1361253193
-      Outside_A2_115: 155267545
-      Outside_A2_116: -2069496324
-      Outside_A2_117: 1457452466
-      Outside_A2_118: -366812405
-      Outside_A2_119: 803301639
-      Outside_A2_12: 118471607
-      Outside_A2_120: 1799484480
-      Outside_A2_121: -1263013032
-      Outside_A2_122: 2086421808
-      Outside_A2_123: 1442135458
-      Outside_A2_124: -1934484812
-      Outside_A2_125: 461353518
-      Outside_A2_126: 92927219
-      Outside_A2_127: 1460441218
-      Outside_A2_128: -101320924
-      Outside_A2_129: 90691714
-      Outside_A2_13: -66146896
-      Outside_A2_130: 1859136542
-      Outside_A2_131: -1486563940
-      Outside_A2_132: 1976300064
-      Outside_A2_133: 566827664
-      Outside_A2_134: -1870754899
-      Outside_A2_135: -898358434
-      Outside_A2_136: -1227477553
-      Outside_A2_137: -1742622797
-      Outside_A2_138: -742241080
-      Outside_A2_139: 1480079606
-      Outside_A2_14: -798201178
-      Outside_A2_140: -1445220664
-      Outside_A2_141: -504431066
-      Outside_A2_142: 1302488011
-      Outside_A2_143: 277051693
-      Outside_A2_144: 114021153
-      Outside_A2_145: 2112154458
-      Outside_A2_146: 1419790134
-      Outside_A2_147: -549117405
-      Outside_A2_148: -30030
-      Outside_A2_149: -904447319
-      Outside_A2_15: -786908916
-      Outside_A2_150: -499716016
-      Outside_A2_151: 1050696392
-      Outside_A2_152: 698847992
-      Outside_A2_153: 1679197714
-      Outside_A2_154: -878039525
-      Outside_A2_155: 1296902776
-      Outside_A2_156: 1109363149
-      Outside_A2_157: 1869569834
-      Outside_A2_158: 179689600
-      Outside_A2_159: -217322240
-      Outside_A2_16: 1870703560
-      Outside_A2_160: -181331346
-      Outside_A2_161: -115593560
-      Outside_A2_162: -22622202
-      Outside_A2_163: -978357820
-      Outside_A2_164: 1384689969
-      Outside_A2_165: 1434790527
-      Outside_A2_166: -1331506013
-      Outside_A2_167: 1148417537
-      Outside_A2_168: 1076375810
-      Outside_A2_169: -1251667202
-      Outside_A2_17: 1284459605
-      Outside_A2_170: -254658690
-      Outside_A2_171: 921625013
-      Outside_A2_172: 1063800199
-      Outside_A2_173: 1838091156
-      Outside_A2_174: 1983961784
-      Outside_A2_175: 629081296
-      Outside_A2_176: 346355745
-      Outside_A2_177: 1785275089
-      Outside_A2_178: 1898458074
-      Outside_A2_179: -1307108285
-      Outside_A2_18: 294181777
-      Outside_A2_180: 1442855718
-      Outside_A2_181: -609943248
-      Outside_A2_182: 72258199
-      Outside_A2_183: 622981294
-      Outside_A2_184: -350588703
-      Outside_A2_185: 1813586238
-      Outside_A2_186: -1511720049
-      Outside_A2_187: 344026103
-      Outside_A2_188: 1349688859
-      Outside_A2_189: 1894964362
-      Outside_A2_19: -1810323606
-      Outside_A2_190: -844320567
-      Outside_A2_191: 1572412397
-      Outside_A2_192: 137614582
-      Outside_A2_193: -502847430
-      Outside_A2_194: 1741566025
-      Outside_A2_195: 1276692985
-      Outside_A2_196: 1796231432
-      Outside_A2_197: 184480474
-      Outside_A2_198: 511781699
-      Outside_A2_199: 596625255
-      Outside_A2_2: 551399023
-      Outside_A2_20: -1850799570
-      Outside_A2_200: 1657712753
-      Outside_A2_201: -2082438370
-      Outside_A2_21: -166110614
-      Outside_A2_22: -509539545
-      Outside_A2_23: -1720591066
-      Outside_A2_24: -587725052
-      Outside_A2_25: -353700405
-      Outside_A2_26: -150697144
-      Outside_A2_27: 466828136
-      Outside_A2_28: -733320391
-      Outside_A2_29: 1347658191
-      Outside_A2_3: 1737794296
-      Outside_A2_30: 315990670
-      Outside_A2_31: -921497637
-      Outside_A2_32: 101094955
-      Outside_A2_33: 672523425
-      Outside_A2_34: 102811318
-      Outside_A2_35: 1811368082
-      Outside_A2_36: 1760626125
-      Outside_A2_37: -1916905719
-      Outside_A2_38: -1661548166
-      Outside_A2_39: 618035362
-      Outside_A2_4: 221015434
-      Outside_A2_40: 328300546
-      Outside_A2_41: -1723155108
-      Outside_A2_42: 754805308
-      Outside_A2_43: -720435665
-      Outside_A2_44: 1805929144
-      Outside_A2_45: 333958472
-      Outside_A2_46: -1754100853
-      Outside_A2_47: 435462823
-      Outside_A2_48: -717191729
-      Outside_A2_49: -2118197419
-      Outside_A2_5: 279140702
-      Outside_A2_50: -1615029328
-      Outside_A2_51: 1253745933
-      Outside_A2_52: -1486256369
-      Outside_A2_53: 1989767647
-      Outside_A2_54: -1053572458
-      Outside_A2_55: 1033695094
-      Outside_A2_56: -680022755
-      Outside_A2_57: 1236019278
-      Outside_A2_58: 41509513
-      Outside_A2_59: 679174002
-      Outside_A2_6: -1341862590
-      Outside_A2_60: 991823434
-      Outside_A2_61: -1144351722
-      Outside_A2_62: 766669039
-      Outside_A2_63: -1921875809
-      Outside_A2_64: 1206947254
-      Outside_A2_65: 607936589
-      Outside_A2_66: 705463759
-      Outside_A2_67: 368714456
-      Outside_A2_68: 742072313
-      Outside_A2_69: 822492762
-      Outside_A2_7: 1673550245
-      Outside_A2_70: 254801945
-      Outside_A2_71: 755611255
-      Outside_A2_72: 823948084
-      Outside_A2_73: 367454702
-      Outside_A2_74: -1318881497
-      Outside_A2_75: -413854935
-      Outside_A2_76: 647832152
-      Outside_A2_77: 630705857
-      Outside_A2_78: 594797789
-      Outside_A2_79: 1510185098
-      Outside_A2_8: -2129173167
-      Outside_A2_80: -176804567
-      Outside_A2_81: -364458429
-      Outside_A2_82: 1472926478
-      Outside_A2_83: 914563822
-      Outside_A2_84: 2147265164
-      Outside_A2_85: 1795333410
-      Outside_A2_86: 1714602589
-      Outside_A2_87: 446611968
-      Outside_A2_88: -705329678
-      Outside_A2_89: 1997982911
-      Outside_A2_9: 605862024
-      Outside_A2_90: 2028935730
-      Outside_A2_91: 899314033
-      Outside_A2_92: 299382484
-      Outside_A2_93: -210628225
-      Outside_A2_94: -445281904
-      Outside_A2_95: 858094964
-      Outside_A2_96: -1484388965
-      Outside_A2_97: -1742337976
-      Outside_A2_98: 2019572945
-      Outside_A2_99: -420825180
+      Dungeon_A4_0: -295873824
+      Dungeon_A4_1: 325781664
+      Dungeon_A4_10: 1382591159
+      Dungeon_A4_100: 238491568
+      Dungeon_A4_101: 2056694849
+      Dungeon_A4_102: 855401292
+      Dungeon_A4_103: 1532969808
+      Dungeon_A4_104: -267646355
+      Dungeon_A4_105: -1559772946
+      Dungeon_A4_106: 213907980
+      Dungeon_A4_107: -1631598719
+      Dungeon_A4_108: -641342587
+      Dungeon_A4_109: 1016188399
+      Dungeon_A4_11: -967364727
+      Dungeon_A4_110: 925038641
+      Dungeon_A4_111: 2106930625
+      Dungeon_A4_112: -1219668925
+      Dungeon_A4_113: 75889622
+      Dungeon_A4_114: -489476425
+      Dungeon_A4_115: -2058297312
+      Dungeon_A4_116: 1062254055
+      Dungeon_A4_117: 29326893
+      Dungeon_A4_118: 1584896962
+      Dungeon_A4_119: -1843637861
+      Dungeon_A4_12: -1718391395
+      Dungeon_A4_120: -1528179624
+      Dungeon_A4_121: 1533424188
+      Dungeon_A4_122: -346642974
+      Dungeon_A4_123: -114962526
+      Dungeon_A4_124: 423962007
+      Dungeon_A4_125: 452025176
+      Dungeon_A4_126: -918080475
+      Dungeon_A4_127: 1764085680
+      Dungeon_A4_128: 1612306419
+      Dungeon_A4_129: -599261597
+      Dungeon_A4_13: -1361687357
+      Dungeon_A4_130: 298473142
+      Dungeon_A4_131: -1363862124
+      Dungeon_A4_132: -1620165855
+      Dungeon_A4_133: 1555617469
+      Dungeon_A4_134: 66478782
+      Dungeon_A4_135: 431493157
+      Dungeon_A4_136: 1852384358
+      Dungeon_A4_137: 1251478630
+      Dungeon_A4_138: 338831288
+      Dungeon_A4_139: -652422646
+      Dungeon_A4_14: 1596933288
+      Dungeon_A4_140: 2072416689
+      Dungeon_A4_141: 746522073
+      Dungeon_A4_142: 1640860872
+      Dungeon_A4_143: 1384945173
+      Dungeon_A4_144: 1143255584
+      Dungeon_A4_145: -476047250
+      Dungeon_A4_146: -434245937
+      Dungeon_A4_147: -468912244
+      Dungeon_A4_148: -341178993
+      Dungeon_A4_149: 55234444
+      Dungeon_A4_15: 1956617750
+      Dungeon_A4_150: -1451596851
+      Dungeon_A4_151: -1496138264
+      Dungeon_A4_152: 353947822
+      Dungeon_A4_153: -177788017
+      Dungeon_A4_154: -860944976
+      Dungeon_A4_155: -987838836
+      Dungeon_A4_156: -1423056900
+      Dungeon_A4_157: -189369788
+      Dungeon_A4_158: -1323992815
+      Dungeon_A4_159: 2095294748
+      Dungeon_A4_16: 804917096
+      Dungeon_A4_160: -848367703
+      Dungeon_A4_161: -253695752
+      Dungeon_A4_162: -772058231
+      Dungeon_A4_163: 985307882
+      Dungeon_A4_164: 1458835732
+      Dungeon_A4_165: -1240928123
+      Dungeon_A4_166: 1129902485
+      Dungeon_A4_167: -1662377143
+      Dungeon_A4_168: -777484702
+      Dungeon_A4_169: 722123724
+      Dungeon_A4_17: -419677876
+      Dungeon_A4_170: -1277010474
+      Dungeon_A4_171: -1582075587
+      Dungeon_A4_172: -1465698000
+      Dungeon_A4_173: 107558912
+      Dungeon_A4_174: 1589045346
+      Dungeon_A4_175: -1955595541
+      Dungeon_A4_176: -2064270296
+      Dungeon_A4_177: -107433321
+      Dungeon_A4_178: -1636981314
+      Dungeon_A4_179: -1755530274
+      Dungeon_A4_18: 893882705
+      Dungeon_A4_180: -696331550
+      Dungeon_A4_181: 1403603908
+      Dungeon_A4_182: -1197564568
+      Dungeon_A4_183: 607949537
+      Dungeon_A4_184: -65131133
+      Dungeon_A4_185: -1134636485
+      Dungeon_A4_186: -941575941
+      Dungeon_A4_187: -233714685
+      Dungeon_A4_188: -803615140
+      Dungeon_A4_189: 109880467
+      Dungeon_A4_19: -56926045
+      Dungeon_A4_190: -707479272
+      Dungeon_A4_191: 1701999790
+      Dungeon_A4_192: 835674978
+      Dungeon_A4_193: -1288621143
+      Dungeon_A4_194: -1921425209
+      Dungeon_A4_195: -950133426
+      Dungeon_A4_196: -1269965608
+      Dungeon_A4_197: -924421653
+      Dungeon_A4_198: 1833131724
+      Dungeon_A4_199: 501319101
+      Dungeon_A4_2: -1909482440
+      Dungeon_A4_20: -1231914674
+      Dungeon_A4_200: 243560068
+      Dungeon_A4_201: 1526470192
+      Dungeon_A4_202: -423581398
+      Dungeon_A4_203: -1148204188
+      Dungeon_A4_204: -953936454
+      Dungeon_A4_205: -966172504
+      Dungeon_A4_206: 1941055813
+      Dungeon_A4_207: -743272481
+      Dungeon_A4_208: -389624317
+      Dungeon_A4_209: 387081601
+      Dungeon_A4_21: -1423595233
+      Dungeon_A4_210: 156035166
+      Dungeon_A4_211: 1014496580
+      Dungeon_A4_212: 974363832
+      Dungeon_A4_213: 2048342821
+      Dungeon_A4_214: -956532416
+      Dungeon_A4_215: -1113082030
+      Dungeon_A4_216: 1694672333
+      Dungeon_A4_217: -1251518859
+      Dungeon_A4_218: 530911818
+      Dungeon_A4_219: 430341947
+      Dungeon_A4_22: 1097206651
+      Dungeon_A4_220: 1356745643
+      Dungeon_A4_221: -1787144195
+      Dungeon_A4_222: -984265781
+      Dungeon_A4_223: -1118109380
+      Dungeon_A4_224: 82530828
+      Dungeon_A4_225: -1489453171
+      Dungeon_A4_226: -673341231
+      Dungeon_A4_227: -110466882
+      Dungeon_A4_228: -354789570
+      Dungeon_A4_229: 699323281
+      Dungeon_A4_23: 486115302
+      Dungeon_A4_230: -755985980
+      Dungeon_A4_231: -488528813
+      Dungeon_A4_232: 1082930875
+      Dungeon_A4_233: -1625902997
+      Dungeon_A4_234: 1070116478
+      Dungeon_A4_235: -912194452
+      Dungeon_A4_236: 392026768
+      Dungeon_A4_237: -921357158
+      Dungeon_A4_238: 2050448305
+      Dungeon_A4_239: -1713522004
+      Dungeon_A4_24: -1446620144
+      Dungeon_A4_240: -295719541
+      Dungeon_A4_241: -1972543064
+      Dungeon_A4_242: -549970884
+      Dungeon_A4_243: 2039513555
+      Dungeon_A4_244: 794426817
+      Dungeon_A4_245: -1369820704
+      Dungeon_A4_246: -611754524
+      Dungeon_A4_247: -1598583623
+      Dungeon_A4_248: 358803671
+      Dungeon_A4_25: 894697018
+      Dungeon_A4_26: 629792741
+      Dungeon_A4_27: -2042718574
+      Dungeon_A4_28: 1411442898
+      Dungeon_A4_29: -1966475138
+      Dungeon_A4_3: 1007810452
+      Dungeon_A4_30: 994763635
+      Dungeon_A4_31: -1523435495
+      Dungeon_A4_32: 502157667
+      Dungeon_A4_33: 1320742523
+      Dungeon_A4_34: 1680278931
+      Dungeon_A4_35: -904156787
+      Dungeon_A4_36: -980497058
+      Dungeon_A4_37: 1090533048
+      Dungeon_A4_38: 1256764551
+      Dungeon_A4_39: -1952125964
+      Dungeon_A4_4: 1390979846
+      Dungeon_A4_40: -1573786682
+      Dungeon_A4_41: -2082654531
+      Dungeon_A4_42: 1413270352
+      Dungeon_A4_43: -1343964570
+      Dungeon_A4_44: 247400000
+      Dungeon_A4_45: 380366299
+      Dungeon_A4_46: -1873663916
+      Dungeon_A4_47: 988993194
+      Dungeon_A4_48: 1027261103
+      Dungeon_A4_49: 1604009977
+      Dungeon_A4_5: -157663434
+      Dungeon_A4_50: -1057617052
+      Dungeon_A4_51: -1715351255
+      Dungeon_A4_52: 1864948251
+      Dungeon_A4_53: 100028183
+      Dungeon_A4_54: -1156261190
+      Dungeon_A4_55: 328127306
+      Dungeon_A4_56: -884076684
+      Dungeon_A4_57: 1026067443
+      Dungeon_A4_58: 1764337360
+      Dungeon_A4_59: 1568661025
+      Dungeon_A4_6: -1262003507
+      Dungeon_A4_60: 552438094
+      Dungeon_A4_61: -1313629534
+      Dungeon_A4_62: -297856757
+      Dungeon_A4_63: -801603887
+      Dungeon_A4_64: 509960040
+      Dungeon_A4_65: 586895893
+      Dungeon_A4_66: 2060077572
+      Dungeon_A4_67: 1797297272
+      Dungeon_A4_68: -1287040301
+      Dungeon_A4_69: 1211833767
+      Dungeon_A4_7: 848701543
+      Dungeon_A4_70: 1788377197
+      Dungeon_A4_71: 1582237581
+      Dungeon_A4_72: 1279235423
+      Dungeon_A4_73: 2059419737
+      Dungeon_A4_74: 1592481278
+      Dungeon_A4_75: -18570866
+      Dungeon_A4_76: -1083567262
+      Dungeon_A4_77: -1773193564
+      Dungeon_A4_78: -1783298028
+      Dungeon_A4_79: 1598997964
+      Dungeon_A4_8: -104922023
+      Dungeon_A4_80: 923964863
+      Dungeon_A4_81: 2139221985
+      Dungeon_A4_82: -978433141
+      Dungeon_A4_83: -1259923304
+      Dungeon_A4_84: -1167517118
+      Dungeon_A4_85: -18466418
+      Dungeon_A4_86: -1497189173
+      Dungeon_A4_87: 928760714
+      Dungeon_A4_88: 1394372526
+      Dungeon_A4_89: 1116765474
+      Dungeon_A4_9: 240230344
+      Dungeon_A4_90: -762716007
+      Dungeon_A4_91: 313404067
+      Dungeon_A4_92: 772764672
+      Dungeon_A4_93: -1703464593
+      Dungeon_A4_94: 834206883
+      Dungeon_A4_95: -2023149115
+      Dungeon_A4_96: 104558239
+      Dungeon_A4_97: 1643800063
+      Dungeon_A4_98: -612724080
+      Dungeon_A4_99: -146290211
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
