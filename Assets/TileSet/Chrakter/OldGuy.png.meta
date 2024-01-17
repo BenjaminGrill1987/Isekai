@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 88dd7794a3446854cb1ed199ab8cd534
+guid: 260e062fd4769cb48a4de14db67f7923
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -65,7 +65,7 @@ TextureImporter:
   ignorePngGamma: 0
   applyGammaDecoding: 0
   swizzle: 50462976
-  cookieLightType: 1
+  cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -81,7 +81,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Standalone
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -94,7 +94,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Server
+    buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -120,7 +120,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: WebGL
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -136,7 +136,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Charakter_0
+      name: OldGuy_0
       rect:
         serializedVersion: 2
         x: 0
@@ -150,14 +150,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b065430e0f2b35342918bb7edd895a40
-      internalID: -192264912
+      spriteID: f173e5cdf0eb6dd4480222943367dbd0
+      internalID: -1492126213
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Charakter_1
+      name: OldGuy_1
       rect:
         serializedVersion: 2
         x: 48
@@ -171,14 +171,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a4a5af457b2eb54388cc2460e4fa1bc
-      internalID: 1062559052
+      spriteID: cbd5660c0ad7cfd4b93909fe69b89449
+      internalID: -752289939
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Charakter_2
+      name: OldGuy_2
       rect:
         serializedVersion: 2
         x: 96
@@ -192,14 +192,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7fccdf793471bf441a3c82a75bd38778
-      internalID: 1315784768
+      spriteID: 4f55be4527398ea47811a6ffb05da049
+      internalID: -450614962
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Charakter_3
+      name: OldGuy_3
       rect:
         serializedVersion: 2
         x: 0
@@ -213,14 +213,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e3ec0d3ecc27d21498adab9f3f628ecf
-      internalID: -1494573284
+      spriteID: b51c40cb2c7293647a62c3c8bf3c9c85
+      internalID: 2091540605
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Charakter_4
+      name: OldGuy_4
       rect:
         serializedVersion: 2
         x: 48
@@ -234,14 +234,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e72a07d23f63fae46987b37e526a739b
-      internalID: -1414274690
+      spriteID: 43231ae155d3ef64ebc3f145f2022e43
+      internalID: -1854996344
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Charakter_5
+      name: OldGuy_5
       rect:
         serializedVersion: 2
         x: 96
@@ -255,14 +255,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62796aa8e0be50a4b830e08e0833d9e0
-      internalID: 1200023023
+      spriteID: c9973c3ef794f82419b8111cf2443bd8
+      internalID: -2054589695
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Charakter_6
+      name: OldGuy_6
       rect:
         serializedVersion: 2
         x: 0
@@ -276,14 +276,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c8fffe272ca1d84abd7ff40bb1a569d
-      internalID: 93544350
+      spriteID: 60d98519c23fb9b4f8eb87e4a4cb4370
+      internalID: 1570024251
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Charakter_7
+      name: OldGuy_7
       rect:
         serializedVersion: 2
         x: 48
@@ -297,14 +297,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7cbeb05a7edcf1e4c8b865e36a6e4b57
-      internalID: 819922022
+      spriteID: 90d3762ddb8cc5743adc37c5b0c19fea
+      internalID: 770712836
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Charakter_8
+      name: OldGuy_8
       rect:
         serializedVersion: 2
         x: 96
@@ -318,14 +318,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 11165cb4c37f49245a5a63176827a083
-      internalID: 1885491118
+      spriteID: b0d899fa3e704744e93ca5f38ed57818
+      internalID: -731265774
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Charakter_9
+      name: OldGuy_9
       rect:
         serializedVersion: 2
         x: 0
@@ -339,14 +339,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 65967d728931b914d83ed4b2b939acd7
-      internalID: -1450915396
+      spriteID: 2411f01d029010844bcc9ff81498a32c
+      internalID: -1384026225
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Charakter_10
+      name: OldGuy_10
       rect:
         serializedVersion: 2
         x: 48
@@ -360,14 +360,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6953b335610173d43b261a932db71d81
-      internalID: -1192815155
+      spriteID: bf00aec77fe27644c8821ff64cdd120c
+      internalID: 1390066320
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Charakter_11
+      name: OldGuy_11
       rect:
         serializedVersion: 2
         x: 96
@@ -381,8 +381,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c4c7a5e1f33dc3c4f85b57af5b8929e1
-      internalID: 671669597
+      spriteID: 9fa4c3315ef16494b9f29a98da42f6ed
+      internalID: 1841196210
       vertices: []
       indices: 
       edges: []
@@ -398,18 +398,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Charakter_0: -192264912
-      Charakter_1: 1062559052
-      Charakter_10: -1192815155
-      Charakter_11: 671669597
-      Charakter_2: 1315784768
-      Charakter_3: -1494573284
-      Charakter_4: -1414274690
-      Charakter_5: 1200023023
-      Charakter_6: 93544350
-      Charakter_7: 819922022
-      Charakter_8: 1885491118
-      Charakter_9: -1450915396
+      OldGuy_0: -1492126213
+      OldGuy_1: -752289939
+      OldGuy_10: 1390066320
+      OldGuy_11: 1841196210
+      OldGuy_2: -450614962
+      OldGuy_3: 2091540605
+      OldGuy_4: -1854996344
+      OldGuy_5: -2054589695
+      OldGuy_6: 1570024251
+      OldGuy_7: 770712836
+      OldGuy_8: -731265774
+      OldGuy_9: -1384026225
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -114,11 +114,27 @@ public class PlayerController : MonoBehaviour
         RaycastHit2D hit = Physics2D.Raycast(transform.position, _lookDir, 0.5f, _layerMask);
         if (hit.collider == null) return;
 
-        if (hit.collider.isTrigger)
+        switch (hit.collider.tag)
         {
-            StartCoroutine(WaitFrame(hit));
-            Debug.Log("Finish");
+            case "BlackBoard":
+                {
+                    StartCoroutine(WaitFrame(hit));
+                    Debug.Log("Finish");
+                    break;
+                }
+            case "NPC":
+                {
+                    hit.collider.gameObject.GetComponent<NPC>().SpeakWithNPC();
+                    Debug.Log("Let me Speak");
+                    break;
+                }
+            default:
+                {
+                    Debug.LogError("NO VALID COLLIDER");
+                    break;
+                }
         }
+
     }
 
     private void Menu(InputAction.CallbackContext context)
@@ -138,7 +154,6 @@ public class PlayerController : MonoBehaviour
         }
         newhit.collider.TryGetComponent<IInteraction>(out IInteraction interaction);
         interaction.Submit();
-
     }
 
     private void OnGUI()

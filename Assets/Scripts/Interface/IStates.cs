@@ -8,6 +8,7 @@ namespace Isekai.Interface
         Pause,
         PlayerMenu,
         Assigment,
+        NPCSpeaking,
         Quit
     }
 

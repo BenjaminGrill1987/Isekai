@@ -49,6 +49,10 @@ namespace Isekai.Utility
                     {
                         break;
                     }
+                case Gamestates.NPCSpeaking:
+                    {
+                        break;
+                    }
                 case Gamestates.Quit:
                     {
                         MapManager.GameQuit();
