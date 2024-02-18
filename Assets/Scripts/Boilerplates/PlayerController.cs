@@ -168,4 +168,11 @@ public class PlayerController : MonoBehaviour
             YPos += 10f;
         }
     }
+
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawLine(transform.position, (Vector2)transform.position + _lookDir.normalized);
+        Gizmos.DrawWireSphere((Vector2)transform.position + _lookDir.normalized, 0.1f);
+    }
 }

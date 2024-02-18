@@ -1,7 +1,7 @@
 using UnityEditor;
 using UnityEngine;
 
-namespace Isekai.Editor
+namespace Isekai.VersionSetting
 {
     public class VersionSetting : EditorWindow
     {

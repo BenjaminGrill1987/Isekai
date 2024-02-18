@@ -17,4 +17,12 @@ public abstract class NPC : MonoBehaviour
         _spechBoard.SetActive(true);
         _spechBoard.GetComponent<SpechBubble>().Init(_name, _texts[0],_face);
     }
+
+    //private void OnDrawGizmos()
+    //{
+    //    Gizmos.color = Color.red;
+    //    Gizmos.DrawLine(transform.position, (Vector2)transform.position + _lookDir.normalized);
+    //    Gizmos.DrawWireSphere((Vector2)transform.position + _lookDir.normalized, 0.1f);
+    //}
+
 }
