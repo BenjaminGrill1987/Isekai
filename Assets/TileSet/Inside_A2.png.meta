@@ -3,7 +3,7 @@ guid: b7d1e9afd969b9e49933f4a9d70d0bd3
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -20,11 +20,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -47,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 48
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -63,6 +64,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -74,6 +77,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -86,6 +90,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -98,6 +103,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -110,6 +116,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -122,6 +129,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -6564,315 +6572,314 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Inside_A2_250: 1696960877
-      Inside_A2_136: 1267107505
-      Inside_A2_66: 1902877019
-      Inside_A2_215: -1338969743
-      Inside_A2_208: -791448483
-      Inside_A2_289: -1222618868
-      Inside_A2_134: 187391508
-      Inside_A2_300: -1808841537
-      Inside_A2_218: 1604688106
-      Inside_A2_53: -931796438
-      Inside_A2_245: 1862910151
-      Inside_A2_63: -604469686
-      Inside_A2_256: -1985338323
-      Inside_A2_98: -520618964
-      Inside_A2_105: -131331904
-      Inside_A2_298: 2083510302
-      Inside_A2_195: 1076556566
-      Inside_A2_151: -1011553466
-      Inside_A2_204: -1243029290
-      Inside_A2_196: -225744791
-      Inside_A2_13: -1324039624
-      Inside_A2_19: -1453396696
-      Inside_A2_110: 599659605
-      Inside_A2_52: -1434204525
-      Inside_A2_123: 458418059
-      Inside_A2_222: 1818464244
-      Inside_A2_219: 974906798
-      Inside_A2_212: -1795503435
-      Inside_A2_283: 1571503911
-      Inside_A2_247: 1846189142
-      Inside_A2_199: 815939316
-      Inside_A2_139: 1913244964
-      Inside_A2_192: 820899847
-      Inside_A2_241: 2092093872
-      Inside_A2_148: 1376936461
-      Inside_A2_85: -1633183401
-      Inside_A2_172: -1741791088
-      Inside_A2_294: -230424898
-      Inside_A2_36: -305856516
-      Inside_A2_140: -287868198
-      Inside_A2_17: -609265374
-      Inside_A2_179: -976027568
-      Inside_A2_290: -1549246652
-      Inside_A2_156: 160628948
-      Inside_A2_125: -1195631339
-      Inside_A2_96: 1808694244
-      Inside_A2_184: -1551811568
-      Inside_A2_75: -184578562
-      Inside_A2_82: -1497086781
-      Inside_A2_30: 1676207540
-      Inside_A2_183: -463092862
-      Inside_A2_281: 150271904
-      Inside_A2_188: 1903334602
-      Inside_A2_84: 190242135
-      Inside_A2_265: -2129404517
-      Inside_A2_228: 1092348908
-      Inside_A2_130: -435842400
-      Inside_A2_34: -1932200590
-      Inside_A2_266: -600911302
-      Inside_A2_235: -1349096156
-      Inside_A2_135: -1872567922
-      Inside_A2_201: -216829605
-      Inside_A2_301: 1695076445
-      Inside_A2_163: -955350208
-      Inside_A2_97: 1704315895
-      Inside_A2_224: 1589832797
-      Inside_A2_50: 2039870431
-      Inside_A2_248: 1228623564
-      Inside_A2_270: -590297851
-      Inside_A2_126: 2123331968
-      Inside_A2_162: 610243198
-      Inside_A2_209: -1097930814
-      Inside_A2_109: -1543457070
-      Inside_A2_1: -1640053248
-      Inside_A2_56: 748380770
-      Inside_A2_60: 1831827544
-      Inside_A2_138: -1569343210
-      Inside_A2_147: -586315807
-      Inside_A2_157: -1325146487
-      Inside_A2_261: 1075233845
-      Inside_A2_263: 1227615130
-      Inside_A2_177: -1830899327
-      Inside_A2_190: -1520823655
-      Inside_A2_40: -1063289320
-      Inside_A2_234: 1842601064
-      Inside_A2_152: -795173607
-      Inside_A2_178: 40507169
-      Inside_A2_61: 788513099
-      Inside_A2_18: -34892904
-      Inside_A2_236: -2089273159
-      Inside_A2_240: 1075002981
-      Inside_A2_51: -1950768525
-      Inside_A2_114: -639708758
-      Inside_A2_100: 754602281
-      Inside_A2_237: 999854288
-      Inside_A2_111: -1261410566
-      Inside_A2_242: -1653189144
-      Inside_A2_143: 14728710
-      Inside_A2_20: 1226568603
-      Inside_A2_28: 790386855
-      Inside_A2_116: 1944339964
-      Inside_A2_64: 770169079
-      Inside_A2_285: 609882991
-      Inside_A2_255: 198379633
-      Inside_A2_258: 463326724
       Inside_A2_0: 132781753
-      Inside_A2_142: -1564986618
-      Inside_A2_153: 1878896996
-      Inside_A2_91: 2083360898
-      Inside_A2_166: 1650651278
-      Inside_A2_77: -2051789637
-      Inside_A2_154: -162432337
-      Inside_A2_304: -1050649893
-      Inside_A2_206: 1460192548
-      Inside_A2_49: -1994325725
-      Inside_A2_129: -265317479
-      Inside_A2_23: -1244004923
-      Inside_A2_205: 304273248
-      Inside_A2_296: 2046116243
-      Inside_A2_43: -936299582
-      Inside_A2_124: 491611703
-      Inside_A2_268: -421125583
-      Inside_A2_291: -679726034
-      Inside_A2_144: -207358911
-      Inside_A2_55: 600790979
-      Inside_A2_146: 287805669
-      Inside_A2_5: -1101186183
-      Inside_A2_108: 1078961757
-      Inside_A2_87: -1730452688
-      Inside_A2_243: 1422270675
-      Inside_A2_286: -139449871
-      Inside_A2_295: 1053808618
-      Inside_A2_33: 1999776659
-      Inside_A2_120: -2097222742
-      Inside_A2_249: -28773808
-      Inside_A2_78: -344574600
-      Inside_A2_121: -948108664
-      Inside_A2_79: 2086661622
-      Inside_A2_277: -1868530319
-      Inside_A2_44: 131649642
-      Inside_A2_46: 1789655862
-      Inside_A2_81: -2139716105
-      Inside_A2_93: 1646267531
-      Inside_A2_211: 266266256
-      Inside_A2_297: 677432979
-      Inside_A2_207: -1412502236
-      Inside_A2_175: -1662934118
-      Inside_A2_29: -1048616041
-      Inside_A2_8: -946193712
-      Inside_A2_254: -1615254771
-      Inside_A2_39: -1852103578
-      Inside_A2_221: -894899617
-      Inside_A2_73: -1540153211
-      Inside_A2_7: 231663179
-      Inside_A2_41: 1339275778
-      Inside_A2_22: 1859920592
-      Inside_A2_145: -1187312531
-      Inside_A2_232: -1319775168
-      Inside_A2_180: -55169787
-      Inside_A2_187: 1746767544
-      Inside_A2_272: 1432344074
-      Inside_A2_293: 1073834374
-      Inside_A2_83: 1272909329
-      Inside_A2_31: 906351292
-      Inside_A2_165: -145065110
-      Inside_A2_45: 1350955838
-      Inside_A2_200: 2147175546
-      Inside_A2_252: -1607718239
-      Inside_A2_262: 1462883609
-      Inside_A2_225: -636619720
-      Inside_A2_65: -624981085
-      Inside_A2_62: 844874050
-      Inside_A2_278: 817093144
-      Inside_A2_273: 866967624
-      Inside_A2_32: 1051664821
-      Inside_A2_168: 868123693
-      Inside_A2_176: -226635510
-      Inside_A2_253: 1048546951
-      Inside_A2_259: -1699020363
-      Inside_A2_244: -467567746
-      Inside_A2_231: -1997156043
-      Inside_A2_282: -269932971
-      Inside_A2_115: -1518986933
-      Inside_A2_299: -375078383
-      Inside_A2_24: 940297361
-      Inside_A2_59: -875443909
-      Inside_A2_181: 27781768
-      Inside_A2_9: 2139408010
-      Inside_A2_132: 1410067749
-      Inside_A2_303: -638485954
-      Inside_A2_217: -1369570582
-      Inside_A2_233: -1154272606
-      Inside_A2_194: -1492555373
-      Inside_A2_279: 1707372377
-      Inside_A2_11: -1210459728
-      Inside_A2_288: 645587324
-      Inside_A2_160: -953268160
-      Inside_A2_229: -1924138299
-      Inside_A2_189: 1684914329
-      Inside_A2_90: -1701715295
-      Inside_A2_119: -1770868448
-      Inside_A2_158: -56889566
-      Inside_A2_150: 244878734
-      Inside_A2_149: 240326397
-      Inside_A2_171: -1377361555
-      Inside_A2_107: -454087331
-      Inside_A2_251: -937337807
-      Inside_A2_16: -2093698321
-      Inside_A2_26: 257341858
-      Inside_A2_69: -87229872
-      Inside_A2_275: 1550064876
-      Inside_A2_76: -826801788
-      Inside_A2_3: 808414811
-      Inside_A2_48: -654698681
-      Inside_A2_227: -1654914291
-      Inside_A2_269: 209693611
-      Inside_A2_42: 1239511138
-      Inside_A2_167: -1613264175
-      Inside_A2_101: 400963900
-      Inside_A2_137: -637021713
-      Inside_A2_213: -328767777
-      Inside_A2_95: 1833031576
-      Inside_A2_161: -328038651
-      Inside_A2_27: 492954097
-      Inside_A2_67: -230922971
-      Inside_A2_173: -235538353
-      Inside_A2_133: 2025368729
-      Inside_A2_35: -1423830264
-      Inside_A2_37: -1865633452
-      Inside_A2_112: 618632305
-      Inside_A2_276: -1311753690
-      Inside_A2_155: -1710794219
-      Inside_A2_239: 937874171
-      Inside_A2_47: 1559721786
-      Inside_A2_58: -1254747663
-      Inside_A2_113: -20448151
-      Inside_A2_14: 2072434379
-      Inside_A2_257: -567218383
+      Inside_A2_1: -1640053248
       Inside_A2_10: 197878987
-      Inside_A2_198: 1802559201
-      Inside_A2_202: 1265458246
-      Inside_A2_15: -1144637400
-      Inside_A2_220: 559463401
-      Inside_A2_280: -523842115
-      Inside_A2_159: -164281563
-      Inside_A2_186: 844946110
-      Inside_A2_103: -819989682
-      Inside_A2_21: -856748677
-      Inside_A2_238: 1351985357
-      Inside_A2_94: 1039823519
-      Inside_A2_92: -1511038759
-      Inside_A2_131: 2142198182
-      Inside_A2_216: -1354282327
-      Inside_A2_226: -208278415
-      Inside_A2_260: 1291472816
-      Inside_A2_12: -704031337
-      Inside_A2_68: 462128761
-      Inside_A2_99: 90034994
-      Inside_A2_118: 1115886123
-      Inside_A2_117: -2016435758
-      Inside_A2_292: 821134816
-      Inside_A2_38: 350383024
-      Inside_A2_57: 80688745
-      Inside_A2_4: -1906412870
-      Inside_A2_70: -950618048
-      Inside_A2_164: -649588457
-      Inside_A2_182: 710962394
-      Inside_A2_267: 1929739062
-      Inside_A2_127: 2044467635
-      Inside_A2_54: -591667705
-      Inside_A2_122: -1161730955
-      Inside_A2_86: 939576858
-      Inside_A2_6: 1957928197
-      Inside_A2_88: -724178561
-      Inside_A2_223: 979247758
-      Inside_A2_128: 812999451
-      Inside_A2_246: 1761471905
-      Inside_A2_264: -750426357
-      Inside_A2_104: 760897607
-      Inside_A2_169: 8222042
-      Inside_A2_191: 1297196562
-      Inside_A2_25: -1049946211
-      Inside_A2_72: -2087029329
-      Inside_A2_170: -112143448
-      Inside_A2_185: 899000137
-      Inside_A2_197: 1921820856
-      Inside_A2_2: -1522114425
-      Inside_A2_106: -1267291175
-      Inside_A2_302: 702621800
-      Inside_A2_203: -141770192
-      Inside_A2_274: -1860712886
-      Inside_A2_284: -1150780351
-      Inside_A2_305: -2054941768
-      Inside_A2_141: -1061843601
-      Inside_A2_174: -1704159718
-      Inside_A2_193: -956509777
-      Inside_A2_287: 220738454
-      Inside_A2_214: -1925202014
+      Inside_A2_100: 754602281
+      Inside_A2_101: 400963900
       Inside_A2_102: 1911500461
-      Inside_A2_71: 769637089
-      Inside_A2_271: 1203374634
-      Inside_A2_230: 435924270
-      Inside_A2_74: -205056341
-      Inside_A2_80: 1380841072
+      Inside_A2_103: -819989682
+      Inside_A2_104: 760897607
+      Inside_A2_105: -131331904
+      Inside_A2_106: -1267291175
+      Inside_A2_107: -454087331
+      Inside_A2_108: 1078961757
+      Inside_A2_109: -1543457070
+      Inside_A2_11: -1210459728
+      Inside_A2_110: 599659605
+      Inside_A2_111: -1261410566
+      Inside_A2_112: 618632305
+      Inside_A2_113: -20448151
+      Inside_A2_114: -639708758
+      Inside_A2_115: -1518986933
+      Inside_A2_116: 1944339964
+      Inside_A2_117: -2016435758
+      Inside_A2_118: 1115886123
+      Inside_A2_119: -1770868448
+      Inside_A2_12: -704031337
+      Inside_A2_120: -2097222742
+      Inside_A2_121: -948108664
+      Inside_A2_122: -1161730955
+      Inside_A2_123: 458418059
+      Inside_A2_124: 491611703
+      Inside_A2_125: -1195631339
+      Inside_A2_126: 2123331968
+      Inside_A2_127: 2044467635
+      Inside_A2_128: 812999451
+      Inside_A2_129: -265317479
+      Inside_A2_13: -1324039624
+      Inside_A2_130: -435842400
+      Inside_A2_131: 2142198182
+      Inside_A2_132: 1410067749
+      Inside_A2_133: 2025368729
+      Inside_A2_134: 187391508
+      Inside_A2_135: -1872567922
+      Inside_A2_136: 1267107505
+      Inside_A2_137: -637021713
+      Inside_A2_138: -1569343210
+      Inside_A2_139: 1913244964
+      Inside_A2_14: 2072434379
+      Inside_A2_140: -287868198
+      Inside_A2_141: -1061843601
+      Inside_A2_142: -1564986618
+      Inside_A2_143: 14728710
+      Inside_A2_144: -207358911
+      Inside_A2_145: -1187312531
+      Inside_A2_146: 287805669
+      Inside_A2_147: -586315807
+      Inside_A2_148: 1376936461
+      Inside_A2_149: 240326397
+      Inside_A2_15: -1144637400
+      Inside_A2_150: 244878734
+      Inside_A2_151: -1011553466
+      Inside_A2_152: -795173607
+      Inside_A2_153: 1878896996
+      Inside_A2_154: -162432337
+      Inside_A2_155: -1710794219
+      Inside_A2_156: 160628948
+      Inside_A2_157: -1325146487
+      Inside_A2_158: -56889566
+      Inside_A2_159: -164281563
+      Inside_A2_16: -2093698321
+      Inside_A2_160: -953268160
+      Inside_A2_161: -328038651
+      Inside_A2_162: 610243198
+      Inside_A2_163: -955350208
+      Inside_A2_164: -649588457
+      Inside_A2_165: -145065110
+      Inside_A2_166: 1650651278
+      Inside_A2_167: -1613264175
+      Inside_A2_168: 868123693
+      Inside_A2_169: 8222042
+      Inside_A2_17: -609265374
+      Inside_A2_170: -112143448
+      Inside_A2_171: -1377361555
+      Inside_A2_172: -1741791088
+      Inside_A2_173: -235538353
+      Inside_A2_174: -1704159718
+      Inside_A2_175: -1662934118
+      Inside_A2_176: -226635510
+      Inside_A2_177: -1830899327
+      Inside_A2_178: 40507169
+      Inside_A2_179: -976027568
+      Inside_A2_18: -34892904
+      Inside_A2_180: -55169787
+      Inside_A2_181: 27781768
+      Inside_A2_182: 710962394
+      Inside_A2_183: -463092862
+      Inside_A2_184: -1551811568
+      Inside_A2_185: 899000137
+      Inside_A2_186: 844946110
+      Inside_A2_187: 1746767544
+      Inside_A2_188: 1903334602
+      Inside_A2_189: 1684914329
+      Inside_A2_19: -1453396696
+      Inside_A2_190: -1520823655
+      Inside_A2_191: 1297196562
+      Inside_A2_192: 820899847
+      Inside_A2_193: -956509777
+      Inside_A2_194: -1492555373
+      Inside_A2_195: 1076556566
+      Inside_A2_196: -225744791
+      Inside_A2_197: 1921820856
+      Inside_A2_198: 1802559201
+      Inside_A2_199: 815939316
+      Inside_A2_2: -1522114425
+      Inside_A2_20: 1226568603
+      Inside_A2_200: 2147175546
+      Inside_A2_201: -216829605
+      Inside_A2_202: 1265458246
+      Inside_A2_203: -141770192
+      Inside_A2_204: -1243029290
+      Inside_A2_205: 304273248
+      Inside_A2_206: 1460192548
+      Inside_A2_207: -1412502236
+      Inside_A2_208: -791448483
+      Inside_A2_209: -1097930814
+      Inside_A2_21: -856748677
       Inside_A2_210: -1721514225
+      Inside_A2_211: 266266256
+      Inside_A2_212: -1795503435
+      Inside_A2_213: -328767777
+      Inside_A2_214: -1925202014
+      Inside_A2_215: -1338969743
+      Inside_A2_216: -1354282327
+      Inside_A2_217: -1369570582
+      Inside_A2_218: 1604688106
+      Inside_A2_219: 974906798
+      Inside_A2_22: 1859920592
+      Inside_A2_220: 559463401
+      Inside_A2_221: -894899617
+      Inside_A2_222: 1818464244
+      Inside_A2_223: 979247758
+      Inside_A2_224: 1589832797
+      Inside_A2_225: -636619720
+      Inside_A2_226: -208278415
+      Inside_A2_227: -1654914291
+      Inside_A2_228: 1092348908
+      Inside_A2_229: -1924138299
+      Inside_A2_23: -1244004923
+      Inside_A2_230: 435924270
+      Inside_A2_231: -1997156043
+      Inside_A2_232: -1319775168
+      Inside_A2_233: -1154272606
+      Inside_A2_234: 1842601064
+      Inside_A2_235: -1349096156
+      Inside_A2_236: -2089273159
+      Inside_A2_237: 999854288
+      Inside_A2_238: 1351985357
+      Inside_A2_239: 937874171
+      Inside_A2_24: 940297361
+      Inside_A2_240: 1075002981
+      Inside_A2_241: 2092093872
+      Inside_A2_242: -1653189144
+      Inside_A2_243: 1422270675
+      Inside_A2_244: -467567746
+      Inside_A2_245: 1862910151
+      Inside_A2_246: 1761471905
+      Inside_A2_247: 1846189142
+      Inside_A2_248: 1228623564
+      Inside_A2_249: -28773808
+      Inside_A2_25: -1049946211
+      Inside_A2_250: 1696960877
+      Inside_A2_251: -937337807
+      Inside_A2_252: -1607718239
+      Inside_A2_253: 1048546951
+      Inside_A2_254: -1615254771
+      Inside_A2_255: 198379633
+      Inside_A2_256: -1985338323
+      Inside_A2_257: -567218383
+      Inside_A2_258: 463326724
+      Inside_A2_259: -1699020363
+      Inside_A2_26: 257341858
+      Inside_A2_260: 1291472816
+      Inside_A2_261: 1075233845
+      Inside_A2_262: 1462883609
+      Inside_A2_263: 1227615130
+      Inside_A2_264: -750426357
+      Inside_A2_265: -2129404517
+      Inside_A2_266: -600911302
+      Inside_A2_267: 1929739062
+      Inside_A2_268: -421125583
+      Inside_A2_269: 209693611
+      Inside_A2_27: 492954097
+      Inside_A2_270: -590297851
+      Inside_A2_271: 1203374634
+      Inside_A2_272: 1432344074
+      Inside_A2_273: 866967624
+      Inside_A2_274: -1860712886
+      Inside_A2_275: 1550064876
+      Inside_A2_276: -1311753690
+      Inside_A2_277: -1868530319
+      Inside_A2_278: 817093144
+      Inside_A2_279: 1707372377
+      Inside_A2_28: 790386855
+      Inside_A2_280: -523842115
+      Inside_A2_281: 150271904
+      Inside_A2_282: -269932971
+      Inside_A2_283: 1571503911
+      Inside_A2_284: -1150780351
+      Inside_A2_285: 609882991
+      Inside_A2_286: -139449871
+      Inside_A2_287: 220738454
+      Inside_A2_288: 645587324
+      Inside_A2_289: -1222618868
+      Inside_A2_29: -1048616041
+      Inside_A2_290: -1549246652
+      Inside_A2_291: -679726034
+      Inside_A2_292: 821134816
+      Inside_A2_293: 1073834374
+      Inside_A2_294: -230424898
+      Inside_A2_295: 1053808618
+      Inside_A2_296: 2046116243
+      Inside_A2_297: 677432979
+      Inside_A2_298: 2083510302
+      Inside_A2_299: -375078383
+      Inside_A2_3: 808414811
+      Inside_A2_30: 1676207540
+      Inside_A2_300: -1808841537
+      Inside_A2_301: 1695076445
+      Inside_A2_302: 702621800
+      Inside_A2_303: -638485954
+      Inside_A2_304: -1050649893
+      Inside_A2_305: -2054941768
+      Inside_A2_31: 906351292
+      Inside_A2_32: 1051664821
+      Inside_A2_33: 1999776659
+      Inside_A2_34: -1932200590
+      Inside_A2_35: -1423830264
+      Inside_A2_36: -305856516
+      Inside_A2_37: -1865633452
+      Inside_A2_38: 350383024
+      Inside_A2_39: -1852103578
+      Inside_A2_4: -1906412870
+      Inside_A2_40: -1063289320
+      Inside_A2_41: 1339275778
+      Inside_A2_42: 1239511138
+      Inside_A2_43: -936299582
+      Inside_A2_44: 131649642
+      Inside_A2_45: 1350955838
+      Inside_A2_46: 1789655862
+      Inside_A2_47: 1559721786
+      Inside_A2_48: -654698681
+      Inside_A2_49: -1994325725
+      Inside_A2_5: -1101186183
+      Inside_A2_50: 2039870431
+      Inside_A2_51: -1950768525
+      Inside_A2_52: -1434204525
+      Inside_A2_53: -931796438
+      Inside_A2_54: -591667705
+      Inside_A2_55: 600790979
+      Inside_A2_56: 748380770
+      Inside_A2_57: 80688745
+      Inside_A2_58: -1254747663
+      Inside_A2_59: -875443909
+      Inside_A2_6: 1957928197
+      Inside_A2_60: 1831827544
+      Inside_A2_61: 788513099
+      Inside_A2_62: 844874050
+      Inside_A2_63: -604469686
+      Inside_A2_64: 770169079
+      Inside_A2_65: -624981085
+      Inside_A2_66: 1902877019
+      Inside_A2_67: -230922971
+      Inside_A2_68: 462128761
+      Inside_A2_69: -87229872
+      Inside_A2_7: 231663179
+      Inside_A2_70: -950618048
+      Inside_A2_71: 769637089
+      Inside_A2_72: -2087029329
+      Inside_A2_73: -1540153211
+      Inside_A2_74: -205056341
+      Inside_A2_75: -184578562
+      Inside_A2_76: -826801788
+      Inside_A2_77: -2051789637
+      Inside_A2_78: -344574600
+      Inside_A2_79: 2086661622
+      Inside_A2_8: -946193712
+      Inside_A2_80: 1380841072
+      Inside_A2_81: -2139716105
+      Inside_A2_82: -1497086781
+      Inside_A2_83: 1272909329
+      Inside_A2_84: 190242135
+      Inside_A2_85: -1633183401
+      Inside_A2_86: 939576858
+      Inside_A2_87: -1730452688
+      Inside_A2_88: -724178561
       Inside_A2_89: -736158523
-  spritePackingTag: 
+      Inside_A2_9: 2139408010
+      Inside_A2_90: -1701715295
+      Inside_A2_91: 2083360898
+      Inside_A2_92: -1511038759
+      Inside_A2_93: 1646267531
+      Inside_A2_94: 1039823519
+      Inside_A2_95: 1833031576
+      Inside_A2_96: 1808694244
+      Inside_A2_97: 1704315895
+      Inside_A2_98: -520618964
+      Inside_A2_99: 90034994
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

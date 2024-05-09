@@ -3,7 +3,7 @@ guid: 613d2b22f4bb23a45b312f975115bc97
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -20,11 +20,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -47,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 48
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -63,6 +64,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -74,6 +77,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -86,6 +90,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -98,6 +103,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -110,6 +116,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -122,6 +129,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -5514,265 +5522,264 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Inside_C_25: 685268827
-      Inside_C_154: 1604051409
-      Inside_C_161: -934782127
-      Inside_C_221: -202029921
-      Inside_C_177: -1236527209
-      Inside_C_34: -996358537
-      Inside_C_152: 421598857
-      Inside_C_204: 1387067747
-      Inside_C_77: -1052325681
-      Inside_C_13: -251122929
-      Inside_C_30: 1133948035
-      Inside_C_76: -1503142878
-      Inside_C_46: 677067847
-      Inside_C_23: -1582222066
-      Inside_C_5: -1714533881
-      Inside_C_202: -2094967742
-      Inside_C_142: -1426804948
-      Inside_C_239: 311866725
-      Inside_C_104: -12467177
-      Inside_C_126: -1067406100
-      Inside_C_198: 2079292209
-      Inside_C_101: 1088338925
-      Inside_C_68: -1986322377
-      Inside_C_203: -1192779932
-      Inside_C_206: 152122956
-      Inside_C_143: 1449226126
-      Inside_C_50: 3426402
-      Inside_C_122: 974927394
-      Inside_C_193: 513696469
-      Inside_C_131: -1374232505
-      Inside_C_112: 246140710
-      Inside_C_52: 1458291081
-      Inside_C_205: -1935741444
-      Inside_C_238: -1735292214
-      Inside_C_253: 60217228
-      Inside_C_244: -35496858
-      Inside_C_91: 298916040
-      Inside_C_75: 90483343
-      Inside_C_47: 401713370
-      Inside_C_157: -431419444
-      Inside_C_169: -1644149302
-      Inside_C_242: 1974438806
-      Inside_C_224: -590393623
-      Inside_C_166: 1349843990
-      Inside_C_120: -1189899343
-      Inside_C_167: 692136050
-      Inside_C_38: -1047489678
-      Inside_C_102: 226076452
-      Inside_C_138: 2033931873
-      Inside_C_228: -2050633099
-      Inside_C_136: 694018862
-      Inside_C_123: 1938730321
-      Inside_C_118: -1443146843
-      Inside_C_115: -1480353271
-      Inside_C_171: 1112160638
-      Inside_C_119: 821307567
-      Inside_C_196: -394590060
-      Inside_C_132: -1009511395
-      Inside_C_172: -264732423
-      Inside_C_200: 1006748911
-      Inside_C_234: 805857742
-      Inside_C_10: 1903287567
-      Inside_C_111: -118062698
-      Inside_C_181: -1594223322
-      Inside_C_83: 38215645
-      Inside_C_9: -897914192
-      Inside_C_194: -1039922959
-      Inside_C_59: -112311000
-      Inside_C_254: 2086452575
-      Inside_C_246: 544939794
-      Inside_C_209: 1337595729
-      Inside_C_164: 496245415
-      Inside_C_125: -840129765
-      Inside_C_151: 1242984908
-      Inside_C_124: 1104011685
-      Inside_C_2: 2031744362
-      Inside_C_213: 1362561133
-      Inside_C_251: 747216428
-      Inside_C_74: -682716060
-      Inside_C_128: 176169276
-      Inside_C_137: -1199864371
-      Inside_C_147: -209792712
-      Inside_C_237: -2115335900
-      Inside_C_4: -772966668
-      Inside_C_252: 669008631
-      Inside_C_70: -22847873
-      Inside_C_99: -266408648
-      Inside_C_93: 1108683771
-      Inside_C_67: 715888932
-      Inside_C_95: 580040501
-      Inside_C_80: 551175559
-      Inside_C_53: 927860056
-      Inside_C_27: -1980733289
-      Inside_C_219: 992726200
-      Inside_C_14: 270479663
-      Inside_C_162: 902789992
-      Inside_C_230: -1460925360
-      Inside_C_97: 140596343
-      Inside_C_31: 1991327684
-      Inside_C_155: 1231859531
-      Inside_C_223: 636820547
-      Inside_C_41: 868566991
-      Inside_C_65: 393684927
-      Inside_C_21: 777057039
-      Inside_C_92: -1854265659
-      Inside_C_182: -1913936410
-      Inside_C_89: -1114646617
-      Inside_C_22: 430862052
-      Inside_C_208: -818357623
-      Inside_C_207: 1116933406
-      Inside_C_1: -1594773912
-      Inside_C_73: 1776524439
-      Inside_C_113: -501919861
-      Inside_C_56: -1295167687
-      Inside_C_103: -502930174
-      Inside_C_16: -685749817
-      Inside_C_87: -1723532299
-      Inside_C_12: -1143892718
-      Inside_C_63: -1242682805
-      Inside_C_185: 569154189
-      Inside_C_18: -40688517
-      Inside_C_85: 1218493096
-      Inside_C_135: -829596692
-      Inside_C_201: 985467144
-      Inside_C_144: 910361004
-      Inside_C_211: 1727005662
-      Inside_C_57: 1768061999
-      Inside_C_33: 799782860
-      Inside_C_45: 44130162
-      Inside_C_110: -719977472
-      Inside_C_109: -529242447
-      Inside_C_117: 1154087165
-      Inside_C_222: 1133696806
-      Inside_C_29: -1435261062
-      Inside_C_19: 1730535840
-      Inside_C_105: 992174939
-      Inside_C_149: -301805766
-      Inside_C_159: 1871403733
-      Inside_C_233: 958842647
-      Inside_C_199: -1040518463
-      Inside_C_170: 1533613566
-      Inside_C_6: 2070488875
-      Inside_C_64: -1102386216
-      Inside_C_179: 1418236863
-      Inside_C_15: -797368406
-      Inside_C_176: 451702263
-      Inside_C_78: 1595944110
-      Inside_C_187: -207200049
-      Inside_C_24: -108368579
-      Inside_C_61: 597244947
-      Inside_C_79: -1271531671
-      Inside_C_197: -1736091775
-      Inside_C_133: -580716381
-      Inside_C_60: 98423592
-      Inside_C_226: -1317337513
-      Inside_C_210: -1708401770
-      Inside_C_84: 1841230105
-      Inside_C_28: -295790167
-      Inside_C_192: -1811801394
-      Inside_C_88: -298019891
-      Inside_C_108: -1905075228
-      Inside_C_191: -1082701264
-      Inside_C_153: -1522436483
-      Inside_C_247: -2129437911
-      Inside_C_175: 203632593
-      Inside_C_173: -479687470
-      Inside_C_36: -1874028482
-      Inside_C_168: 1645930721
       Inside_C_0: 1160669472
-      Inside_C_39: -1279107100
-      Inside_C_145: 800210468
-      Inside_C_225: -1532789433
-      Inside_C_217: 490144940
-      Inside_C_114: -616031265
-      Inside_C_218: 671635890
-      Inside_C_178: -24120296
-      Inside_C_127: -119775499
-      Inside_C_26: 884681854
-      Inside_C_43: 1530538879
-      Inside_C_148: 1018539661
-      Inside_C_229: 1503694040
-      Inside_C_216: 203633514
-      Inside_C_71: -1913018197
-      Inside_C_116: 1479048941
-      Inside_C_150: -2093918071
-      Inside_C_243: -37929876
-      Inside_C_231: 1152030928
-      Inside_C_86: -1517591648
-      Inside_C_227: -435129787
-      Inside_C_249: 2128925344
-      Inside_C_129: 2014202300
-      Inside_C_240: -105455681
-      Inside_C_140: -1335437591
-      Inside_C_55: 2024364819
-      Inside_C_11: -1535614233
-      Inside_C_255: -1963929854
-      Inside_C_3: 1785757004
-      Inside_C_69: 868737455
-      Inside_C_44: 107796061
-      Inside_C_158: -834838713
-      Inside_C_54: -1212071631
-      Inside_C_184: 2132555612
-      Inside_C_62: 1754022765
-      Inside_C_165: -1549321688
-      Inside_C_189: 1284881765
-      Inside_C_214: 95427117
-      Inside_C_250: 1490266521
+      Inside_C_1: -1594773912
+      Inside_C_10: 1903287567
       Inside_C_100: 85946658
-      Inside_C_163: 108531252
-      Inside_C_190: 1139943247
-      Inside_C_8: -1801793907
-      Inside_C_66: 293326730
-      Inside_C_20: 678260717
-      Inside_C_174: -761424063
-      Inside_C_130: -575864633
-      Inside_C_7: 1607047439
-      Inside_C_232: 1587750572
-      Inside_C_195: -319868230
-      Inside_C_40: -1303096646
-      Inside_C_48: 425062232
-      Inside_C_160: 1508782946
-      Inside_C_241: -1860577724
-      Inside_C_220: 461487805
-      Inside_C_94: 1246549100
-      Inside_C_58: -2017131400
-      Inside_C_212: -1253980823
-      Inside_C_37: 654447792
+      Inside_C_101: 1088338925
+      Inside_C_102: 226076452
+      Inside_C_103: -502930174
+      Inside_C_104: -12467177
+      Inside_C_105: 992174939
       Inside_C_106: 137926996
-      Inside_C_146: 35878696
-      Inside_C_188: -1046330962
-      Inside_C_235: 688267891
-      Inside_C_42: -1064767027
-      Inside_C_215: 1236374794
-      Inside_C_98: 618611308
-      Inside_C_35: 1147155715
-      Inside_C_72: -899872747
-      Inside_C_139: -2000435925
-      Inside_C_49: 1505727579
-      Inside_C_32: -83069243
-      Inside_C_82: -132516489
-      Inside_C_17: 1019702995
-      Inside_C_180: -482289781
-      Inside_C_81: 1008370916
-      Inside_C_245: -1007344795
-      Inside_C_141: 1785156107
-      Inside_C_90: -1124213835
-      Inside_C_134: -1928495718
-      Inside_C_51: 750638081
-      Inside_C_156: 2008895688
-      Inside_C_236: -1650437001
-      Inside_C_183: -416739175
-      Inside_C_96: 1719864314
       Inside_C_107: 1675349751
-      Inside_C_248: 2030744938
-      Inside_C_186: -269051262
+      Inside_C_108: -1905075228
+      Inside_C_109: -529242447
+      Inside_C_11: -1535614233
+      Inside_C_110: -719977472
+      Inside_C_111: -118062698
+      Inside_C_112: 246140710
+      Inside_C_113: -501919861
+      Inside_C_114: -616031265
+      Inside_C_115: -1480353271
+      Inside_C_116: 1479048941
+      Inside_C_117: 1154087165
+      Inside_C_118: -1443146843
+      Inside_C_119: 821307567
+      Inside_C_12: -1143892718
+      Inside_C_120: -1189899343
       Inside_C_121: 229244226
-  spritePackingTag: 
+      Inside_C_122: 974927394
+      Inside_C_123: 1938730321
+      Inside_C_124: 1104011685
+      Inside_C_125: -840129765
+      Inside_C_126: -1067406100
+      Inside_C_127: -119775499
+      Inside_C_128: 176169276
+      Inside_C_129: 2014202300
+      Inside_C_13: -251122929
+      Inside_C_130: -575864633
+      Inside_C_131: -1374232505
+      Inside_C_132: -1009511395
+      Inside_C_133: -580716381
+      Inside_C_134: -1928495718
+      Inside_C_135: -829596692
+      Inside_C_136: 694018862
+      Inside_C_137: -1199864371
+      Inside_C_138: 2033931873
+      Inside_C_139: -2000435925
+      Inside_C_14: 270479663
+      Inside_C_140: -1335437591
+      Inside_C_141: 1785156107
+      Inside_C_142: -1426804948
+      Inside_C_143: 1449226126
+      Inside_C_144: 910361004
+      Inside_C_145: 800210468
+      Inside_C_146: 35878696
+      Inside_C_147: -209792712
+      Inside_C_148: 1018539661
+      Inside_C_149: -301805766
+      Inside_C_15: -797368406
+      Inside_C_150: -2093918071
+      Inside_C_151: 1242984908
+      Inside_C_152: 421598857
+      Inside_C_153: -1522436483
+      Inside_C_154: 1604051409
+      Inside_C_155: 1231859531
+      Inside_C_156: 2008895688
+      Inside_C_157: -431419444
+      Inside_C_158: -834838713
+      Inside_C_159: 1871403733
+      Inside_C_16: -685749817
+      Inside_C_160: 1508782946
+      Inside_C_161: -934782127
+      Inside_C_162: 902789992
+      Inside_C_163: 108531252
+      Inside_C_164: 496245415
+      Inside_C_165: -1549321688
+      Inside_C_166: 1349843990
+      Inside_C_167: 692136050
+      Inside_C_168: 1645930721
+      Inside_C_169: -1644149302
+      Inside_C_17: 1019702995
+      Inside_C_170: 1533613566
+      Inside_C_171: 1112160638
+      Inside_C_172: -264732423
+      Inside_C_173: -479687470
+      Inside_C_174: -761424063
+      Inside_C_175: 203632593
+      Inside_C_176: 451702263
+      Inside_C_177: -1236527209
+      Inside_C_178: -24120296
+      Inside_C_179: 1418236863
+      Inside_C_18: -40688517
+      Inside_C_180: -482289781
+      Inside_C_181: -1594223322
+      Inside_C_182: -1913936410
+      Inside_C_183: -416739175
+      Inside_C_184: 2132555612
+      Inside_C_185: 569154189
+      Inside_C_186: -269051262
+      Inside_C_187: -207200049
+      Inside_C_188: -1046330962
+      Inside_C_189: 1284881765
+      Inside_C_19: 1730535840
+      Inside_C_190: 1139943247
+      Inside_C_191: -1082701264
+      Inside_C_192: -1811801394
+      Inside_C_193: 513696469
+      Inside_C_194: -1039922959
+      Inside_C_195: -319868230
+      Inside_C_196: -394590060
+      Inside_C_197: -1736091775
+      Inside_C_198: 2079292209
+      Inside_C_199: -1040518463
+      Inside_C_2: 2031744362
+      Inside_C_20: 678260717
+      Inside_C_200: 1006748911
+      Inside_C_201: 985467144
+      Inside_C_202: -2094967742
+      Inside_C_203: -1192779932
+      Inside_C_204: 1387067747
+      Inside_C_205: -1935741444
+      Inside_C_206: 152122956
+      Inside_C_207: 1116933406
+      Inside_C_208: -818357623
+      Inside_C_209: 1337595729
+      Inside_C_21: 777057039
+      Inside_C_210: -1708401770
+      Inside_C_211: 1727005662
+      Inside_C_212: -1253980823
+      Inside_C_213: 1362561133
+      Inside_C_214: 95427117
+      Inside_C_215: 1236374794
+      Inside_C_216: 203633514
+      Inside_C_217: 490144940
+      Inside_C_218: 671635890
+      Inside_C_219: 992726200
+      Inside_C_22: 430862052
+      Inside_C_220: 461487805
+      Inside_C_221: -202029921
+      Inside_C_222: 1133696806
+      Inside_C_223: 636820547
+      Inside_C_224: -590393623
+      Inside_C_225: -1532789433
+      Inside_C_226: -1317337513
+      Inside_C_227: -435129787
+      Inside_C_228: -2050633099
+      Inside_C_229: 1503694040
+      Inside_C_23: -1582222066
+      Inside_C_230: -1460925360
+      Inside_C_231: 1152030928
+      Inside_C_232: 1587750572
+      Inside_C_233: 958842647
+      Inside_C_234: 805857742
+      Inside_C_235: 688267891
+      Inside_C_236: -1650437001
+      Inside_C_237: -2115335900
+      Inside_C_238: -1735292214
+      Inside_C_239: 311866725
+      Inside_C_24: -108368579
+      Inside_C_240: -105455681
+      Inside_C_241: -1860577724
+      Inside_C_242: 1974438806
+      Inside_C_243: -37929876
+      Inside_C_244: -35496858
+      Inside_C_245: -1007344795
+      Inside_C_246: 544939794
+      Inside_C_247: -2129437911
+      Inside_C_248: 2030744938
+      Inside_C_249: 2128925344
+      Inside_C_25: 685268827
+      Inside_C_250: 1490266521
+      Inside_C_251: 747216428
+      Inside_C_252: 669008631
+      Inside_C_253: 60217228
+      Inside_C_254: 2086452575
+      Inside_C_255: -1963929854
+      Inside_C_26: 884681854
+      Inside_C_27: -1980733289
+      Inside_C_28: -295790167
+      Inside_C_29: -1435261062
+      Inside_C_3: 1785757004
+      Inside_C_30: 1133948035
+      Inside_C_31: 1991327684
+      Inside_C_32: -83069243
+      Inside_C_33: 799782860
+      Inside_C_34: -996358537
+      Inside_C_35: 1147155715
+      Inside_C_36: -1874028482
+      Inside_C_37: 654447792
+      Inside_C_38: -1047489678
+      Inside_C_39: -1279107100
+      Inside_C_4: -772966668
+      Inside_C_40: -1303096646
+      Inside_C_41: 868566991
+      Inside_C_42: -1064767027
+      Inside_C_43: 1530538879
+      Inside_C_44: 107796061
+      Inside_C_45: 44130162
+      Inside_C_46: 677067847
+      Inside_C_47: 401713370
+      Inside_C_48: 425062232
+      Inside_C_49: 1505727579
+      Inside_C_5: -1714533881
+      Inside_C_50: 3426402
+      Inside_C_51: 750638081
+      Inside_C_52: 1458291081
+      Inside_C_53: 927860056
+      Inside_C_54: -1212071631
+      Inside_C_55: 2024364819
+      Inside_C_56: -1295167687
+      Inside_C_57: 1768061999
+      Inside_C_58: -2017131400
+      Inside_C_59: -112311000
+      Inside_C_6: 2070488875
+      Inside_C_60: 98423592
+      Inside_C_61: 597244947
+      Inside_C_62: 1754022765
+      Inside_C_63: -1242682805
+      Inside_C_64: -1102386216
+      Inside_C_65: 393684927
+      Inside_C_66: 293326730
+      Inside_C_67: 715888932
+      Inside_C_68: -1986322377
+      Inside_C_69: 868737455
+      Inside_C_7: 1607047439
+      Inside_C_70: -22847873
+      Inside_C_71: -1913018197
+      Inside_C_72: -899872747
+      Inside_C_73: 1776524439
+      Inside_C_74: -682716060
+      Inside_C_75: 90483343
+      Inside_C_76: -1503142878
+      Inside_C_77: -1052325681
+      Inside_C_78: 1595944110
+      Inside_C_79: -1271531671
+      Inside_C_8: -1801793907
+      Inside_C_80: 551175559
+      Inside_C_81: 1008370916
+      Inside_C_82: -132516489
+      Inside_C_83: 38215645
+      Inside_C_84: 1841230105
+      Inside_C_85: 1218493096
+      Inside_C_86: -1517591648
+      Inside_C_87: -1723532299
+      Inside_C_88: -298019891
+      Inside_C_89: -1114646617
+      Inside_C_9: -897914192
+      Inside_C_90: -1124213835
+      Inside_C_91: 298916040
+      Inside_C_92: -1854265659
+      Inside_C_93: 1108683771
+      Inside_C_94: 1246549100
+      Inside_C_95: 580040501
+      Inside_C_96: 1719864314
+      Inside_C_97: 140596343
+      Inside_C_98: 618611308
+      Inside_C_99: -266408648
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

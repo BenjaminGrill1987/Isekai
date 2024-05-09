@@ -3,7 +3,7 @@ guid: 02247944ce8a7a64f8fc75608faf90b8
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -20,11 +20,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -47,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 48
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -63,6 +64,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -74,6 +77,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -86,6 +90,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -98,6 +103,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -110,6 +116,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -122,6 +129,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -5493,264 +5501,263 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Inside_B_221: -284145164
-      Inside_B_227: -1579331034
-      Inside_B_28: 1558534000
-      Inside_B_224: -279238698
-      Inside_B_21: -304016435
-      Inside_B_150: -1751578924
-      Inside_B_200: -745360775
-      Inside_B_93: -1763706552
-      Inside_B_210: 1952503657
-      Inside_B_205: -58218298
-      Inside_B_167: -591258358
-      Inside_B_17: 463224035
-      Inside_B_26: -296371489
-      Inside_B_70: -2089098386
-      Inside_B_149: 1784846808
-      Inside_B_236: -180299748
-      Inside_B_185: 641498541
-      Inside_B_18: -1421877336
-      Inside_B_130: -1572369150
-      Inside_B_50: 71452563
-      Inside_B_109: -925854182
-      Inside_B_132: -524447520
-      Inside_B_76: 837489362
-      Inside_B_57: -1250698976
-      Inside_B_101: -1116505757
       Inside_B_0: -1211599502
-      Inside_B_13: -459527219
-      Inside_B_134: -587979762
-      Inside_B_213: 1396997665
-      Inside_B_73: -891796241
-      Inside_B_228: -1351192564
-      Inside_B_160: 860849862
-      Inside_B_56: -1162228823
-      Inside_B_229: 1398585966
-      Inside_B_8: -197801816
-      Inside_B_5: 1276264556
-      Inside_B_104: 1619522638
-      Inside_B_91: -1239616821
-      Inside_B_195: -1561240770
-      Inside_B_33: 1059672877
-      Inside_B_9: 1052798703
-      Inside_B_22: 1312795229
-      Inside_B_36: -365857124
-      Inside_B_225: 1836289890
-      Inside_B_39: 1812506043
-      Inside_B_183: -1463620801
-      Inside_B_219: 1432098949
-      Inside_B_143: -2054198370
-      Inside_B_79: -1192177640
-      Inside_B_111: 1564305188
-      Inside_B_83: -1943221771
-      Inside_B_49: -952615612
-      Inside_B_97: -1967109624
-      Inside_B_125: 126589243
-      Inside_B_208: -1873812963
-      Inside_B_64: 6491356
-      Inside_B_69: -1623594208
-      Inside_B_193: -1705324096
-      Inside_B_154: -1687634689
-      Inside_B_179: -1090313221
-      Inside_B_242: -173233213
-      Inside_B_46: 547524531
-      Inside_B_44: -968781367
-      Inside_B_182: 1689199081
-      Inside_B_90: -2090646007
-      Inside_B_54: -1341646861
-      Inside_B_207: 932459529
-      Inside_B_226: 859707336
-      Inside_B_45: 1969346853
-      Inside_B_119: 656508343
-      Inside_B_140: -564032248
-      Inside_B_78: -482789697
-      Inside_B_168: 205387556
-      Inside_B_201: 408258343
-      Inside_B_163: -680159662
-      Inside_B_3: 453612295
-      Inside_B_233: 201699633
-      Inside_B_53: -1083398944
-      Inside_B_177: 1083816839
-      Inside_B_47: -355619200
-      Inside_B_133: -450295896
-      Inside_B_166: -283539176
-      Inside_B_15: -77295513
-      Inside_B_196: 801015374
-      Inside_B_4: -2124886765
-      Inside_B_60: 150792117
-      Inside_B_131: 1074964571
-      Inside_B_62: 2103326388
-      Inside_B_232: 2078377203
-      Inside_B_65: -806422187
-      Inside_B_162: 1734767807
-      Inside_B_153: 1286704522
-      Inside_B_173: -1991523143
-      Inside_B_250: -2106384408
-      Inside_B_16: 1910461416
-      Inside_B_63: 296771109
-      Inside_B_216: 102652091
-      Inside_B_86: -2015334425
-      Inside_B_129: 1081549206
       Inside_B_1: -2070748539
-      Inside_B_158: 35108181
-      Inside_B_145: -2059876276
-      Inside_B_43: 1957643587
-      Inside_B_112: 324638198
-      Inside_B_175: -1929060121
-      Inside_B_87: 930257376
-      Inside_B_174: -504280567
-      Inside_B_235: -1162922880
-      Inside_B_120: 1412550549
-      Inside_B_123: -1255411058
-      Inside_B_212: 814300077
-      Inside_B_95: -521370797
-      Inside_B_230: -1383193510
-      Inside_B_244: 1986749112
-      Inside_B_19: -922892320
-      Inside_B_110: -33799099
-      Inside_B_7: -971149184
-      Inside_B_126: -10296340
-      Inside_B_32: 1683457535
-      Inside_B_159: -2095139033
-      Inside_B_211: -1864258185
-      Inside_B_25: -77761855
-      Inside_B_34: 1486645968
-      Inside_B_184: -1651650723
-      Inside_B_105: -976051559
-      Inside_B_96: -1901183905
-      Inside_B_239: 1969304823
-      Inside_B_194: 2038371133
-      Inside_B_72: -1533342968
-      Inside_B_38: -493536404
-      Inside_B_71: 150800487
-      Inside_B_223: -1692216004
-      Inside_B_138: -1081464311
-      Inside_B_124: 1876669003
-      Inside_B_249: 975746269
-      Inside_B_231: -313819632
       Inside_B_10: -2047959095
-      Inside_B_37: -383310851
-      Inside_B_165: 945406079
-      Inside_B_113: -1758562226
-      Inside_B_29: -1442896851
-      Inside_B_178: -993414473
-      Inside_B_234: 828368867
-      Inside_B_246: 1190770753
-      Inside_B_82: 1860151103
-      Inside_B_192: -1439622808
-      Inside_B_107: 1334733085
-      Inside_B_188: -1444282454
-      Inside_B_6: 614982736
-      Inside_B_14: 1523574195
-      Inside_B_103: -2118317970
-      Inside_B_55: 897330799
-      Inside_B_238: -1974335808
-      Inside_B_68: 1750156859
-      Inside_B_169: -571998629
-      Inside_B_148: 1452234989
-      Inside_B_237: 1373647234
-      Inside_B_48: -995611018
-      Inside_B_80: 918752805
-      Inside_B_122: -718899084
-      Inside_B_243: -2018649186
-      Inside_B_218: 1800916007
-      Inside_B_161: 1785362492
-      Inside_B_198: 633092964
-      Inside_B_144: 126839673
-      Inside_B_116: 593172161
-      Inside_B_23: 1539648763
-      Inside_B_99: 1156097492
-      Inside_B_108: 567059325
-      Inside_B_106: -134053558
-      Inside_B_240: -471144605
-      Inside_B_52: -400738386
-      Inside_B_20: -1954786975
-      Inside_B_31: 1548434361
-      Inside_B_85: -2027374905
-      Inside_B_98: -512584901
-      Inside_B_89: 1047422718
-      Inside_B_147: 1195107681
-      Inside_B_206: -794754753
-      Inside_B_12: 1503647033
-      Inside_B_141: -2118709741
-      Inside_B_84: -1250157036
-      Inside_B_209: -1831990983
-      Inside_B_247: 1702571750
-      Inside_B_176: -929182863
-      Inside_B_2: 1238091912
-      Inside_B_58: 1059297595
-      Inside_B_114: 1394406542
-      Inside_B_135: 1071540568
-      Inside_B_251: 1815826496
-      Inside_B_136: 271434014
-      Inside_B_92: 870109223
-      Inside_B_11: -161793527
-      Inside_B_74: -1084554676
-      Inside_B_254: 1177534686
-      Inside_B_137: -1332603073
-      Inside_B_204: -733994991
-      Inside_B_248: -437899052
-      Inside_B_67: -118142900
-      Inside_B_94: 1755511980
-      Inside_B_181: -1225366263
-      Inside_B_203: 641738431
-      Inside_B_155: 748896899
-      Inside_B_88: 1067560498
-      Inside_B_40: 1843500685
-      Inside_B_152: -2093705602
-      Inside_B_75: -744624495
-      Inside_B_197: 1042551150
-      Inside_B_170: 1773675061
-      Inside_B_241: -1596043365
-      Inside_B_186: -902173628
-      Inside_B_77: -1900099496
-      Inside_B_202: 683176795
-      Inside_B_217: -854139144
-      Inside_B_41: 807729166
-      Inside_B_51: 1028197752
-      Inside_B_220: -1395519975
-      Inside_B_66: -1672400945
-      Inside_B_157: -736067866
-      Inside_B_156: -636218203
-      Inside_B_191: -1740777593
-      Inside_B_142: 1440133771
-      Inside_B_27: -1411986062
-      Inside_B_199: -1932536421
-      Inside_B_115: 55637226
-      Inside_B_215: 1921622145
-      Inside_B_127: -2087138197
-      Inside_B_35: 682571332
-      Inside_B_121: 1393039146
-      Inside_B_128: -233503883
-      Inside_B_139: 1006688568
       Inside_B_100: -1399753728
-      Inside_B_171: 1401274179
-      Wood: 740190286
-      Inside_B_30: -877787771
-      Inside_B_253: 536213916
-      Inside_B_24: 721815550
-      Inside_B_118: 1886075813
-      Inside_B_59: 884553150
-      Inside_B_146: 404654287
-      Inside_B_81: -1761346442
+      Inside_B_101: -1116505757
       Inside_B_102: 853382875
-      Inside_B_151: 1528846988
-      Inside_B_189: -1247921031
-      Inside_B_164: 253887675
-      Inside_B_180: -1776045635
-      Inside_B_252: -750551330
-      Inside_B_187: -959383149
-      Inside_B_172: 2067030278
-      Inside_B_42: -990280552
-      Inside_B_214: -2046673734
-      Inside_B_245: 439744427
-      Inside_B_222: -131907612
-      Inside_B_61: -2005404383
+      Inside_B_103: -2118317970
+      Inside_B_104: 1619522638
+      Inside_B_105: -976051559
+      Inside_B_106: -134053558
+      Inside_B_107: 1334733085
+      Inside_B_108: 567059325
+      Inside_B_109: -925854182
+      Inside_B_11: -161793527
+      Inside_B_110: -33799099
+      Inside_B_111: 1564305188
+      Inside_B_112: 324638198
+      Inside_B_113: -1758562226
+      Inside_B_114: 1394406542
+      Inside_B_115: 55637226
+      Inside_B_116: 593172161
       Inside_B_117: 2014277926
-  spritePackingTag: 
+      Inside_B_118: 1886075813
+      Inside_B_119: 656508343
+      Inside_B_12: 1503647033
+      Inside_B_120: 1412550549
+      Inside_B_121: 1393039146
+      Inside_B_122: -718899084
+      Inside_B_123: -1255411058
+      Inside_B_124: 1876669003
+      Inside_B_125: 126589243
+      Inside_B_126: -10296340
+      Inside_B_127: -2087138197
+      Inside_B_128: -233503883
+      Inside_B_129: 1081549206
+      Inside_B_13: -459527219
+      Inside_B_130: -1572369150
+      Inside_B_131: 1074964571
+      Inside_B_132: -524447520
+      Inside_B_133: -450295896
+      Inside_B_134: -587979762
+      Inside_B_135: 1071540568
+      Inside_B_136: 271434014
+      Inside_B_137: -1332603073
+      Inside_B_138: -1081464311
+      Inside_B_139: 1006688568
+      Inside_B_14: 1523574195
+      Inside_B_140: -564032248
+      Inside_B_141: -2118709741
+      Inside_B_142: 1440133771
+      Inside_B_143: -2054198370
+      Inside_B_144: 126839673
+      Inside_B_145: -2059876276
+      Inside_B_146: 404654287
+      Inside_B_147: 1195107681
+      Inside_B_148: 1452234989
+      Inside_B_149: 1784846808
+      Inside_B_15: -77295513
+      Inside_B_150: -1751578924
+      Inside_B_151: 1528846988
+      Inside_B_152: -2093705602
+      Inside_B_153: 1286704522
+      Inside_B_154: -1687634689
+      Inside_B_155: 748896899
+      Inside_B_156: -636218203
+      Inside_B_157: -736067866
+      Inside_B_158: 35108181
+      Inside_B_159: -2095139033
+      Inside_B_16: 1910461416
+      Inside_B_160: 860849862
+      Inside_B_161: 1785362492
+      Inside_B_162: 1734767807
+      Inside_B_163: -680159662
+      Inside_B_164: 253887675
+      Inside_B_165: 945406079
+      Inside_B_166: -283539176
+      Inside_B_167: -591258358
+      Inside_B_168: 205387556
+      Inside_B_169: -571998629
+      Inside_B_17: 463224035
+      Inside_B_170: 1773675061
+      Inside_B_171: 1401274179
+      Inside_B_172: 2067030278
+      Inside_B_173: -1991523143
+      Inside_B_174: -504280567
+      Inside_B_175: -1929060121
+      Inside_B_176: -929182863
+      Inside_B_177: 1083816839
+      Inside_B_178: -993414473
+      Inside_B_179: -1090313221
+      Inside_B_18: -1421877336
+      Inside_B_180: -1776045635
+      Inside_B_181: -1225366263
+      Inside_B_182: 1689199081
+      Inside_B_183: -1463620801
+      Inside_B_184: -1651650723
+      Inside_B_185: 641498541
+      Inside_B_186: -902173628
+      Inside_B_187: -959383149
+      Inside_B_188: -1444282454
+      Inside_B_189: -1247921031
+      Inside_B_19: -922892320
+      Inside_B_191: -1740777593
+      Inside_B_192: -1439622808
+      Inside_B_193: -1705324096
+      Inside_B_194: 2038371133
+      Inside_B_195: -1561240770
+      Inside_B_196: 801015374
+      Inside_B_197: 1042551150
+      Inside_B_198: 633092964
+      Inside_B_199: -1932536421
+      Inside_B_2: 1238091912
+      Inside_B_20: -1954786975
+      Inside_B_200: -745360775
+      Inside_B_201: 408258343
+      Inside_B_202: 683176795
+      Inside_B_203: 641738431
+      Inside_B_204: -733994991
+      Inside_B_205: -58218298
+      Inside_B_206: -794754753
+      Inside_B_207: 932459529
+      Inside_B_208: -1873812963
+      Inside_B_209: -1831990983
+      Inside_B_21: -304016435
+      Inside_B_210: 1952503657
+      Inside_B_211: -1864258185
+      Inside_B_212: 814300077
+      Inside_B_213: 1396997665
+      Inside_B_214: -2046673734
+      Inside_B_215: 1921622145
+      Inside_B_216: 102652091
+      Inside_B_217: -854139144
+      Inside_B_218: 1800916007
+      Inside_B_219: 1432098949
+      Inside_B_22: 1312795229
+      Inside_B_220: -1395519975
+      Inside_B_221: -284145164
+      Inside_B_222: -131907612
+      Inside_B_223: -1692216004
+      Inside_B_224: -279238698
+      Inside_B_225: 1836289890
+      Inside_B_226: 859707336
+      Inside_B_227: -1579331034
+      Inside_B_228: -1351192564
+      Inside_B_229: 1398585966
+      Inside_B_23: 1539648763
+      Inside_B_230: -1383193510
+      Inside_B_231: -313819632
+      Inside_B_232: 2078377203
+      Inside_B_233: 201699633
+      Inside_B_234: 828368867
+      Inside_B_235: -1162922880
+      Inside_B_236: -180299748
+      Inside_B_237: 1373647234
+      Inside_B_238: -1974335808
+      Inside_B_239: 1969304823
+      Inside_B_24: 721815550
+      Inside_B_240: -471144605
+      Inside_B_241: -1596043365
+      Inside_B_242: -173233213
+      Inside_B_243: -2018649186
+      Inside_B_244: 1986749112
+      Inside_B_245: 439744427
+      Inside_B_246: 1190770753
+      Inside_B_247: 1702571750
+      Inside_B_248: -437899052
+      Inside_B_249: 975746269
+      Inside_B_25: -77761855
+      Inside_B_250: -2106384408
+      Inside_B_251: 1815826496
+      Inside_B_252: -750551330
+      Inside_B_253: 536213916
+      Inside_B_254: 1177534686
+      Inside_B_26: -296371489
+      Inside_B_27: -1411986062
+      Inside_B_28: 1558534000
+      Inside_B_29: -1442896851
+      Inside_B_3: 453612295
+      Inside_B_30: -877787771
+      Inside_B_31: 1548434361
+      Inside_B_32: 1683457535
+      Inside_B_33: 1059672877
+      Inside_B_34: 1486645968
+      Inside_B_35: 682571332
+      Inside_B_36: -365857124
+      Inside_B_37: -383310851
+      Inside_B_38: -493536404
+      Inside_B_39: 1812506043
+      Inside_B_4: -2124886765
+      Inside_B_40: 1843500685
+      Inside_B_41: 807729166
+      Inside_B_42: -990280552
+      Inside_B_43: 1957643587
+      Inside_B_44: -968781367
+      Inside_B_45: 1969346853
+      Inside_B_46: 547524531
+      Inside_B_47: -355619200
+      Inside_B_48: -995611018
+      Inside_B_49: -952615612
+      Inside_B_5: 1276264556
+      Inside_B_50: 71452563
+      Inside_B_51: 1028197752
+      Inside_B_52: -400738386
+      Inside_B_53: -1083398944
+      Inside_B_54: -1341646861
+      Inside_B_55: 897330799
+      Inside_B_56: -1162228823
+      Inside_B_57: -1250698976
+      Inside_B_58: 1059297595
+      Inside_B_59: 884553150
+      Inside_B_6: 614982736
+      Inside_B_60: 150792117
+      Inside_B_61: -2005404383
+      Inside_B_62: 2103326388
+      Inside_B_63: 296771109
+      Inside_B_64: 6491356
+      Inside_B_65: -806422187
+      Inside_B_66: -1672400945
+      Inside_B_67: -118142900
+      Inside_B_68: 1750156859
+      Inside_B_69: -1623594208
+      Inside_B_7: -971149184
+      Inside_B_70: -2089098386
+      Inside_B_71: 150800487
+      Inside_B_72: -1533342968
+      Inside_B_73: -891796241
+      Inside_B_74: -1084554676
+      Inside_B_75: -744624495
+      Inside_B_76: 837489362
+      Inside_B_77: -1900099496
+      Inside_B_78: -482789697
+      Inside_B_79: -1192177640
+      Inside_B_8: -197801816
+      Inside_B_80: 918752805
+      Inside_B_81: -1761346442
+      Inside_B_82: 1860151103
+      Inside_B_83: -1943221771
+      Inside_B_84: -1250157036
+      Inside_B_85: -2027374905
+      Inside_B_86: -2015334425
+      Inside_B_87: 930257376
+      Inside_B_88: 1067560498
+      Inside_B_89: 1047422718
+      Inside_B_9: 1052798703
+      Inside_B_90: -2090646007
+      Inside_B_91: -1239616821
+      Inside_B_92: 870109223
+      Inside_B_93: -1763706552
+      Inside_B_94: 1755511980
+      Inside_B_95: -521370797
+      Inside_B_96: -1901183905
+      Inside_B_97: -1967109624
+      Inside_B_98: -512584901
+      Inside_B_99: 1156097492
+      Wood: 740190286
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

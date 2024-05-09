@@ -9,6 +9,7 @@ namespace Isekai.Interface
         PlayerMenu,
         Assigment,
         NPCSpeaking,
+        StoryPlay,
         Quit
     }
 

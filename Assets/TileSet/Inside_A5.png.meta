@@ -3,7 +3,7 @@ guid: ccb0f925b54853648b12fd764116e61e
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -20,11 +20,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -47,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 48
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -63,6 +64,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -74,6 +77,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -86,6 +90,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -98,6 +103,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -110,6 +116,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -122,6 +129,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -2805,136 +2813,135 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Inside_A5_94: 1191292998
-      Inside_A5_89: 1547173505
+      Inside_A5_0: -1944548301
+      Inside_A5_1: 564727653
+      Inside_A5_10: -714799915
+      Inside_A5_100: -1138933315
+      Inside_A5_101: 663039696
       Inside_A5_102: -1384597797
-      Inside_A5_74: -1406174523
-      Inside_A5_114: -95430195
+      Inside_A5_103: -898034641
+      Inside_A5_104: -41439867
+      Inside_A5_105: 1486201301
+      Inside_A5_106: -634847329
+      Inside_A5_107: 1003590711
+      Inside_A5_108: 310471552
+      Inside_A5_109: -20670766
+      Inside_A5_11: 946753161
       Inside_A5_110: -1953133134
-      Inside_A5_22: -577200859
-      Inside_A5_83: -74735943
-      Inside_A5_19: 2747825
-      Inside_A5_30: 230026253
-      Inside_A5_50: 114970740
-      Inside_A5_116: -197692053
-      Inside_A5_29: -1862602638
-      Inside_A5_117: -100717047
-      Inside_A5_78: -218572482
-      Inside_A5_77: -29953060
-      Inside_A5_121: 375579829
+      Inside_A5_111: 1900117012
       Inside_A5_112: 1280558888
-      Inside_A5_40: -1294258310
+      Inside_A5_113: -508309492
+      Inside_A5_114: -95430195
+      Inside_A5_115: 1208145079
+      Inside_A5_116: -197692053
+      Inside_A5_117: -100717047
+      Inside_A5_118: -11265836
+      Inside_A5_119: -299663083
       Inside_A5_12: -1339971471
-      Inside_A5_55: -1384932585
+      Inside_A5_120: 279543240
+      Inside_A5_121: 375579829
+      Inside_A5_122: -839606426
+      Inside_A5_123: -907832516
+      Inside_A5_124: 1551695705
+      Inside_A5_125: 1690577468
+      Inside_A5_126: 736140118
+      Inside_A5_13: 1306749286
+      Inside_A5_14: 1122914273
+      Inside_A5_15: 685452816
+      Inside_A5_16: 1627474039
+      Inside_A5_17: 1573525873
+      Inside_A5_18: 1970732017
+      Inside_A5_19: 2747825
+      Inside_A5_2: -539944026
       Inside_A5_20: 1260415276
       Inside_A5_21: 1052849048
-      Inside_A5_28: -1854046864
-      Inside_A5_36: 1548863170
-      Inside_A5_44: 730237249
-      Inside_A5_1: 564727653
-      Inside_A5_70: 251282902
-      Inside_A5_9: -2137064849
-      Inside_A5_10: -714799915
-      Inside_A5_113: -508309492
-      Inside_A5_93: 1120870521
-      Inside_A5_35: 545766097
-      Inside_A5_64: 297828147
-      Inside_A5_71: -759809246
-      Inside_A5_53: 2145494589
+      Inside_A5_22: -577200859
+      Inside_A5_23: -1868713450
       Inside_A5_24: 1049487817
-      Inside_A5_38: 413918455
-      Inside_A5_4: 1647011607
-      Inside_A5_42: 827760855
-      Inside_A5_18: 1970732017
-      Inside_A5_103: -898034641
-      Inside_A5_39: 8049975
-      Inside_A5_68: 972406556
-      Inside_A5_108: 310471552
-      Inside_A5_2: -539944026
-      Inside_A5_16: 1627474039
-      Inside_A5_91: -681019583
-      Inside_A5_63: 645140947
-      Inside_A5_0: -1944548301
-      Inside_A5_31: -816862766
-      Inside_A5_62: -228830301
-      Inside_A5_46: 1807565178
-      Inside_A5_7: -1752536188
-      Inside_A5_81: 1071460670
-      Inside_A5_47: 247852852
-      Inside_A5_58: 1349492388
-      Inside_A5_95: -1679415744
-      Inside_A5_48: 141826420
-      Inside_A5_13: 1306749286
-      Inside_A5_56: -998769363
-      Inside_A5_34: -1418231821
-      Inside_A5_65: -1862964552
       Inside_A5_25: -1952644885
-      Inside_A5_52: -1222091547
-      Inside_A5_79: -1580100588
-      Inside_A5_92: -548906014
-      Inside_A5_51: -298256883
-      Inside_A5_72: -1814988382
-      Inside_A5_97: 1758966167
+      Inside_A5_26: 1904588000
+      Inside_A5_27: 1150541366
+      Inside_A5_28: -1854046864
+      Inside_A5_29: -1862602638
+      Inside_A5_3: -559125837
+      Inside_A5_30: 230026253
+      Inside_A5_31: -816862766
+      Inside_A5_32: 673792933
+      Inside_A5_33: -200944488
+      Inside_A5_34: -1418231821
+      Inside_A5_35: 545766097
+      Inside_A5_36: 1548863170
+      Inside_A5_37: 542463933
+      Inside_A5_38: 413918455
+      Inside_A5_39: 8049975
+      Inside_A5_4: 1647011607
+      Inside_A5_40: -1294258310
+      Inside_A5_41: 1841979651
+      Inside_A5_42: 827760855
       Inside_A5_43: -1037293554
-      Inside_A5_124: 1551695705
+      Inside_A5_44: 730237249
+      Inside_A5_45: -1775718834
+      Inside_A5_46: 1807565178
+      Inside_A5_47: 247852852
+      Inside_A5_48: 141826420
+      Inside_A5_49: 2017432961
+      Inside_A5_5: -1983741622
+      Inside_A5_50: 114970740
+      Inside_A5_51: -298256883
+      Inside_A5_52: -1222091547
+      Inside_A5_53: 2145494589
+      Inside_A5_54: 316268445
+      Inside_A5_55: -1384932585
+      Inside_A5_56: -998769363
+      Inside_A5_57: -1827533375
+      Inside_A5_58: 1349492388
+      Inside_A5_59: -114126238
+      Inside_A5_6: 997723024
+      Inside_A5_60: 793784547
+      Inside_A5_61: -1840907453
+      Inside_A5_62: -228830301
+      Inside_A5_63: 645140947
+      Inside_A5_64: 297828147
+      Inside_A5_65: -1862964552
       Inside_A5_66: 913004888
       Inside_A5_67: 72652182
-      Inside_A5_100: -1138933315
-      Inside_A5_122: -839606426
-      Inside_A5_99: -1614545155
-      Inside_A5_119: -299663083
-      Inside_A5_104: -41439867
-      Inside_A5_11: 946753161
-      Inside_A5_107: 1003590711
-      Inside_A5_8: 1299708493
-      Inside_A5_41: 1841979651
-      Inside_A5_123: -907832516
-      Inside_A5_90: -30349881
-      Inside_A5_49: 2017432961
-      Inside_A5_86: -889896023
-      Inside_A5_101: 663039696
-      Inside_A5_5: -1983741622
-      Inside_A5_82: 241715924
-      Inside_A5_54: 316268445
-      Inside_A5_84: 627415732
-      Inside_A5_14: 1122914273
-      Inside_A5_3: -559125837
-      Inside_A5_87: 357703889
-      Inside_A5_27: 1150541366
-      Inside_A5_96: -101995419
-      Inside_A5_120: 279543240
-      Inside_A5_33: -200944488
-      Inside_A5_32: 673792933
-      Inside_A5_115: 1208145079
-      Inside_A5_6: 997723024
-      Inside_A5_26: 1904588000
-      Inside_A5_61: -1840907453
-      Inside_A5_106: -634847329
-      Inside_A5_57: -1827533375
-      Inside_A5_88: -1920694304
-      Inside_A5_76: -264231812
-      Inside_A5_85: -1861195861
-      Inside_A5_17: 1573525873
-      Inside_A5_15: 685452816
-      Inside_A5_125: 1690577468
-      Inside_A5_105: 1486201301
+      Inside_A5_68: 972406556
       Inside_A5_69: 833352862
+      Inside_A5_7: -1752536188
+      Inside_A5_70: 251282902
+      Inside_A5_71: -759809246
+      Inside_A5_72: -1814988382
       Inside_A5_73: -179838900
-      Inside_A5_80: 2025525163
-      Inside_A5_98: 102211656
-      Inside_A5_126: 736140118
-      Inside_A5_118: -11265836
-      Inside_A5_59: -114126238
-      Inside_A5_23: -1868713450
-      Inside_A5_111: 1900117012
-      Inside_A5_60: 793784547
-      Inside_A5_45: -1775718834
-      Inside_A5_37: 542463933
+      Inside_A5_74: -1406174523
       Inside_A5_75: 748492637
-      Inside_A5_109: -20670766
-  spritePackingTag: 
+      Inside_A5_76: -264231812
+      Inside_A5_77: -29953060
+      Inside_A5_78: -218572482
+      Inside_A5_79: -1580100588
+      Inside_A5_8: 1299708493
+      Inside_A5_80: 2025525163
+      Inside_A5_81: 1071460670
+      Inside_A5_82: 241715924
+      Inside_A5_83: -74735943
+      Inside_A5_84: 627415732
+      Inside_A5_85: -1861195861
+      Inside_A5_86: -889896023
+      Inside_A5_87: 357703889
+      Inside_A5_88: -1920694304
+      Inside_A5_89: 1547173505
+      Inside_A5_9: -2137064849
+      Inside_A5_90: -30349881
+      Inside_A5_91: -681019583
+      Inside_A5_92: -548906014
+      Inside_A5_93: 1120870521
+      Inside_A5_94: 1191292998
+      Inside_A5_95: -1679415744
+      Inside_A5_96: -101995419
+      Inside_A5_97: 1758966167
+      Inside_A5_98: 102211656
+      Inside_A5_99: -1614545155
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

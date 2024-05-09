@@ -53,6 +53,10 @@ namespace Isekai.Utility
                     {
                         break;
                     }
+                case Gamestates.StoryPlay:
+                    {
+                        break;
+                    }
                 case Gamestates.Quit:
                     {
                         MapManager.GameQuit();
