@@ -1753,7 +1753,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6a4c800491c78a4daccf351e6010b91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _movementSpeed: 70
+  _movementSpeed: 140
   _lookDown: {fileID: 1062559052, guid: 88dd7794a3446854cb1ed199ab8cd534, type: 3}
   _lookUp: {fileID: -1192815155, guid: 88dd7794a3446854cb1ed199ab8cd534, type: 3}
   _lookLeft: {fileID: 819922022, guid: 88dd7794a3446854cb1ed199ab8cd534, type: 3}
@@ -1825,7 +1825,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.48, y: 0.48}
+    oldSize: {x: 1, y: 1}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0

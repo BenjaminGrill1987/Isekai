@@ -514,7 +514,7 @@ namespace Isekai.Input
                 {
                     ""name"": """",
                     ""id"": ""43b6669f-00f1-4b3f-94f1-c58bd3c48e5e"",
-                    ""path"": ""*/{Submit}"",
+                    ""path"": ""<Gamepad>/buttonSouth"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -525,7 +525,7 @@ namespace Isekai.Input
                 {
                     ""name"": """",
                     ""id"": ""54e8bed8-5a59-4459-a39b-f02338ba3604"",
-                    ""path"": ""*/{Cancel}"",
+                    ""path"": ""<Gamepad>/buttonEast"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",

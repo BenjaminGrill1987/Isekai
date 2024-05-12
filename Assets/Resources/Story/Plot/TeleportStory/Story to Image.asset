@@ -9,8 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67ae83e29672e9841a29690f5ac4ec81, type: 3}
-  m_Name: TelePlot
+  m_Script: {fileID: 11500000, guid: f930674731d394a4cb50dfad0f4ca3cb, type: 3}
+  m_Name: Story to Image
   m_EditorClassIdentifier: 
-  _story:
-  - {fileID: 11400000, guid: 8956d3890238e754ea70842b510b5f3a, type: 2}
+  _character: {fileID: 533018682, guid: 5dc25a2e761d3c34b8e96d1a8f7ccd29, type: 3}
+  _story: Jup
