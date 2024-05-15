@@ -1,11 +1,13 @@
+using Isekai.Itemsystem;
 using System;
 using UnityEditor;
 using UnityEngine;
 
 public abstract class Enemy : MonoBehaviour, IDamageable
 {
-    [SerializeField] private int _health, _damage;
+    [SerializeField] private int _health, _damage, _itemDrop;
     [SerializeField] private float _circleRange, _rangeToTarget, _moveSpeed;
+    [SerializeField] private GameObject _item;
 
     Vector2 _moveCircleMiddlePoint, _targetToMove;
 
@@ -34,6 +36,8 @@ public abstract class Enemy : MonoBehaviour, IDamageable
     }
     public void Death()
     {
+        var item = Instantiate(_item, transform.position, Quaternion.identity);
+        item.GetComponent<Item>().SetID(_itemDrop);
         Destroy(gameObject);
     }
 

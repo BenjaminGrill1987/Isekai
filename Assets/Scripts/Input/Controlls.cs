@@ -55,6 +55,15 @@ namespace Isekai.Input
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Attack"",
+                    ""type"": ""Button"",
+                    ""id"": ""4f0c214d-252e-4096-a417-fcdad40749c4"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -264,6 +273,17 @@ namespace Isekai.Input
                     ""processors"": """",
                     ""groups"": """",
                     ""action"": ""PlayerMenu"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""7e834334-fa4e-4973-a81e-b06717209eca"",
+                    ""path"": ""<Gamepad>/buttonWest"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Attack"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -543,6 +563,7 @@ namespace Isekai.Input
             m_Player_Movement = m_Player.FindAction("Movement", throwIfNotFound: true);
             m_Player_Interact = m_Player.FindAction("Interact", throwIfNotFound: true);
             m_Player_PlayerMenu = m_Player.FindAction("PlayerMenu", throwIfNotFound: true);
+            m_Player_Attack = m_Player.FindAction("Attack", throwIfNotFound: true);
             // UI
             m_UI = asset.FindActionMap("UI", throwIfNotFound: true);
             m_UI_Navigate = m_UI.FindAction("Navigate", throwIfNotFound: true);
@@ -612,6 +633,7 @@ namespace Isekai.Input
         private readonly InputAction m_Player_Movement;
         private readonly InputAction m_Player_Interact;
         private readonly InputAction m_Player_PlayerMenu;
+        private readonly InputAction m_Player_Attack;
         public struct PlayerActions
         {
             private @Controlls m_Wrapper;
@@ -619,6 +641,7 @@ namespace Isekai.Input
             public InputAction @Movement => m_Wrapper.m_Player_Movement;
             public InputAction @Interact => m_Wrapper.m_Player_Interact;
             public InputAction @PlayerMenu => m_Wrapper.m_Player_PlayerMenu;
+            public InputAction @Attack => m_Wrapper.m_Player_Attack;
             public InputActionMap Get() { return m_Wrapper.m_Player; }
             public void Enable() { Get().Enable(); }
             public void Disable() { Get().Disable(); }
@@ -637,6 +660,9 @@ namespace Isekai.Input
                 @PlayerMenu.started += instance.OnPlayerMenu;
                 @PlayerMenu.performed += instance.OnPlayerMenu;
                 @PlayerMenu.canceled += instance.OnPlayerMenu;
+                @Attack.started += instance.OnAttack;
+                @Attack.performed += instance.OnAttack;
+                @Attack.canceled += instance.OnAttack;
             }
 
             private void UnregisterCallbacks(IPlayerActions instance)
@@ -650,6 +676,9 @@ namespace Isekai.Input
                 @PlayerMenu.started -= instance.OnPlayerMenu;
                 @PlayerMenu.performed -= instance.OnPlayerMenu;
                 @PlayerMenu.canceled -= instance.OnPlayerMenu;
+                @Attack.started -= instance.OnAttack;
+                @Attack.performed -= instance.OnAttack;
+                @Attack.canceled -= instance.OnAttack;
             }
 
             public void RemoveCallbacks(IPlayerActions instance)
@@ -734,6 +763,7 @@ namespace Isekai.Input
             void OnMovement(InputAction.CallbackContext context);
             void OnInteract(InputAction.CallbackContext context);
             void OnPlayerMenu(InputAction.CallbackContext context);
+            void OnAttack(InputAction.CallbackContext context);
         }
         public interface IUIActions
         {

@@ -10,9 +10,8 @@ namespace Isekai.Itemsystem
 
         void Start()
         {
-            _spriteRenderer = GetComponent<SpriteRenderer>();
-            _spriteRenderer.sprite = ItemDatabase.GetItem(_itemId).GetIcon();
-            GetComponent<BoxCollider2D>().size = _spriteRenderer.size;
+            Debug.Log("Start");
+            Init();
         }
 
         private void OnTriggerEnter2D(Collider2D collision)
@@ -26,6 +25,19 @@ namespace Isekai.Itemsystem
 
             collision.GetComponent<PlayerController>().AddItem(ItemDatabase.GetItem(_itemId));
             Destroy(gameObject);
+        }
+
+        public void SetID(int newID)
+        {
+            Debug.Log("SetID");
+            _itemId = newID;
+        }
+
+        private void Init()
+        {
+            _spriteRenderer = GetComponent<SpriteRenderer>();
+            _spriteRenderer.sprite = ItemDatabase.GetItem(_itemId).GetIcon();
+            GetComponent<BoxCollider2D>().size = _spriteRenderer.size;
         }
     }
 }

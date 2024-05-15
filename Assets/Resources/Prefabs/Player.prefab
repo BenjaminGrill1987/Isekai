@@ -1754,6 +1754,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _movementSpeed: 140
+  _damage: 1
   _lookDown: {fileID: 1062559052, guid: 88dd7794a3446854cb1ed199ab8cd534, type: 3}
   _lookUp: {fileID: -1192815155, guid: 88dd7794a3446854cb1ed199ab8cd534, type: 3}
   _lookLeft: {fileID: 819922022, guid: 88dd7794a3446854cb1ed199ab8cd534, type: 3}
@@ -1761,6 +1762,9 @@ MonoBehaviour:
   _layerMask:
     serializedVersion: 2
     m_Bits: 256
+  _attackMask:
+    serializedVersion: 2
+    m_Bits: 64
   _menu: {fileID: 614930340835686932}
 --- !u!50 &7658034820619510842
 Rigidbody2D:

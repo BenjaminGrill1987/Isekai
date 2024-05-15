@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 2965001489668906996}
   - component: {fileID: 3447007529691083580}
   - component: {fileID: 6357353619412207577}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Slime
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -154,9 +154,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _health: 2
   _damage: 1
+  _itemDrop: 0
   _circleRange: 5
-  _rangeToTarget: 1
+  _rangeToTarget: 0.1
   _moveSpeed: 1
+  _item: {fileID: 8693800518547338217, guid: 75044c09e0d07f447904c5caabcefd22, type: 3}
   _rigidBody2D: {fileID: 0}
 --- !u!50 &6357353619412207577
 Rigidbody2D:

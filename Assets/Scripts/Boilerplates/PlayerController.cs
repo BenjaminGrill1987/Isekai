@@ -7,12 +7,14 @@ using Unity.VisualScripting;
 using System.Collections;
 using Isekai.Itemsystem;
 using Isekai.Utility;
+using System;
 
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] private float _movementSpeed;
+    [SerializeField] private int _damage;
     [SerializeField] private Sprite _lookDown, _lookUp, _lookLeft, _lookRight;
-    [SerializeField] private LayerMask _layerMask;
+    [SerializeField] private LayerMask _layerMask,_attackMask;
     [SerializeField] private GameObject _menu;
 
     private Controlls _input;
@@ -34,6 +36,7 @@ public class PlayerController : MonoBehaviour
         _input.Enable();
         _input.Player.Interact.performed += Interaction;
         _input.Player.PlayerMenu.performed += Menu;
+        _input.Player.Attack.performed += Attack;
     }
 
     private void OnDisable()
@@ -135,6 +138,29 @@ public class PlayerController : MonoBehaviour
                 }
         }
 
+    }
+
+    private void Attack(InputAction.CallbackContext context)
+    {
+        if (Gamestate.CurrentState != Gamestates.Play) return;
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, _lookDir, 0.5f, _attackMask);
+        if (hit.collider == null) return;
+
+        switch (hit.collider.tag)
+        {
+            case "Enemy":
+                {
+                    hit.collider.TryGetComponent<IDamageable>(out IDamageable damageable);
+                    damageable.TakeDamage(_damage);
+                    Debug.Log("Attack finished");
+                    break;
+                }
+            default:
+                {
+                    Debug.LogError("NO VALID COLLIDER");
+                    break;
+                }
+        }
     }
 
     private void Menu(InputAction.CallbackContext context)
