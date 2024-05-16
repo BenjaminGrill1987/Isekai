@@ -12,8 +12,9 @@ public class Slime : Enemy
         _slimeStateMachine = new SlimeStateMachine(this);
     }
 
-    private void FixedUpdate()
+    public override void FixedUpdate()
     {
-        _slimeStateMachine.Execute();
+        _slimeStateMachine.Execute();     
+        base.FixedUpdate();
     }
 }

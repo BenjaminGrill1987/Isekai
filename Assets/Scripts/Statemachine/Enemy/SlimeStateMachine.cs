@@ -23,7 +23,7 @@ public class SlimeStateMachine : BaseStateMachine
     {
         _iDLEState.AddTransition(MoveTargetOutOfRange, _moveState);
         _moveState.AddTransition(IsTargetInRange, _iDLEState);
-        //_moveState.AddTransition(CantMove, _iDLEState);
+        _moveState.AddTransition(CantMove, _iDLEState);
     }
 
     private bool IsTargetInRange()
@@ -37,10 +37,7 @@ public class SlimeStateMachine : BaseStateMachine
     }
 
     private bool CantMove()
-    {
-        var speed = Vector2.Distance(_oldPosition, _self.transform.position);
-        _oldPosition = _self.transform.position;
-        Debug.Log($"Speed is {speed}");
-        return speed == 0;
+    {        
+        return _self._IsNotMoving;
     }
 }

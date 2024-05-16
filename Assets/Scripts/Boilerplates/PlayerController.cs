@@ -49,6 +49,7 @@ public class PlayerController : MonoBehaviour
     private void Start()
     {
         transform.position = MapManager.SetPlayerPos();
+        CameraManager.SetPlayer(gameObject);
     }
 
     private void FixedUpdate()
@@ -70,14 +71,14 @@ public class PlayerController : MonoBehaviour
 
     private void ChangeSprite()
     {
-        var turnDirection = _move.ReadValue<Vector2>();
+        Vector2 turnDirection = _move.ReadValue<Vector2>();
 
         if (turnDirection != Vector2.zero)
         {
             _lookDir = turnDirection;
         }
 
-        if (turnDirection.Abs().y > turnDirection.Abs().x)
+        if (Mathf.Abs(turnDirection.y) > Mathf.Abs(turnDirection.x))
         {
             if (turnDirection.y > 0)
             {
@@ -88,7 +89,7 @@ public class PlayerController : MonoBehaviour
                 _spriteRenderer.sprite = _lookDown;
             }
         }
-        else if (turnDirection.Abs().y < turnDirection.Abs().x)
+        else if (Mathf.Abs(turnDirection.y) < Mathf.Abs(turnDirection.x))
         {
             if (turnDirection.x > 0)
             {

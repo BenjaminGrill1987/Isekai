@@ -9,7 +9,11 @@ public abstract class Enemy : MonoBehaviour, IDamageable
     [SerializeField] private float _circleRange, _rangeToTarget, _moveSpeed;
     [SerializeField] private GameObject _item;
 
-    Vector2 _moveCircleMiddlePoint, _targetToMove;
+    Vector2 _moveCircleMiddlePoint, _targetToMove, _oldPosition;
+    Timer _timer;
+    bool _isNotMoving = false;
+
+
 
     public Rigidbody2D _rigidBody2D;
 
@@ -18,11 +22,14 @@ public abstract class Enemy : MonoBehaviour, IDamageable
     public float CircleRange => _circleRange;
     public float RangeToTarget => _rangeToTarget;
     public float MoveSpeed => _moveSpeed;
+    public bool _IsNotMoving => _isNotMoving;
 
     public virtual void Start()
     {
         _rigidBody2D = GetComponent<Rigidbody2D>();
         _moveCircleMiddlePoint = transform.position;
+        _oldPosition = transform.position;
+        _timer = new Timer(1,NotMoving);
     }
 
     public void TakeDamage(int damage)
@@ -40,10 +47,32 @@ public abstract class Enemy : MonoBehaviour, IDamageable
         item.GetComponent<Item>().SetID(_itemDrop);
         Destroy(gameObject);
     }
+    public virtual void FixedUpdate()
+    {
+        var speed = Vector2.Distance(_oldPosition, transform.position);
+        if(_isNotMoving)
+        {
+            _isNotMoving = false;
+        }
+        if(speed <= 0)
+        {
+          _timer.Tick();
+        }
+        
+
+
+
+        _oldPosition = transform.position;
+    }
 
     public void SetTargetToMove(Vector2 newTarget)
     {
         _targetToMove = newTarget;
+    }
+
+    private void NotMoving()
+    {
+        _isNotMoving = true;
     }
 
     private void OnDrawGizmos()
