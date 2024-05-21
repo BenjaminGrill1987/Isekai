@@ -64,6 +64,15 @@ namespace Isekai.Input
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Magic"",
+                    ""type"": ""Button"",
+                    ""id"": ""7c995862-0713-44d7-81a8-40ca8b8a328f"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -284,6 +293,17 @@ namespace Isekai.Input
                     ""processors"": """",
                     ""groups"": """",
                     ""action"": ""Attack"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""792a9e92-256e-4838-8a68-c3a63a4b6ef2"",
+                    ""path"": ""<Gamepad>/rightShoulder"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Magic"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -564,6 +584,7 @@ namespace Isekai.Input
             m_Player_Interact = m_Player.FindAction("Interact", throwIfNotFound: true);
             m_Player_PlayerMenu = m_Player.FindAction("PlayerMenu", throwIfNotFound: true);
             m_Player_Attack = m_Player.FindAction("Attack", throwIfNotFound: true);
+            m_Player_Magic = m_Player.FindAction("Magic", throwIfNotFound: true);
             // UI
             m_UI = asset.FindActionMap("UI", throwIfNotFound: true);
             m_UI_Navigate = m_UI.FindAction("Navigate", throwIfNotFound: true);
@@ -634,6 +655,7 @@ namespace Isekai.Input
         private readonly InputAction m_Player_Interact;
         private readonly InputAction m_Player_PlayerMenu;
         private readonly InputAction m_Player_Attack;
+        private readonly InputAction m_Player_Magic;
         public struct PlayerActions
         {
             private @Controlls m_Wrapper;
@@ -642,6 +664,7 @@ namespace Isekai.Input
             public InputAction @Interact => m_Wrapper.m_Player_Interact;
             public InputAction @PlayerMenu => m_Wrapper.m_Player_PlayerMenu;
             public InputAction @Attack => m_Wrapper.m_Player_Attack;
+            public InputAction @Magic => m_Wrapper.m_Player_Magic;
             public InputActionMap Get() { return m_Wrapper.m_Player; }
             public void Enable() { Get().Enable(); }
             public void Disable() { Get().Disable(); }
@@ -663,6 +686,9 @@ namespace Isekai.Input
                 @Attack.started += instance.OnAttack;
                 @Attack.performed += instance.OnAttack;
                 @Attack.canceled += instance.OnAttack;
+                @Magic.started += instance.OnMagic;
+                @Magic.performed += instance.OnMagic;
+                @Magic.canceled += instance.OnMagic;
             }
 
             private void UnregisterCallbacks(IPlayerActions instance)
@@ -679,6 +705,9 @@ namespace Isekai.Input
                 @Attack.started -= instance.OnAttack;
                 @Attack.performed -= instance.OnAttack;
                 @Attack.canceled -= instance.OnAttack;
+                @Magic.started -= instance.OnMagic;
+                @Magic.performed -= instance.OnMagic;
+                @Magic.canceled -= instance.OnMagic;
             }
 
             public void RemoveCallbacks(IPlayerActions instance)
@@ -764,6 +793,7 @@ namespace Isekai.Input
             void OnInteract(InputAction.CallbackContext context);
             void OnPlayerMenu(InputAction.CallbackContext context);
             void OnAttack(InputAction.CallbackContext context);
+            void OnMagic(InputAction.CallbackContext context);
         }
         public interface IUIActions
         {

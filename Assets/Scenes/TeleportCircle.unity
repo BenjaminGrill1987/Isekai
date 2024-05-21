@@ -253,10 +253,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 7658034820619510842, guid: cff4160449556cb46bce30bbcc73ec6f, type: 3}
-      propertyPath: m_CollisionDetection
-      value: 1
+    - target: {fileID: 4591908354555643035, guid: cff4160449556cb46bce30bbcc73ec6f, type: 3}
+      propertyPath: _spellSymbol.Array.size
+      value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 4591908354555643035, guid: cff4160449556cb46bce30bbcc73ec6f, type: 3}
+      propertyPath: _spellSymbol.Array.data[1]
+      value: 
+      objectReference: {fileID: 1130301352563066935, guid: 788ff3efb3a860645bc5797ed8e5cc65, type: 3}
+    - target: {fileID: 4591908354555643035, guid: cff4160449556cb46bce30bbcc73ec6f, type: 3}
+      propertyPath: _spellSymbol.Array.data[2]
+      value: 
+      objectReference: {fileID: 1130301352563066935, guid: 4ea98b3eb90aaae4d8b48dca7f280717, type: 3}
     - target: {fileID: 7658034820619510844, guid: cff4160449556cb46bce30bbcc73ec6f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.55
@@ -300,10 +308,6 @@ PrefabInstance:
     - target: {fileID: 7658034820619510846, guid: cff4160449556cb46bce30bbcc73ec6f, type: 3}
       propertyPath: m_Name
       value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 7658034820619510847, guid: cff4160449556cb46bce30bbcc73ec6f, type: 3}
-      propertyPath: m_SortingOrder
-      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

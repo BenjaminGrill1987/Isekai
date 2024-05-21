@@ -7,6 +7,7 @@ namespace Isekai.Interface
         Play,
         Pause,
         PlayerMenu,
+        Magic,
         Assigment,
         NPCSpeaking,
         StoryPlay,

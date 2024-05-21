@@ -15,7 +15,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private int _damage;
     [SerializeField] private Sprite _lookDown, _lookUp, _lookLeft, _lookRight;
     [SerializeField] private LayerMask _layerMask,_attackMask;
-    [SerializeField] private GameObject _menu;
+    [SerializeField] private GameObject _menu, _spellList;
 
     private Controlls _input;
     private InputAction _move;
@@ -37,12 +37,18 @@ public class PlayerController : MonoBehaviour
         _input.Player.Interact.performed += Interaction;
         _input.Player.PlayerMenu.performed += Menu;
         _input.Player.Attack.performed += Attack;
+        _input.Player.Magic.started += MagicMenuOpen;
+        _input.Player.Magic.canceled += MagicMenuClosed;
     }
+
 
     private void OnDisable()
     {
         _input.Player.Interact.performed -= Interaction;
         _input.Player.PlayerMenu.performed -= Menu;
+        _input.Player.Attack.performed -= Attack;
+        _input.Player.Magic.started -= MagicMenuOpen;
+        _input.Player.Magic.canceled -= MagicMenuClosed;
         _input.Disable();
     }
 
@@ -168,6 +174,19 @@ public class PlayerController : MonoBehaviour
     {
         if (Gamestate.CurrentState != Gamestates.Play && Gamestate.CurrentState != Gamestates.PlayerMenu) return;
         _menu.SetActive(!_menu.activeSelf);
+    }
+
+    private void MagicMenuOpen(InputAction.CallbackContext context)
+    {
+        if (Gamestate.CurrentState != Gamestates.Play) return;
+        Gamestate.TryToChangeState(Gamestates.Magic);
+        _spellList.SetActive(true);
+    }
+    private void MagicMenuClosed(InputAction.CallbackContext context)
+    {
+        if (Gamestate.CurrentState != Gamestates.Magic) return;
+        Gamestate.TryToChangeState(Gamestates.Play);
+        _spellList.SetActive(false);
     }
 
     private IEnumerator WaitFrame(RaycastHit2D newhit)

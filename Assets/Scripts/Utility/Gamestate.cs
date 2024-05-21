@@ -45,6 +45,10 @@ namespace Isekai.Utility
                     {
                         break;
                     }
+                case Gamestates.Magic:
+                    {
+                        break;
+                    }
                 case Gamestates.Assigment:
                     {
                         break;
