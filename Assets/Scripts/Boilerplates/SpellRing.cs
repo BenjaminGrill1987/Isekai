@@ -1,6 +1,7 @@
 using Isekai.Input;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
 
 public class SpellRing : MonoBehaviour
@@ -23,6 +24,8 @@ public class SpellRing : MonoBehaviour
         _inputAction = _input.UI.Navigate;
         _input.UI.Navigate.performed += RotateRing;
         _input.Enable();
+
+        _index = 0;
 
         float angle = 0;
         Vector3 offset = Vector3.ProjectOnPlane(Vector3.up, Vector3.forward) * _circleRadius;
@@ -76,6 +79,8 @@ public class SpellRing : MonoBehaviour
 
         if (_inputAction.ReadValue<Vector2>().x == 0) _hasRotated = false;
     }
+
+
 
     private void OnDisable()
     {

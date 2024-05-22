@@ -1,6 +1,6 @@
+using Isekai.Interface;
 using Isekai.Itemsystem;
-using System;
-using UnityEditor;
+using Isekai.Utility;
 using UnityEngine;
 
 public abstract class Enemy : MonoBehaviour, IDamageable
@@ -11,8 +11,8 @@ public abstract class Enemy : MonoBehaviour, IDamageable
 
     Vector2 _moveCircleMiddlePoint, _targetToMove, _oldPosition;
     Timer _timer;
-    bool _isNotMoving = false;
-
+    bool _isNotMoving = false, _isCheckedIn = false;
+    Renderer _renderer;
 
 
     public Rigidbody2D _rigidBody2D;
@@ -30,6 +30,7 @@ public abstract class Enemy : MonoBehaviour, IDamageable
         _moveCircleMiddlePoint = transform.position;
         _oldPosition = transform.position;
         _timer = new Timer(1,NotMoving);
+        _renderer = GetComponent<Renderer>();
     }
 
     public void TakeDamage(int damage)
@@ -41,14 +42,18 @@ public abstract class Enemy : MonoBehaviour, IDamageable
             Death();
         }
     }
+
     public void Death()
     {
         var item = Instantiate(_item, transform.position, Quaternion.identity);
         item.GetComponent<Item>().SetID(_itemDrop);
         Destroy(gameObject);
     }
+
     public virtual void FixedUpdate()
     {
+        if (Gamestate.CurrentState != Gamestates.Play) return;
+
         var speed = Vector2.Distance(_oldPosition, transform.position);
         if(_isNotMoving)
         {
@@ -59,10 +64,26 @@ public abstract class Enemy : MonoBehaviour, IDamageable
           _timer.Tick();
         }
         
-
-
+        if(_renderer.isVisible && !_isCheckedIn)
+        {
+            CheckIn();
+        }
+        else if(!_renderer.isVisible && _isCheckedIn)
+        {
+            Checkout();
+        }
 
         _oldPosition = transform.position;
+    }
+
+    private void CheckIn()
+    {
+        EnemyList.AddEnemy(this);
+    }
+
+    private void Checkout()
+    {
+        EnemyList.RemoveEnemy(this);
     }
 
     public void SetTargetToMove(Vector2 newTarget)
@@ -73,6 +94,11 @@ public abstract class Enemy : MonoBehaviour, IDamageable
     private void NotMoving()
     {
         _isNotMoving = true;
+    }
+
+    private void OnDisable()
+    {
+        EnemyList.RemoveEnemy(this);
     }
 
     private void OnDrawGizmos()

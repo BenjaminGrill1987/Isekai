@@ -1897,7 +1897,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
@@ -1956,4 +1956,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _circleRadius: 250
   _spellSymbol:
-  - {fileID: 1130301352563066935, guid: 9033f91828bb5fe4586d0425b97744ac, type: 3}
+  - {fileID: 2765317372594284768, guid: 9033f91828bb5fe4586d0425b97744ac, type: 3}

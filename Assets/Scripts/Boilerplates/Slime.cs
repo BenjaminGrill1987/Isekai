@@ -1,3 +1,5 @@
+using Isekai.Interface;
+using Isekai.Utility;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -14,7 +16,7 @@ public class Slime : Enemy
 
     public override void FixedUpdate()
     {
-        _slimeStateMachine.Execute();     
         base.FixedUpdate();
+        _slimeStateMachine.Execute();     
     }
 }

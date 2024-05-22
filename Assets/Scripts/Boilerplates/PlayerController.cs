@@ -1,13 +1,11 @@
-using UnityEngine;
 using Isekai.Input;
-using UnityEngine.InputSystem;
 using Isekai.Interface;
-using System.Collections.Generic;
-using Unity.VisualScripting;
-using System.Collections;
 using Isekai.Itemsystem;
 using Isekai.Utility;
-using System;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
@@ -39,17 +37,6 @@ public class PlayerController : MonoBehaviour
         _input.Player.Attack.performed += Attack;
         _input.Player.Magic.started += MagicMenuOpen;
         _input.Player.Magic.canceled += MagicMenuClosed;
-    }
-
-
-    private void OnDisable()
-    {
-        _input.Player.Interact.performed -= Interaction;
-        _input.Player.PlayerMenu.performed -= Menu;
-        _input.Player.Attack.performed -= Attack;
-        _input.Player.Magic.started -= MagicMenuOpen;
-        _input.Player.Magic.canceled -= MagicMenuClosed;
-        _input.Disable();
     }
 
     private void Start()
@@ -200,6 +187,16 @@ public class PlayerController : MonoBehaviour
         }
         newhit.collider.TryGetComponent<IInteraction>(out IInteraction interaction);
         interaction.Submit();
+    }
+
+    private void OnDisable()
+    {
+        _input.Player.Interact.performed -= Interaction;
+        _input.Player.PlayerMenu.performed -= Menu;
+        _input.Player.Attack.performed -= Attack;
+        _input.Player.Magic.started -= MagicMenuOpen;
+        _input.Player.Magic.canceled -= MagicMenuClosed;
+        _input.Disable();
     }
 
     private void OnGUI()
