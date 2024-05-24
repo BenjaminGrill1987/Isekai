@@ -1,7 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
 using Isekai.Utility;
+using UnityEngine;
 
 public class CameraManager : Singleton<CameraManager>
 {

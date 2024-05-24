@@ -1,10 +1,7 @@
 using System;
-using System.Collections;
 using System.Linq;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
-using System.Runtime.InteropServices.WindowsRuntime;
 
 [CreateAssetMenu(menuName = "Custom Tiles/Advanced Rule Tile")]
 public class AdvancedRuleTile : RuleTile<AdvancedRuleTile.Neighbor>

@@ -12,7 +12,7 @@ namespace Isekai.Utility
 
         private void Start()
         {
-            TryToChangeState(Gamestates.Play);
+            _currentState = Gamestates.Init;
         }
 
         public static void TryToChangeState(Gamestates newState)
@@ -21,8 +21,13 @@ namespace Isekai.Utility
 
             switch (newState)
             {
+                case Gamestates.Init:
+                    {
+                        break;
+                    }
                 case Gamestates.Menu:
                     {
+                        MapManager.Mapchange("Menu");
                         break;
                     }
                 case Gamestates.Options:
@@ -31,9 +36,9 @@ namespace Isekai.Utility
                     }
                 case Gamestates.Play:
                     {
-                        if (CurrentState != Gamestates.Pause)
+                        if (CurrentState == Gamestates.Menu)
                         {
-
+                            MapManager.Mapchange("TeleportCircle");
                         }
                         break;
                     }

@@ -1,7 +1,6 @@
 using Isekai.Input;
 using Isekai.Interface;
 using Isekai.Utility;
-using System;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;

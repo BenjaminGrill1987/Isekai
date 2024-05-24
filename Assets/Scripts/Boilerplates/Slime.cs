@@ -1,9 +1,3 @@
-using Isekai.Interface;
-using Isekai.Utility;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
 public class Slime : Enemy
 {
     SlimeStateMachine _slimeStateMachine;

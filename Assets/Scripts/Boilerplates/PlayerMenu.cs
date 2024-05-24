@@ -29,7 +29,7 @@ public class PlayerMenu : MonoBehaviour
 
     public void OnExitClick()
     {
-        Debug.Log("Exit Application");
+        Gamestate.TryToChangeState(Gamestates.Quit);
         _inventory.SetActive(false);
         _assigment.SetActive(false);
     }

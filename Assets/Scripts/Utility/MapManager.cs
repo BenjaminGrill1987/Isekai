@@ -14,6 +14,11 @@ namespace Isekai.Utility
             _Instance._playerPos = mapPos;
         }
 
+        public static void Mapchange(string newMap)
+        {
+            SceneManager.LoadScene(newMap);
+        }
+
         public static void GameQuit() => Application.Quit();
 
         public static Vector2 SetPlayerPos() => _Instance._playerPos;

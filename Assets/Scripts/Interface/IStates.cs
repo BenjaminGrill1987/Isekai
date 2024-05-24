@@ -2,6 +2,7 @@ namespace Isekai.Interface
 {
     public enum Gamestates
     {
+        Init,
         Menu,
         Options,
         Play,

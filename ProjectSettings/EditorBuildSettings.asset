@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/InitScene.unity
+    guid: 866f1534cd7854145bee3cbf694f1c20
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 4dcf40ca4445fd1419cd469e640a3484
+  - enabled: 1
     path: Assets/Scenes/TeleportCircle.unity
     guid: 9bc4299442b30ec4f9c9d545f25b614e
   - enabled: 1

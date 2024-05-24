@@ -3411,6 +3411,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6344412278665761033, guid: b9ca50cd60aa354488d6a4df670a269e, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6344412278665761034, guid: b9ca50cd60aa354488d6a4df670a269e, type: 3}
       propertyPath: m_Name
       value: LevelChanger

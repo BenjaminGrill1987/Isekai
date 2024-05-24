@@ -1,7 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
 using Isekai.Itemsystem;
+using UnityEngine;
 
 
 public class TestInventory : MonoBehaviour
