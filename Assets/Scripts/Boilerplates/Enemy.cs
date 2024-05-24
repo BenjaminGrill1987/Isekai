@@ -79,11 +79,13 @@ public abstract class Enemy : MonoBehaviour, IDamageable
     private void CheckIn()
     {
         EnemyList.AddEnemy(this);
+        _isCheckedIn = true;
     }
 
     private void Checkout()
     {
         EnemyList.RemoveEnemy(this);
+        _isCheckedIn = false;
     }
 
     public void SetTargetToMove(Vector2 newTarget)
