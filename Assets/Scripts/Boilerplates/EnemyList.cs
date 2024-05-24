@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 public class EnemyList : Singleton<EnemyList>
 {
-    List<Enemy> _enemies;
+    List<Enemy> _enemies = new List<Enemy>();
 
     public static List<Enemy> Enemies => _Instance._enemies;
 

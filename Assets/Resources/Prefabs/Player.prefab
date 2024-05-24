@@ -1954,6 +1954,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86b5eb4a22d5e7546a353705b6fa8913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _player: {fileID: 7658034820619510844}
   _circleRadius: 250
-  _spellSymbol:
-  - {fileID: 2765317372594284768, guid: 9033f91828bb5fe4586d0425b97744ac, type: 3}
+  _spellSetting:
+  - {fileID: 11400000, guid: 5d1126bedc5aeae4ab656bfc85dfd267, type: 2}
