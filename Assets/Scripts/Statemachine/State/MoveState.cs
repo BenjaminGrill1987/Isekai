@@ -27,7 +27,14 @@ public class MoveState : BaseState
 
     private void Move()
     {
-        _self._rigidBody2D.velocity = _direction * _self.MoveSpeed;
+        if (_self.SpellIsHit)
+        {
+            _self._rigidBody2D.velocity = Vector2.zero;
+        }
+        else
+        {
+            _self._rigidBody2D.velocity = _direction * _self.MoveSpeed;
+        }
     }
 
     public override void OnExit()

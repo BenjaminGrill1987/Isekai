@@ -11,7 +11,7 @@ public abstract class Enemy : MonoBehaviour, IDamageable
 
     Vector2 _moveCircleMiddlePoint, _targetToMove, _oldPosition;
     Timer _timer;
-    bool _isNotMoving = false, _isCheckedIn = false;
+    bool _isNotMoving = false, _isCheckedIn = false, _spellIsHit = false;
     Renderer _renderer;
 
 
@@ -23,6 +23,7 @@ public abstract class Enemy : MonoBehaviour, IDamageable
     public float RangeToTarget => _rangeToTarget;
     public float MoveSpeed => _moveSpeed;
     public bool _IsNotMoving => _isNotMoving;
+    public bool SpellIsHit => _spellIsHit;
 
     public virtual void Start()
     {
@@ -41,6 +42,7 @@ public abstract class Enemy : MonoBehaviour, IDamageable
         {
             Death();
         }
+        SpellHit(false);
     }
 
     public void Death()
@@ -52,7 +54,7 @@ public abstract class Enemy : MonoBehaviour, IDamageable
 
     public virtual void FixedUpdate()
     {
-        if (Gamestate.CurrentState != Gamestates.Play) return;
+        if (Gamestate.CurrentState != Gamestates.Play || _spellIsHit == true) return;
 
         var speed = Vector2.Distance(_oldPosition, transform.position);
         if(_isNotMoving)
@@ -91,6 +93,11 @@ public abstract class Enemy : MonoBehaviour, IDamageable
     public void SetTargetToMove(Vector2 newTarget)
     {
         _targetToMove = newTarget;
+    }
+
+    public void SpellHit(bool newBool)
+    {
+        _spellIsHit = newBool;
     }
 
     private void NotMoving()

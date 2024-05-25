@@ -1,60 +1,20 @@
 using UnityEngine;
 
-public class Spell : MonoBehaviour
+public abstract class Spell : MonoBehaviour , ISpell
 {
-    [SerializeField] int _damage;
-    [SerializeField] float _minDistance, _movementSpeed;
+    [SerializeField] protected int _damage;
 
-    private Enemy _enemy;
-    private Animator _animator;
-
-    private void Start()
-    {
-        _animator = GetComponent<Animator>();
-    }
-
-    private void FixedUpdate()
-    {
-        if (ReachedDistance())
-        {
-            SetHitAnimation();
-        }
-        else
-        {
-            GetToTarget();
-        }
-    }
-
-    private Vector2 Direction()
-    {
-        return (_enemy.transform.position - gameObject.transform.position);
-    }
-
-    private void GetToTarget()
-    {
-        var move = Direction() * _movementSpeed * Time.deltaTime;
-        transform.position = new Vector2(transform.position.x + move.x, transform.position.y + move.y);
-    }
-
-    private void SetHitAnimation()
-    {
-        _animator.SetTrigger("Hit");
-    }
-
-    private void HitTarget()
-    {
-        _enemy.TryGetComponent<IDamageable>(out IDamageable damageAble);
-        damageAble.TakeDamage(_damage);
-        Destroy(gameObject);
-    }
-
-    private bool ReachedDistance()
-    {
-        return Vector2.Distance(gameObject.transform.position, _enemy.gameObject.transform.position) < _minDistance;
-    }
+    protected Enemy _enemy;
 
     public void SetEnemy(Enemy enemy)
     {
         _enemy = enemy;
+    }
+
+    public void SpellHit()
+    {
+        _enemy.TryGetComponent<IDamageable>(out IDamageable damageAble);
+        damageAble.TakeDamage(_damage);
+        Destroy(gameObject);
     }
 }

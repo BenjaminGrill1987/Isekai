@@ -44,7 +44,6 @@ public class SpellRing : MonoBehaviour
         }
     }
 
-
     private void RotateRing(InputAction.CallbackContext context)
     {
         Debug.Log(_input.UI.Navigate.ReadValue<Vector2>().x);
@@ -86,11 +85,11 @@ public class SpellRing : MonoBehaviour
     private void SelectSpell(InputAction.CallbackContext context)
     {
         if (EnemyList.Enemies.Count == 0) return;
+        EnemyList.Enemies[0].SpellHit(true);
         var spell = Instantiate(_spellSetting[_index].Spell, _player.position, Quaternion.identity);
         spell.GetComponent<Spell>().SetEnemy(EnemyList.Enemies[0]);
         OnDisable();
     }
-
 
     private void OnDisable()
     {

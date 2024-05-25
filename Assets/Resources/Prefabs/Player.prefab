@@ -1958,3 +1958,4 @@ MonoBehaviour:
   _circleRadius: 250
   _spellSetting:
   - {fileID: 11400000, guid: 5d1126bedc5aeae4ab656bfc85dfd267, type: 2}
+  - {fileID: 11400000, guid: 2e0cf87916625694b88097049e8fe999, type: 2}
