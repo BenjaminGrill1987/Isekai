@@ -10,10 +10,9 @@ using UnityEngine.InputSystem;
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] private float _movementSpeed;
-    [SerializeField] private int _damage;
     [SerializeField] private Sprite _lookDown, _lookUp, _lookLeft, _lookRight;
-    [SerializeField] private LayerMask _layerMask,_attackMask;
-    [SerializeField] private GameObject _menu, _spellList;
+    [SerializeField] private LayerMask _layerMask, _attackMask;
+    [SerializeField] private GameObject _menu, _spellList, _weapon;
 
     private Controlls _input;
     private InputAction _move;
@@ -55,6 +54,7 @@ public class PlayerController : MonoBehaviour
 
         Move(_move.ReadValue<Vector2>());
         ChangeSprite();
+        ChangeWeaponPos();
     }
 
     private void Move(Vector3 newVector)
@@ -93,6 +93,44 @@ public class PlayerController : MonoBehaviour
                 _spriteRenderer.sprite = _lookRight;
             }
         }
+    }
+
+    private void ChangeWeaponPos()
+    {
+        Vector2 turnDirection = _move.ReadValue<Vector2>();
+
+        if (turnDirection != Vector2.zero)
+        {
+            _lookDir = turnDirection;
+        }
+
+        if (Mathf.Abs(turnDirection.y) > Mathf.Abs(turnDirection.x))
+        {
+            if (turnDirection.y > 0)
+            {
+                _weapon.transform.localPosition = new Vector2(0, 0.8f);
+                _weapon.transform.localRotation = Quaternion.Euler(new Vector3(0, 0, 0));
+            }
+            else
+            {
+                _weapon.transform.localPosition = new Vector2(0, -0.8f);
+                _weapon.transform.localRotation = Quaternion.Euler(new Vector3(0, 0, 180));
+            }
+        }
+        else if (Mathf.Abs(turnDirection.y) < Mathf.Abs(turnDirection.x))
+        {
+            if (turnDirection.x > 0)
+            {
+                _weapon.transform.localPosition = new Vector2(0.65f, -0.221f);
+                _weapon.transform.localRotation = Quaternion.Euler(new Vector3(0, 0, 270));
+            }
+            else if (turnDirection.x < 0)
+            {
+                _weapon.transform.localPosition = new Vector2(-0.65f, 0);
+                _weapon.transform.localRotation = Quaternion.Euler(new Vector3(0, 0, 90));
+            }
+        }
+
     }
 
     public void AddItem(ItemData item, int value = 1)
@@ -137,24 +175,7 @@ public class PlayerController : MonoBehaviour
     private void Attack(InputAction.CallbackContext context)
     {
         if (Gamestate.CurrentState != Gamestates.Play) return;
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, _lookDir, 0.5f, _attackMask);
-        if (hit.collider == null) return;
-
-        switch (hit.collider.tag)
-        {
-            case "Enemy":
-                {
-                    hit.collider.TryGetComponent<IDamageable>(out IDamageable damageable);
-                    damageable.TakeDamage(_damage);
-                    Debug.Log("Attack finished");
-                    break;
-                }
-            default:
-                {
-                    Debug.LogError("NO VALID COLLIDER");
-                    break;
-                }
-        }
+        _weapon.SetActive(true);
     }
 
     private void Menu(InputAction.CallbackContext context)
@@ -169,6 +190,7 @@ public class PlayerController : MonoBehaviour
         Gamestate.TryToChangeState(Gamestates.Magic);
         _spellList.SetActive(true);
     }
+
     private void MagicMenuClosed(InputAction.CallbackContext context)
     {
         if (Gamestate.CurrentState != Gamestates.Magic) return;
