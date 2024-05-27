@@ -2931,7 +2931,47 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4734745457989283249, guid: 4605c7747ee3b594eaa269643221ddf1, type: 3}
       propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5321182881224633784, guid: 4605c7747ee3b594eaa269643221ddf1, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -7.0750732
+      objectReference: {fileID: 0}
+    - target: {fileID: 6735410679163831899, guid: 4605c7747ee3b594eaa269643221ddf1, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6735410679163831899, guid: 4605c7747ee3b594eaa269643221ddf1, type: 3}
+      propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6735410679163831899, guid: 4605c7747ee3b594eaa269643221ddf1, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6735410679163831899, guid: 4605c7747ee3b594eaa269643221ddf1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6735410679163831899, guid: 4605c7747ee3b594eaa269643221ddf1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 6735410679163831899, guid: 4605c7747ee3b594eaa269643221ddf1, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 209.59998
+      objectReference: {fileID: 0}
+    - target: {fileID: 7254854811225427799, guid: 4605c7747ee3b594eaa269643221ddf1, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7254854811225427799, guid: 4605c7747ee3b594eaa269643221ddf1, type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 1920
+      objectReference: {fileID: 0}
+    - target: {fileID: 7254854811225427799, guid: 4605c7747ee3b594eaa269643221ddf1, type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 1080
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
