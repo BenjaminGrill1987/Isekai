@@ -9,7 +9,7 @@ namespace Isekai.UI
         
         private void Start()
         {
-            _textField.text = $"V {Application.version}";
+            _textField.text = $"Version: {Application.version}";
         }
     }
 }
