@@ -12,6 +12,7 @@ namespace Isekai.Utility
 
         private void Start()
         {
+            Cursor.lockState = CursorLockMode.Locked;
             _currentState = Gamestates.Init;
         }
 
