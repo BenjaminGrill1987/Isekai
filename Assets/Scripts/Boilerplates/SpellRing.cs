@@ -1,4 +1,5 @@
 using Isekai.Input;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -8,11 +9,10 @@ public class SpellRing : MonoBehaviour
     [SerializeField] Transform _player;
     [SerializeField] float _circleRadius;
     [SerializeField] List<SpellSettings> _spellSetting;
+    [SerializeField] GameObject _hand;
 
     List<Vector3> _spellPosition;
     List<GameObject> _spellSymbols;
-    Dictionary<GameObject, GameObject> _spells;
-    Controlls _input;
     InputAction _inputAction;
     int _index = 0;
     bool _hasRotated = false;
@@ -21,11 +21,9 @@ public class SpellRing : MonoBehaviour
     {
         _spellSymbols = new List<GameObject>();
         _spellPosition = new List<Vector3>();
-        _input = new Controlls();
-        _inputAction = _input.UI.Navigate;
-        _input.UI.Navigate.performed += RotateRing;
-        _input.UI.Submit.started += SelectSpell;
-        _input.Enable();
+        _inputAction = InputManager.Input.MagicRing.Navigate;
+        InputManager.Input.MagicRing.Navigate.performed += RotateRing;
+        InputManager.Input.MagicRing.Submit.started += SelectSpell;
 
         _index = 0;
 
@@ -46,12 +44,13 @@ public class SpellRing : MonoBehaviour
 
     private void RotateRing(InputAction.CallbackContext context)
     {
-        Debug.Log(_input.UI.Navigate.ReadValue<Vector2>().x);
+        if (_spellSymbols.Count == 0) return;
+
+        Debug.Log(_spellSymbols.Count);
 
         if (_inputAction.ReadValue<Vector2>().x < 0 && _spellSetting.Count > 1 && !_hasRotated)
         {
             _index++;
-            Debug.Log($"Index: {_index}");
             if (_index >= _spellSetting.Count) _index = 0;
 
             foreach (var symbol in _spellSymbols)
@@ -61,12 +60,10 @@ public class SpellRing : MonoBehaviour
                 if (_index >= _spellSetting.Count) _index = 0;
             }
             _hasRotated = true;
-            Debug.Log($"Index: {_index}");
         }
         else if (_inputAction.ReadValue<Vector2>().x > 0 && _spellSetting.Count > 1 && !_hasRotated)
         {
             _index--;
-            Debug.Log($"Index: {_index}");
             if (_index < 0) _index = _spellSetting.Count - 1;
 
             foreach (var symbol in _spellSymbols)
@@ -76,7 +73,6 @@ public class SpellRing : MonoBehaviour
                 if (_index < 0) _index = _spellSetting.Count - 1;
             }
             _hasRotated = true;
-            Debug.Log($"Index: {_index}");
         }
 
         if (_inputAction.ReadValue<Vector2>().x == 0) _hasRotated = false;
@@ -84,19 +80,44 @@ public class SpellRing : MonoBehaviour
 
     private void SelectSpell(InputAction.CallbackContext context)
     {
-        if (EnemyList.Enemies.Count == 0) return;
-        EnemyList.Enemies[0].SpellHit(true);
-        var spell = Instantiate(_spellSetting[_index].Spell, _player.position, Quaternion.identity);
-        spell.GetComponent<Spell>().SetEnemy(EnemyList.Enemies[0]);
+        if (EnemyList.Enemies.Count == 0 || _spellSymbols.Count == 0) return;
         OnDisable();
+        StartCoroutine(WaitFrame());
     }
 
-    private void OnDisable()
+    private void CloseSpellRing()
     {
-        _input.Disable();
+        _hand.SetActive(true);
+        Debug.Log("Active");
+        _hand.transform.position = EnemyList.Enemies[0].transform.position;
+        _hand.GetComponent<SpellTargetSelector>().GetSpell(_spellSetting[_index].Spell, _player.transform.position);
+    }
+
+    private void SpellringDestroy()
+    {
         foreach (GameObject symbol in _spellSymbols)
         {
             Destroy(symbol);
         }
+        _spellSymbols.Clear();
+        InputManager.Input.MagicRing.Navigate.performed -= RotateRing;
+        InputManager.Input.MagicRing.Submit.started -= SelectSpell;
+    }
+
+    private IEnumerator WaitFrame()
+    {
+        var framecount = 1;
+
+        while (framecount > 0)
+        {
+            framecount--;
+            yield return null;
+        }
+        CloseSpellRing();
+    }
+
+    private void OnDisable()
+    {
+        SpellringDestroy();
     }
 }

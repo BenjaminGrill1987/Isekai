@@ -1,4 +1,3 @@
-using Isekai.Input;
 using Isekai.Interface;
 using Isekai.Itemsystem;
 using Isekai.Utility;
@@ -12,9 +11,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float _movementSpeed;
     [SerializeField] private Sprite _lookDown, _lookUp, _lookLeft, _lookRight;
     [SerializeField] private LayerMask _layerMask, _attackMask;
-    [SerializeField] private GameObject _menu, _spellList, _weapon;
+    [SerializeField] private GameObject _menu, _spellList, _weapon, _hand;
 
-    private Controlls _input;
     private InputAction _move;
     private Rigidbody2D _rb2D;
     private SpriteRenderer _spriteRenderer;
@@ -22,20 +20,14 @@ public class PlayerController : MonoBehaviour
 
     void Awake()
     {
-        _input = new Controlls();
         _rb2D = GetComponent<Rigidbody2D>();
-        _move = _input.Player.Movement;
+        _move = InputManager.Input.Player.Movement;
+        InputManager.Input.Player.Interact.performed += Interaction;
+        InputManager.Input.Player.PlayerMenu.performed += Menu;
+        InputManager.Input.Player.Attack.performed += Attack;
+        InputManager.Input.Player.Magic.started += MagicMenuOpen;
+        InputManager.Input.Player.Magic.canceled += MagicMenuClosed;
         _spriteRenderer = GetComponent<SpriteRenderer>();
-    }
-
-    private void OnEnable()
-    {
-        _input.Enable();
-        _input.Player.Interact.performed += Interaction;
-        _input.Player.PlayerMenu.performed += Menu;
-        _input.Player.Attack.performed += Attack;
-        _input.Player.Magic.started += MagicMenuOpen;
-        _input.Player.Magic.canceled += MagicMenuClosed;
     }
 
     private void Start()
@@ -196,6 +188,7 @@ public class PlayerController : MonoBehaviour
         if (Gamestate.CurrentState != Gamestates.Magic) return;
         Gamestate.TryToChangeState(Gamestates.Play);
         _spellList.SetActive(false);
+        _hand.SetActive(false);
     }
 
     private IEnumerator WaitFrame(RaycastHit2D newhit)
@@ -213,12 +206,11 @@ public class PlayerController : MonoBehaviour
 
     private void OnDisable()
     {
-        _input.Player.Interact.performed -= Interaction;
-        _input.Player.PlayerMenu.performed -= Menu;
-        _input.Player.Attack.performed -= Attack;
-        _input.Player.Magic.started -= MagicMenuOpen;
-        _input.Player.Magic.canceled -= MagicMenuClosed;
-        _input.Disable();
+        InputManager.Input.Player.Interact.performed -= Interaction;
+        InputManager.Input.Player.PlayerMenu.performed -= Menu;
+        InputManager.Input.Player.Attack.performed -= Attack;
+        InputManager.Input.Player.Magic.started -= MagicMenuOpen;
+        InputManager.Input.Player.Magic.canceled -= MagicMenuClosed;
     }
 
     private void OnGUI()

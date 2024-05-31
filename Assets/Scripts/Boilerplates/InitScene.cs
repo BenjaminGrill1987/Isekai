@@ -9,14 +9,11 @@ public class InitScene : MonoBehaviour
     [SerializeField] float _time;
 
     Timer _timer;
-    Controlls _input;
 
     private void Start()
     {
-        _input = new Controlls();
         _timer = new Timer(_time, ChangeScene);
-        _input.UI.Submit.started += ChangeScene;
-        _input.Enable();
+        InputManager.Input.UI.Submit.started += ChangeScene;
     }
 
     private void FixedUpdate()
@@ -36,6 +33,6 @@ public class InitScene : MonoBehaviour
 
     private void OnDisable()
     {
-        _input.Disable();
+        InputManager.Input.UI.Submit.started -= ChangeScene;
     }
 }
