@@ -1,3 +1,4 @@
+using Isekai.Interface;
 using UnityEngine;
 
 namespace Isekai.Itemsystem
@@ -9,6 +10,7 @@ namespace Isekai.Itemsystem
         [SerializeField] private int _id;
         [SerializeField] private string _name, _description;
         [SerializeField] private Sprite _icon;
+        [SerializeField] private ItemType _itemType;
 
         public int GetId() => _id;
 
@@ -17,5 +19,7 @@ namespace Isekai.Itemsystem
         public string GetDescription() => _description;
 
         public Sprite GetIcon() => _icon;
+
+        public ItemType GetItemType() => _itemType;
     }
 }

@@ -1,4 +1,3 @@
-using Isekai.Input;
 using Isekai.Interface;
 using Isekai.Utility;
 using System.Collections.Generic;
@@ -14,15 +13,12 @@ public class StoryManager : Singleton<StoryManager>
     [SerializeField] private TextMeshProUGUI _storyText;
     [SerializeField] private List<Plot> _storyPlot = new List<Plot>();
 
-    private Controlls _controller;
     private int _storyIndex = 0, _storyPlotIndex = 0;
     private bool _storyIsPlaying = false;
 
     private void OnEnable()
     {
-        _controller = new Controlls();
-        _controller.Enable();
-        _controller.UI.Submit.performed += StoryTelling;
+        InputManager.Input.UI.Submit.performed += StoryTelling;
     }
 
     private void Start()

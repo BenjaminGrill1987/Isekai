@@ -23,5 +23,12 @@ namespace Isekai.Interface
         dungeon
     }
 
-
+    public enum ItemType
+    {
+        Weapon,
+        Head,
+        Body,
+        Foot,
+        Item
+    }
 }
