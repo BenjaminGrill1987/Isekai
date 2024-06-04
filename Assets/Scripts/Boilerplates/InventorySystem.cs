@@ -5,9 +5,9 @@ using System.Collections.Generic;
 
 public class InventorySystem : Singleton<InventorySystem>
 {
-    Dictionary<ItemData, int> _inventory = new Dictionary<ItemData, int>();
+    Dictionary<ItemInformation, int> _inventory = new Dictionary<ItemInformation, int>();
 
-    public static void AddItem(ItemData item, int value = 1)
+    public static void AddItem(ItemInformation item, int value = 1)
     {
         if (_Instance._inventory.ContainsKey(item))
         {
@@ -19,7 +19,7 @@ public class InventorySystem : Singleton<InventorySystem>
         }
     }
 
-    public static void SubtractItem(ItemData item, int value = 1)
+    public static void SubtractItem(ItemInformation item, int value = 1)
     {
         _Instance._inventory[item] = _Instance._inventory[item] - value;
 
@@ -29,7 +29,7 @@ public class InventorySystem : Singleton<InventorySystem>
         }
     }
 
-    public static Dictionary<ItemData, int> GetInventory()
+    public static Dictionary<ItemInformation, int> GetInventory()
     {
         return _Instance._inventory;
     }
@@ -38,7 +38,7 @@ public class InventorySystem : Singleton<InventorySystem>
     {
         foreach (var item in GetInventory())
         {
-            if (item.Key.GetId() == newID) return item.Value;
+            if (item.Key.Id == newID) return item.Value;
         }
 
         return 0;

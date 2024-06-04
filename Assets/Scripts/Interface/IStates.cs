@@ -25,10 +25,15 @@ namespace Isekai.Interface
 
     public enum ItemType
     {
+        Equipment,
+        Non_Equipment
+    }
+
+    public enum EquipmentType
+    {
         Weapon,
         Head,
         Body,
-        Foot,
-        Item
+        Foot
     }
 }

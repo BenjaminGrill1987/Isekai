@@ -16,4 +16,4 @@ MonoBehaviour:
   _name: Wood
   _description: Can be used to make fire
   _icon: {fileID: 740190286, guid: 02247944ce8a7a64f8fc75608faf90b8, type: 3}
-  _itemType: 4
+  _itemType: 1

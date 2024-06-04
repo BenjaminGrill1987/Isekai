@@ -13,6 +13,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private LayerMask _layerMask, _attackMask;
     [SerializeField] private GameObject _menu, _spellList, _weapon, _hand;
 
+    private PlayerEquipment _equipment;
     private InputAction _move;
     private Rigidbody2D _rb2D;
     private SpriteRenderer _spriteRenderer;
@@ -21,6 +22,7 @@ public class PlayerController : MonoBehaviour
     void Awake()
     {
         _rb2D = GetComponent<Rigidbody2D>();
+        _equipment = GetComponent<PlayerEquipment>();
         _move = InputManager.Input.Player.Movement;
         InputManager.Input.Player.Interact.performed += Interaction;
         InputManager.Input.Player.PlayerMenu.performed += Menu;
@@ -125,12 +127,12 @@ public class PlayerController : MonoBehaviour
 
     }
 
-    public void AddItem(ItemData item, int value = 1)
+    public void AddItem(ItemInformation item, int value = 1)
     {
         InventorySystem.AddItem(item, value);
     }
 
-    public void RemoveItem(ItemData item, int value = 1)
+    public void RemoveItem(ItemInformation item, int value = 1)
     {
         InventorySystem.SubtractItem(item, value);
     }
@@ -218,9 +220,9 @@ public class PlayerController : MonoBehaviour
         float XPos = 60f;
         float YPos = 60f;
 
-        foreach (KeyValuePair<ItemData, int> entry in InventorySystem.GetInventory())
+        foreach (KeyValuePair<ItemInformation, int> entry in InventorySystem.GetInventory())
         {
-            GUI.TextArea(new Rect(XPos, YPos, 100, 100), $"Item: {entry.Key.GetName()}, Value: {entry.Value}");
+            GUI.TextArea(new Rect(XPos, YPos, 100, 100), $"Item: {entry.Key.Name}, Value: {entry.Value}");
             XPos += 10f;
             YPos += 10f;
         }

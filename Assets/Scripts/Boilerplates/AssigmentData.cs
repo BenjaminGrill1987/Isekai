@@ -8,7 +8,7 @@ public class AssigmentData : ScriptableObject
     [SerializeField] private string _name, _descriptionText;
     [SerializeField] private int _assigmentValue, _assigmentReward, _id;
     [SerializeField] private AssigmentType _type;
-    [SerializeField] private ItemData _itemData;
+    [SerializeField] private ItemInformation _itemData;
 
     public int GetID() => _id;
     public string Name => _name;
@@ -17,5 +17,5 @@ public class AssigmentData : ScriptableObject
     public int AssigmentReward => _assigmentReward;
     public AssigmentType Type => _type;
 
-    public ItemData GetItemData() => _itemData;
+    public ItemInformation GetItemData() => _itemData;
 }

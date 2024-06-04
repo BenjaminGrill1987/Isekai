@@ -36,7 +36,7 @@ namespace Isekai.Itemsystem
         private void Init()
         {
             _spriteRenderer = GetComponent<SpriteRenderer>();
-            _spriteRenderer.sprite = ItemDatabase.GetItem(_itemId).GetIcon();
+            _spriteRenderer.sprite = ItemDatabase.GetItem(_itemId).Icon;
             GetComponent<BoxCollider2D>().size = _spriteRenderer.size;
         }
     }

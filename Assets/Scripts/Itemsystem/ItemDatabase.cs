@@ -8,10 +8,10 @@ namespace Isekai.Itemsystem
 
     public class ItemDatabase : Singleton<ItemDatabase>
     {
-        [SerializeField] private List<ItemData> _dataList = new List<ItemData>();
+        [SerializeField] private List<ItemInformation> _dataList = new List<ItemInformation>();
 
-        public static ItemData GetItem(int id) => _Instance._dataList.Find(ItemData => ItemData.GetId() == id);
+        public static ItemInformation GetItem(int id) => _Instance._dataList.Find(ItemInformation => ItemInformation.Id == id);
 
-        public static ItemData GetItem(string name) => _Instance._dataList.Find(ItemData => ItemData.GetName() == name);
+        public static ItemInformation GetItem(string name) => _Instance._dataList.Find(ItemInformation => ItemInformation.Name == name);
     }
 }

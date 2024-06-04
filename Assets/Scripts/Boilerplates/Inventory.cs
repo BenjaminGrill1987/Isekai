@@ -11,7 +11,7 @@ public class Inventory : MonoBehaviour
         foreach (var entry in InventorySystem.GetInventory())
         {
             var itemPanel = Instantiate(_itemPanel, _content);
-            itemPanel.GetComponent<ItemPanel>().BuildPanel(entry.Key.GetIcon(), entry.Value);
+            itemPanel.GetComponent<ItemPanel>().BuildPanel(entry.Key.Icon, entry.Value);
         }
     }
 
